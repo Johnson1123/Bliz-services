@@ -1,5 +1,3 @@
-import { Waving } from "@/constant/icons";
-import Image from "next/image";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import HerosectionEducation from "../medium/slider/HerosectionEducation";
@@ -43,7 +41,7 @@ function Herosection() {
             </Swiper>
           </div>
 
-          <div className="col-span-1 row-span-1 lg:row-span-10 flex items-center justify-center">
+          <div className="col-span-1 row-span-1 lg:row-span-10 flex items-end justify-center">
             <p className="text-black text-[30px] lg:text-[80px] font-bold text-center font-EduAUVI lg:rotate-180 lg:[writing-mode:vertical-rl] ">
               Bliz Service
             </p>

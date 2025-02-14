@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { HiBars3BottomLeft, IoMdClose } from "@/constant/icons";
 import Link from "next/link";
 import Transparent from "@/components/small/Buttons/Transparent";
-import Secondary from "@/components/small/Buttons/Secondary";
 function SmallScreen() {
   const [isOpen, setIsOpen] = useState(false);
 
