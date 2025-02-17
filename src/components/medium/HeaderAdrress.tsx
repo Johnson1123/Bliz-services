@@ -11,17 +11,15 @@ function HeaderAdrress({
   label: string;
 }) {
   return (
-    <div
-      className={`hidden justify-center items-center gap-3 ${
-        label == "Office Address" ? "xl:flex" : "md:flex lg:flex"
-      }`}
-    >
-      <div className="bg-gray-200 h-[30px] w-[30px] rounded-full flex justify-center items-center">
-        <Icon size={18} className="text-pink" />
+    <div className={`justify-center items-center gap-3 flex gap-2`}>
+      <div className="bg-gray-200 h-[25px] w-[25px] rounded-full flex justify-center items-center">
+        <Icon size={16} className="text-pink" />
       </div>
       <div className="">
-        <p className="font-light text-gray-400">{label}</p>
-        <p className="font-semibold text-black mt-1">{text}</p>
+        <p className="font-light text-gray-400 font-optima smallText">
+          {label}
+        </p>
+        <p className="font-medium text-black mt-1 font-optima">{text}</p>
       </div>
     </div>
   );

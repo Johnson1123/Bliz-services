@@ -5,7 +5,7 @@ import LargeScreen from "../medium/nav/LargeScreen";
 
 function Header() {
   return (
-    <header className="bg-darkBlue bg-no-repeat bg-cover w-[100vw] ">
+    <header className="bg-darkBlue bg-no-repeat bg-cover w-[100vw] 2k:bg-white lg:grid 3k:grid grid-cols-1">
       <SmallScreen />
       <LargeScreen />
     </header>

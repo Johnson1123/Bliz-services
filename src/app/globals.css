@@ -22,7 +22,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: --font-optma, Helvetica, sans-serif;
+  font-family: var(--font-optma);
 }
 
 h1,
@@ -35,12 +35,16 @@ h2,
 }
 h3,
 .small-title {
-  font-size: clamp(1rem, 1rem + 1.5vw, 1.5rem);
+  font-size: clamp(1rem, calc(0.85rem + 1.5vw), 1.5rem);
 }
 
 p,
 .text {
-  font-size: clamp(0.85rem, 0.5rem + 2vw, 1.2rem);
+  font-size: clamp(0.85rem, calc(0.25rem + 1vw), 3rem);
+  line-height: 1.2;
+}
+.smallText {
+  font-size: clamp(0.5rem, calc(0.15rem + 0.85vw), 1rem);
   line-height: 1.2;
 }
 
@@ -103,6 +107,7 @@ p,
   background-repeat: no-repeat;
 }
 
+/* Herosection */
 .Herosection__radial-gradient-bg {
   background: radial-gradient(
     circle,
@@ -129,4 +134,59 @@ p,
     rgba(250, 230, 230, 0.5) 50%,
     rgba(253, 248, 248, 0.5) 100%
   );
+}
+
+.clipy-bottom {
+  position: absolute;
+  right: -200px;
+  bottom: -250px;
+  background-color: rgba(207, 42, 185, 0.325);
+
+  --s: 500px; /* adjust to control the size */
+  width: var(--s);
+  aspect-ratio: 1;
+  --g: /calc(var(--s) * 0.268) calc(var(--s) * 0.268) radial-gradient(
+      50% 50%,
+      #000 99%,
+      #0000 101%
+    ) no-repeat;
+  mask: calc(50% + var(--s) * 0.223) calc(50% + var(--s) * 0.244) var(--g),
+    calc(50% + var(--s) * -0.163) calc(50% + var(--s) * 0.288) var(--g),
+    calc(50% + var(--s) * -0.324) calc(50% + var(--s) * -0.066) var(--g),
+    calc(50% + var(--s) * -0.037) calc(50% + var(--s) * -0.328) var(--g),
+    calc(50% + var(--s) * 0.301) calc(50% + var(--s) * -0.137) var(--g),
+    radial-gradient(calc(var(--s) * 0.373), #000 99%, #0000 101%) subtract,
+    calc(50% + var(--s) * 0.051) calc(50% + var(--s) * 0.45) var(--g),
+    calc(50% + var(--s) * -0.412) calc(50% + var(--s) * 0.187) var(--g),
+    calc(50% + var(--s) * -0.306) calc(50% + var(--s) * -0.334) var(--g),
+    calc(50% + var(--s) * 0.223) calc(50% + var(--s) * -0.394) var(--g),
+    calc(50% + var(--s) * 0.443) calc(50% + var(--s) * 0.09) var(--g);
+}
+
+.clipy-top {
+  position: absolute;
+  left: -250px;
+  top: -250px;
+  background-color: rgba(207, 42, 185, 0.325);
+
+  --s: 500px; /* adjust to control the size */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  --g: /calc(var(--s) * 0.236) calc(var(--s) * 0.236) radial-gradient(
+      50% 50%,
+      #000 99%,
+      #0000 101%
+    ) no-repeat;
+  mask: calc(50% + var(--s) * 0.382) calc(50% + var(--s) * 0) var(--g),
+    calc(50% + var(--s) * 0.118) calc(50% + var(--s) * 0.363) var(--g),
+    calc(50% + var(--s) * -0.309) calc(50% + var(--s) * 0.225) var(--g),
+    calc(50% + var(--s) * -0.309) calc(50% + var(--s) * -0.225) var(--g),
+    calc(50% + var(--s) * 0.118) calc(50% + var(--s) * -0.363) var(--g),
+    radial-gradient(calc(var(--s) * 0.363), #000 99%, #0000 101%) subtract,
+    calc(50% + var(--s) * 0.309) calc(50% + var(--s) * 0.225) var(--g),
+    calc(50% + var(--s) * -0.118) calc(50% + var(--s) * 0.363) var(--g),
+    calc(50% + var(--s) * -0.382) calc(50% + var(--s) * 0) var(--g),
+    calc(50% + var(--s) * -0.118) calc(50% + var(--s) * -0.363) var(--g),
+    calc(50% + var(--s) * 0.309) calc(50% + var(--s) * -0.225) var(--g);
 }

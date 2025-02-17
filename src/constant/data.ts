@@ -4,7 +4,6 @@ import { MdFacebook } from "react-icons/md";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 import { MdOutlineLocalPhone } from "react-icons/md";
-import { MdOutlineLocationOn } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 
 const SocialLinks: { Icon: IconType; name: string; url: string }[] = [
@@ -50,11 +49,6 @@ export const contact: { email: string; tel1: string; tel2: string } = {
 };
 
 export const headerAddress = [
-  {
-    Icon: MdOutlineLocationOn,
-    text: "Ontario M5H 2S8, Canada",
-    label: "Office Address",
-  },
   {
     Icon: MdEmail,
     text: "info@blizservices.com",

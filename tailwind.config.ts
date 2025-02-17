@@ -30,6 +30,7 @@ export default {
       },
       fontFamily: {
         EduAUVI: "var(--font-edu-auvi)",
+        optima: "var(--font-optima)",
       },
     },
   },

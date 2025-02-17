@@ -11,7 +11,7 @@ function Primary({ url, text }: { url: string; text: string }) {
   return (
     <button
       onClick={() => handleNavigation()}
-      className="px-[16px] py-[8px] bg-transparent border border-white border-solid rounded-full flex gap-2 items-center group hover:bg-white hover:text-blue transition-all duration-500
+      className="px-[16px] py-[8px] bg-transparent border border-white border-solid rounded-full flex gap-2 items-center group hover:bg-white hover:text-blue transition-all duration-500 h-max
     "
     >
       {text}
