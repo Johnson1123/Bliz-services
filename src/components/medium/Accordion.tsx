@@ -39,7 +39,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
         <div className="h-[35px] w-[35px] rounded-full bg-slate-200 flex justify-center items-center">
           <GoPlus />
         </div>
-        <span className="font-medium text-gray-900">{title}</span>
+        <span className="text-md font-medium text-gray-900">{title}</span>
         <motion.span
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.3 }}

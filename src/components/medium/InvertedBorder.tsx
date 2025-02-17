@@ -2,13 +2,13 @@ import React from "react";
 import IInverted from "../small/Icons/IInvited";
 import Image from "next/image";
 
-type Props = {
-  Image?: any;
-  text?: string;
-  href?: string;
-};
+// type Props = {
+//   Image?: any;
+//   text?: string;
+//   href?: string;
+// };
 
-const InvertedBorder = ({ text, href }: Props) => {
+const InvertedBorder = () => {
   return (
     <div className="py-3">
       <div className="w-[300px] h-[250px] overflow-hidden relative top-0 left-0  rounded-lg">
