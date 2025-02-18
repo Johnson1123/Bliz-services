@@ -3,6 +3,8 @@ import Herosection from "@/components/large/Herosection";
 import Conatainer from "@/components/layout/Conatainer";
 import Accordion from "@/components/medium/Accordion";
 import InvertedBorder from "@/components/medium/InvertedBorder";
+import { testimonials } from "@/constant/data";
+import HomeAboutImage from "@/components/small/HomeAboutImage";
 
 export default function Page() {
   interface AccordionItemData {
@@ -40,9 +42,12 @@ export default function Page() {
   return (
     <div className="h-auto">
       <Herosection />
-      <Conatainer>
-        <InvertedBorder />
+      <Conatainer full={true}>
+        {testimonials.map((item, i) => {
+          return <InvertedBorder {...item} testimonial={false} key={i} />;
+        })}
         <Accordion items={accordionData} />
+        <HomeAboutImage />
       </Conatainer>
     </div>
   );

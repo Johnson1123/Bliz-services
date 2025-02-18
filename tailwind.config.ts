@@ -15,7 +15,7 @@ export default {
         blue: "rgb(65,88,208)",
       },
       backgroundColor: {
-        darkBlue: "#0d0d3f",
+        darkBlue: "#09092a",
       },
       screens: {
         "3k": {

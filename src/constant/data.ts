@@ -61,4 +61,48 @@ export const headerAddress = [
   },
 ];
 
+export const testimonials = [
+  {
+    image: "",
+    name: "Johnsn Olumide",
+    role: "Investor",
+    text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
+    rating: 5,
+  },
+  {
+    image: "",
+    name: "Sansa",
+    role: "Actor ",
+    text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
+    rating: 3,
+  },
+  {
+    image: "",
+    name: "Arya Stack",
+    role: "Social Maketer ",
+    text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
+    rating: 2,
+  },
+  {
+    image: "",
+    name: "Mother Charity",
+    role: "Client ",
+    text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
+    rating: 4,
+  },
+  {
+    image: "",
+    name: "Jerrmy Flake",
+    role: "Backend Developer",
+    text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
+    rating: 1,
+  },
+  {
+    image: "",
+    name: "Emmauella John",
+    role: "Fontend ",
+    text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
+    rating: 5,
+  },
+];
 export default SocialLinks;
