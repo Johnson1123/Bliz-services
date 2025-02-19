@@ -6,7 +6,7 @@ type Props = {
 
 function Rating({ rating }: Props) {
   return (
-    <div className="flex gap-1 mt-4">
+    <div className="flex gap-1 mt-2">
       {[...Array(5)].map((_, index) => {
         const isFilled = index < Math.floor(rating);
         const isHalfFilled = index === Math.floor(rating) && rating % 1 !== 0;

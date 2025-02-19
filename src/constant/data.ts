@@ -5,6 +5,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
+import { AccordionItemData } from "./types";
+import { GraduationCap, Engineering } from "./icons";
 
 const SocialLinks: { Icon: IconType; name: string; url: string }[] = [
   {
@@ -103,6 +105,71 @@ export const testimonials = [
     role: "Fontend ",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
     rating: 5,
+  },
+];
+
+export const homeServices = [
+  {
+    image: "/graduation.avif",
+    title: "Work Overseas",
+    url: "/",
+    text: "We provide opportunities to everyone that wish to work overseas",
+  },
+  {
+    image: "/graduation.avif",
+    title: "Study Overseas",
+    url: "/",
+    text: "We provide opportunities to everyone that wish to work overseas",
+  },
+  {
+    image: "/graduation.avif",
+    title: "Vacation Overseas",
+    url: "/",
+    text: "We provide opportunities to everyone that wish to work overseas",
+  },
+];
+
+export const homeAboutParagrahText = [
+  "99% Success Rate",
+  "Proffessional Experts",
+  "Quality Services",
+  "World-Wide Clients",
+];
+
+export const accordionData: AccordionItemData[] = [
+  {
+    id: 1,
+    title: "Study Visa Requirements",
+    content: {
+      description: "Essential requirements for obtaining a student visa:",
+    },
+  },
+  {
+    id: 2,
+    title: "Work Permit Process",
+    content: {
+      description: "Steps to obtain a work permit:",
+    },
+  },
+  {
+    id: 3,
+    title: "Immigration Services",
+    content: {
+      description: "Our comprehensive immigration services include:",
+    },
+  },
+];
+
+export const homeContacttexts = [
+  {
+    Icon: GraduationCap,
+    text: "Parturient montes nascetur ridiculus mus is maecenas , neque in feugiat elementum lacus risus. ",
+    title: "Study OverSeas Consultant",
+  },
+  {
+    Icon: Engineering,
+    text: "Parturient montes nascetur ridiculus mus is maecenas , neque in feugiat elementum lacus risus.",
+    title: "Work OverSeas Consultant",
   },
 ];
 export default SocialLinks;

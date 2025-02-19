@@ -8,41 +8,57 @@ function HerosectionEducation() {
   return (
     <div className="w-full lg:w-[80%] mx-auto h-full bg-transparent px-[5%] lg:px-[1%]  flex flex-col justify-center z-20">
       {/* tagged */}
-      <div className="h-[50px] overflow-hidden">
-        <motion.h2
-          className="flex items-center gap-4"
-          initial={{ height: 0, opacity: 0 }}
-          whileInView={{ height: "max-content", opacity: 1 }}
-          transition={{ duration: 1 }}
+
+      <motion.h2
+        className="flex items-center gap-4"
+        initial="initial"
+        whileInView="view"
+      >
+        <motion.span
+          variants={{
+            initial: {
+              y: 30,
+              opacity: 0,
+              transition: {
+                delay: 1,
+                duration: 2,
+              },
+            },
+            view: {
+              y: 0,
+              opacity: 1,
+            },
+          }}
         >
-          <span>
+          <span className="flex gap-4">
             <Waving color="#fff" size={25} />
           </span>
-          <motion.span className="text-white">Study Overseas</motion.span>
-        </motion.h2>
-      </div>
+          <span className="text-white">Study Overseas</span>
+        </motion.span>
+      </motion.h2>
 
-      <div className="">
+      {/* <div className="">
         <motion.h2
           initial={{ height: 0, opacity: 0 }}
           whileInView={{ height: "max-content", opacity: 1 }}
           transition={{ duration: 1, delay: 1 }}
           className="text-white mt-5 xxlarge-title"
+          viewport={{ once: true }}
         >
           <span>Make A </span>
           <span className="text-pink font-bold drop-shadow-lg">Different </span>
           <span> through </span>
           <span className="text-pink font-bold drop-shadow-lg">education </span>
         </motion.h2>
-      </div>
+      </div> */}
 
       {/* Conatent */}
-      <div className="overflow-hidden mt-5">
+      {/* <div className="overflow-hidden mt-5">
         <motion.div
           initial={{ height: 0, opacity: 0 }}
           whileInView={{ height: "max-content", opacity: 1 }}
           transition={{ duration: 1, delay: 1.5 }}
-          className=" md:w-[70%]"
+          className="md:w-[70%]"
         >
           <p className="text-white py-1">Do you desire to study Overseas?</p>
           <p className="text-white py-1">
@@ -53,20 +69,32 @@ function HerosectionEducation() {
             Do you understand the application process?
           </p>
         </motion.div>
-      </div>
+      </div> */}
 
       {/* Button container  */}
-      <div className="lg:h-[50px] mt-10 overflow-hidden">
+      {/* <div className="lg:h-[50px] mt-10 overflow-hidden">
         <motion.div
           initial={{ height: 0, opacity: 0 }}
           whileInView={{ height: "auto", opacity: 1 }}
           transition={{ duration: 1, delay: 2 }}
-          className="flex gap-4  "
+          className="flex gap-4"
         >
-          <Secondary text="Apply Now" url="/education" />
-          <Transparent text="Get In touch" url="/contact" />
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 2 }}
+          >
+            <Secondary text="Apply Now" url="/education" />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 2 }}
+          >
+            <Transparent text="Get In touch" url="/contact" />
+          </motion.div>
         </motion.div>
-      </div>
+      </div> */}
     </div>
   );
 }
