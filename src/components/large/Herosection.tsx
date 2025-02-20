@@ -10,7 +10,7 @@ import Image from "next/image";
 
 function Herosection() {
   return (
-    <section className="h-[calc(100vh-170px)] lg:h-[calc(100vh-150px)]  max-h-[500px] lg:max-h-[600px] w-[100vw] bg-black">
+    <section className="h-[calc(100vh-170px)] lg:h-[calc(100vh-150px)]  max-h-[500px] lg:max-h-[600px] w-[100vw]">
       <div className="w-full h-full lg:mx-auto bg-white">
         <div className="grid grid-rows-10 grid-cols-1 lg:grid-cols-10 h-full bg-black relative top-0 right-0">
           <Swiper
