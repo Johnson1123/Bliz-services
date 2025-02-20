@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 function HerosectionEducation() {
   return (
-    <div className="w-full lg:w-[80%] mx-auto h-full bg-transparent px-[5%] lg:px-[1%]  flex flex-col justify-center">
+    <div className="w-full lg:w-[80%] mx-auto h-full bg-transparent px-[5%] lg:px-[1%] flex flex-col justify-center">
       {/* tagged */}
       <div className="w-[100%] lg:w-[70%]">
         <motion.h3

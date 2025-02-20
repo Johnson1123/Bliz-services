@@ -18,7 +18,7 @@ function LargeScreen() {
           <div className="hidden 3k:flex 3k:col-start-1 3K:col-end-2 bg-darkBlue"></div>
           {/* logo container */}
           <div className="flex justify-center items-center lg:col-start-1 lg:col-end-2 bg-darkBlue 3k:col-start-2 3k:col-end-4">
-            <div className="">
+            <div className="3k:w-full">
               <Image
                 src="/bliz-service-transparent-logo.png"
                 alt="Bliaz"
