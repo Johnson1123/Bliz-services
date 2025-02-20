@@ -12,13 +12,13 @@ function LargeScreen() {
     <>
       {" "}
       {/* start of large screen header  */}
-      <div className="ml-auto w-[95%] h-[170px] hidden lg:grid 3k:w-full bg-white">
+      <div className=" h-[170px] hidden lg:grid w-full 3k:w-full bg-white">
         {/* */}
-        <div className="grid grid-cols-7 h-[100%] lg:grid-cols-4 3k:grid-cols-10">
-          <div className="hidden 3k:flex 3k:col-start-1 3K:col-end-2 bg-darkBlue"></div>
+        <div className="grid h-[100%] lg:grid-cols-10 3k:grid-cols-10">
+          <div className="col-start-1 col-end-2 bg-darkBlue"></div>
           {/* logo container */}
-          <div className="flex justify-center items-center lg:col-start-1 lg:col-end-2 bg-darkBlue 3k:col-start-2 3k:col-end-4">
-            <div className="3k:w-full">
+          <div className="flex justify-center items-center lg:col-start-2 lg:col-end-4 bg-darkBlue 3k:col-start-2 3k:col-end-4">
+            <div className="w-full">
               <Image
                 src="/bliz-service-transparent-logo.png"
                 alt="Bliaz"
@@ -29,7 +29,7 @@ function LargeScreen() {
           </div>
 
           {/* nav links and address container */}
-          <div className="bg-white flex-1 h-[100%] lg:col-start-2 lg:col-end-5 3k:col-start-4 3k:col-end-10">
+          <div className="bg-white flex-1 h-[100%] lg:col-start-4 lg:col-end-11 3k:col-start-4 3k:col-end-10">
             {/* Address wrapper */}
 
             <div className="w-full bg-white h-[55%] flex gap-10 justify-end md:px-5 lg:px-10 relative left-0 right-0 clipy py-3">
