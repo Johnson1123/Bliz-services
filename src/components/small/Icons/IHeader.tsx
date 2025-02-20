@@ -4,8 +4,10 @@ import Link from "next/link";
 
 function IHeader({ Icon, url }: { Icon: IconType; url: string }) {
   return (
-    <div className="bg-gray-200 h-[20px] w-[20px] rounded-full flex justify-center items-center">
-      <Icon size={14} className="text-pink" />
+    <div className="cursor-pointer h-[20px] w-[20px] rounded-full flex items-center justify-center bg-gray-200">
+      <Link href={url}>
+        <Icon className="text-white" size={14} />
+      </Link>
     </div>
   );
 }
