@@ -16,7 +16,7 @@ const HomeServices = () => {
             <span className="text-pink border-b-2 border-pink">Services</span>
           </h2>
         </div>
-        <div className="w-[100%] mt-10">
+        <div className="w-[100%] flex mt-10 lg:mt-12">
           <HomeServicesSwiper />
         </div>
       </div>

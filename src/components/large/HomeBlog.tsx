@@ -1,7 +1,6 @@
 import React from "react";
 import Conatainer from "../layout/Conatainer";
-import Image from "next/image";
-import { Comment, UserCircle } from "@/constant/icons";
+import BlogSlider from "../medium/slider/BlogSlider";
 
 function HomeBlog() {
   return (
@@ -25,37 +24,8 @@ function HomeBlog() {
               </h2>
             </div>
 
-            <div className="mt-5">
-              <div className="relative h-auto w-full">
-                <div className="absolute top-5 left-5 w-[60px] h-[70px] bg-white rounded-md">
-                  <p className="w-full py-1 bg-pink text-white z-20 rounded-md text-center">
-                    24
-                  </p>
-                  <p className="text-center py-1">May</p>
-                </div>
-                <div className="relative w-full h-[270px] overflow-hidden -z-10">
-                  <Image
-                    src={"/image-3.webp"}
-                    alt="blog Image"
-                    fill
-                    objectFit="cover"
-                    className="rounded-md hover:scale-125 duration-500"
-                  />
-                </div>
-                <div className="absolute min-h-[120px] w-[85%] bg-gray-200 -bottom-12 rounded-lg rounded-br-none right-0 px-5 py-3">
-                  <h3>Attract and retail quality high paying customer</h3>
-                  <div className=" flex gap-5 mt-5">
-                    <p className="flex gap-2 items-center">
-                      <UserCircle className="text-pink" />
-                      Admin
-                    </p>
-                    <p className="flex gap-2 items-center">
-                      <Comment className="text-pink" />
-                      Comments
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <div className="w-full mt-10">
+              <BlogSlider />
             </div>
           </div>
         </div>

@@ -9,14 +9,14 @@ import Rating from "../small/Rating";
 const HomeAbout = () => {
   return (
     <Conatainer full={false}>
-      <div className="flex flex-col bg-gray-100 py-5">
+      <div className="flex flex-col lg:flex-row lg:items-center bg-gray-100 py-5">
         {/* curve image */}
-        <div className="">
+        <div className="lg:w-[40%]">
           <HomeAboutImage />
         </div>
 
         {/* content container */}
-        <div className="mt-5 px-3 flex flex-col items-center">
+        <div className="mt-5 px-3 flex flex-col items-center lg:w-[50%]">
           <div className="bg-gradient-to-r from-[#fff] to-gray-100 px-7 rounded-full py-2 w-max">
             <p className="text-blue">ABOUT US </p>
           </div>
@@ -39,7 +39,7 @@ const HomeAbout = () => {
           </div>
           {/* paragrah list */}
           <div className="w-full mt-5 py-5">
-            <div className="flex gap-3 flex-col w-full">
+            <div className="flex gap-3 flex-col w-full md:flex-row md:flex-wrap md:justify-between">
               {homeAboutParagrahText.map((item, i) => {
                 return <AboutParagrahIcon text={item} key={i} />;
               })}
@@ -48,7 +48,7 @@ const HomeAbout = () => {
 
           {/**/}
 
-          <div className="flex flex-col bg-white gap-3 py-3 rounded-[30px] w-full">
+          <div className="flex flex-col bg-white gap-3 py-3 rounded-[30px] w-full md:flex-row md:w-max lg:px-7 self-start">
             <div className="rounded-xl px-4 py-3 flex">
               <TransparentPink text="Learn More" url="/" />
             </div>

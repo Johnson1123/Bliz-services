@@ -12,13 +12,13 @@ function LargeScreen() {
     <>
       {" "}
       {/* start of large screen header  */}
-      <div className=" h-[170px] hidden lg:grid w-full 3k:w-full bg-white">
+      <div className=" h-[170px] hidden lg:grid w-full 3k:w-full bg-darkBlue">
         {/* */}
         <div className="grid h-[100%] lg:grid-cols-10 3k:grid-cols-10">
           <div className="col-start-1 col-end-2 bg-darkBlue"></div>
           {/* logo container */}
           <div className="flex justify-center items-center lg:col-start-2 lg:col-end-4 bg-darkBlue 3k:col-start-2 3k:col-end-4">
-            <div className="w-full">
+            <div className="w-full  ">
               <Image
                 src="/bliz-service-transparent-logo.png"
                 alt="Bliaz"

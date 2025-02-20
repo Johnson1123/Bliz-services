@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import { FreeMode, Pagination } from "swiper/modules";
+import { Autoplay, FreeMode } from "swiper/modules";
 import { testimonials } from "@/constant/data";
 import InvertedBorder from "../InvertedBorder";
 
@@ -14,15 +14,26 @@ export default function Testimonials() {
   return (
     <>
       <Swiper
-        slidesPerView={1}
-        spaceBetween={30}
         freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
         speed={1000}
-        modules={[FreeMode, Pagination]}
-        className="mySwiper"
+        slidesPerView={"auto"}
+        modules={[FreeMode, Autoplay]}
+        autoplay={true}
+        breakpoints={{
+          400: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        }}
+        className="w-full"
       >
         {testimonials.map((item, i) => {
           return (

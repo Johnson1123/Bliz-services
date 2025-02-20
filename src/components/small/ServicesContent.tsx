@@ -10,8 +10,12 @@ type Props = {
 function ServicesContent({ text, image, title }: Props) {
   return (
     <div className="relative left-0 right-0 w-full h-full rounded-lg">
+      {/* background image */}
       <Image src={image} alt="services" fill objectFit="cover" />
+
+      {/* overlay color */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-bl from-violet-500 to-[darkblue] opacity-50"></div>
+
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end px-4 pb-10">
         <div className="">
           <h3 className="text-white">{title}</h3>

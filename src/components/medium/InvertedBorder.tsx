@@ -25,9 +25,9 @@ const InvertedBorder = ({
   role,
 }: Props) => {
   return (
-    <div className="w-full h-[300px]  bg-black relative top-0 left-0 overflow-hidden rounded-[20px]">
+    <div className="w-full h-[300px] xl:h-[350px] bg-white relative top-0 left-0 overflow-hidden rounded-[20px]">
       <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white">
-        {testimonial ? (
+        {testimonial && (
           <TestimonialContent
             text={text}
             name={name || ""}
@@ -35,7 +35,8 @@ const InvertedBorder = ({
             rating={rating || 0}
             role={role || ""}
           />
-        ) : (
+        )}
+        {!testimonial && (
           <ServicesContent
             text={text}
             title={title ? title : ""}
@@ -43,6 +44,7 @@ const InvertedBorder = ({
           />
         )}
       </div>
+
       <div
         className={`absolute top-0 right-0  h-[100px] w-[100px] rounded-bl-[25px] flex justify-end ${
           testimonial ? "bg-gray-200" : "bg-white"

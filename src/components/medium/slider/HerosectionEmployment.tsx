@@ -12,7 +12,7 @@ function HerosectionEmployment() {
       <HerosectionBottomClipy />
       <HerosectionTopClipy />
 
-      <div className="w-[100%] lg:w-[70%]">
+      <div className="w-[100%] lg:w-[70%] xl:[60%]">
         {/* tagged */}
         <motion.div
           className="overflow-hidden"

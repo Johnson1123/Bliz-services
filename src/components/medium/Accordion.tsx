@@ -18,7 +18,9 @@ const Accordion: React.FC<AccordionProps> = ({ items, className }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className={`w-full mx-auto rounded-lg overflow-hidden ${className}`}>
+    <div
+      className={`w-full mx-auto rounded-lg overflow-hidden lg:mt-10 ${className}`}
+    >
       {items.map((item, index) => (
         <AccordionItem
           key={item.id}

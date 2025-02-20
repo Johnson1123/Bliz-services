@@ -8,7 +8,7 @@ function HerosectionEducation() {
   return (
     <div className="w-full lg:w-[80%] mx-auto h-full bg-transparent px-[5%] lg:px-[1%] flex flex-col justify-center">
       {/* tagged */}
-      <div className="w-[100%] lg:w-[70%]">
+      <div className="w-[100%] lg:w-[70%] xl:[60%]">
         <motion.h3
           className="flex items-center gap-4"
           initial="initial"
