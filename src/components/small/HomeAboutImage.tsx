@@ -1,9 +1,6 @@
-import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-const HomeAboutImage = (props: Props) => {
+const HomeAboutImage = () => {
   return (
     <div className="w-[100%] h-[180px] overflow-hidden relative left-0 right-0">
       <div className="w-[700px] h-[180px] absolute right-0 top-0">

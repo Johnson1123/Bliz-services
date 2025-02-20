@@ -1,12 +1,9 @@
 import React from "react";
 import Conatainer from "../layout/Conatainer";
 import Testimonials from "../medium/slider/Testimonials";
-import Primary from "../small/Buttons/Primary";
 import Secondary from "../small/Buttons/Secondary";
 
-type Props = {};
-
-const HomeTestimonials = (props: Props) => {
+const HomeTestimonials = () => {
   return (
     <Conatainer full={false}>
       <div className="w-full h-auto flex flex-col justify-center items-center bg-white">

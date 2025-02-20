@@ -19,7 +19,9 @@ function HeaderAdrress({
         <p className="font-light text-gray-400 font-optima smallText">
           {label}
         </p>
-        <p className="font-medium text-black mt-1 font-optima">{text}</p>
+        <p className="font-semibold text-gray-600 font-optima smallText mt-2">
+          {text}
+        </p>
       </div>
     </div>
   );

@@ -2,9 +2,7 @@ import React from "react";
 import Conatainer from "../layout/Conatainer";
 import HomeServicesSwiper from "../medium/slider/HomeServicesSlider";
 
-type Props = {};
-
-const HomeServices = (props: Props) => {
+const HomeServices = () => {
   return (
     <Conatainer full={false}>
       <div className="w-full h-auto flex flex-col justify-center items-center bg-white">

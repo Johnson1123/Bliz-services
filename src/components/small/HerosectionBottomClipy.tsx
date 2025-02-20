@@ -3,12 +3,25 @@ import { motion } from "framer-motion";
 
 function HerosectionBottomClipy() {
   return (
-    <motion.div
-      initial={{ bottom: -500, opacity: 0, right: -500 }}
-      whileInView={{ bottom: -250, left: -250, opacity: 1 }}
-      transition={{ delay: 3, duration: 1.2 }}
-      className="clipy-bottom"
-    ></motion.div>
+    <motion.div className="" initial="initial" whileInView="view">
+      <motion.div
+        variants={{
+          initial: {
+            y: "100%",
+            opacity: 0,
+          },
+          view: {
+            y: 0,
+            opacity: 1,
+            transition: {
+              delay: 4,
+              duration: 1,
+            },
+          },
+        }}
+        className="flex py-2 items-center gap-4 clipy-bottom"
+      ></motion.div>
+    </motion.div>
   );
 }
 

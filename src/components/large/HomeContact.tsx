@@ -3,9 +3,7 @@ import Conatainer from "../layout/Conatainer";
 import { homeContacttexts } from "@/constant/data";
 import HomeContactBox from "../small/HomeContactBox";
 
-type Props = {};
-
-export default function HomeContact({}: Props) {
+export default function HomeContact() {
   return (
     <Conatainer full={true}>
       <div className="w-full bg-darkBlue py-10 px-3">
@@ -25,7 +23,7 @@ export default function HomeContact({}: Props) {
 
             <div className="flex flex-col gap-5 mt-10">
               {homeContacttexts.map((item, i) => {
-                return <HomeContactBox {...item} />;
+                return <HomeContactBox {...item} key={i} />;
               })}
             </div>
           </div>

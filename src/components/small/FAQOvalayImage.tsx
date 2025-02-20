@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-type Props = {};
-
-function FAQOvalayImage({}: Props) {
+function FAQOvalayImage() {
   return (
     <div className="w-full relative h-[350px] my-5">
       <div className="w-[80%] h-full relative">

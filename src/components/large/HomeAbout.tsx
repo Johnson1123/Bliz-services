@@ -6,9 +6,7 @@ import AboutParagrahIcon from "../small/AboutParagrahIcon";
 import TransparentPink from "../small/Buttons/TransparentPink";
 import Rating from "../small/Rating";
 
-type Props = {};
-
-const HomeAbout = (props: Props) => {
+const HomeAbout = () => {
   return (
     <Conatainer full={false}>
       <div className="flex flex-col bg-gray-100 py-5">
@@ -43,7 +41,7 @@ const HomeAbout = (props: Props) => {
           <div className="w-full mt-5 py-5">
             <div className="flex gap-3 flex-col w-full">
               {homeAboutParagrahText.map((item, i) => {
-                return <AboutParagrahIcon text={item} />;
+                return <AboutParagrahIcon text={item} key={i} />;
               })}
             </div>
           </div>

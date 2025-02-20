@@ -3,9 +3,7 @@ import Conatainer from "../layout/Conatainer";
 import Image from "next/image";
 import { Comment, UserCircle } from "@/constant/icons";
 
-type Props = {};
-
-function HomeBlog({}: Props) {
+function HomeBlog() {
   return (
     <Conatainer full={false}>
       <div className="py-5 mt-5">

@@ -1,9 +1,7 @@
 import React from "react";
 import IInverted from "../small/Icons/IInvited";
-import Image from "next/image";
 import ServicesContent from "../small/ServicesContent";
 import TestimonialContent from "../small/TestimonialContent";
-import { title } from "process";
 
 type Props = {
   image: string;

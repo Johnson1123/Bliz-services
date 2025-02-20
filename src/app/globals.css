@@ -43,7 +43,7 @@ h3,
 
 p,
 .text {
-  font-size: clamp(0.85rem, calc(16px + 1vw), 1.5rem);
+  font-size: clamp(0.85rem, calc(16px + 1vw), 1.25rem);
   line-height: 1.2;
 }
 .smallText {
@@ -52,7 +52,7 @@ p,
 }
 
 .xxlarge-title {
-  font-size: clamp(2rem, calc(1.75rem + 3vw), 4.5rem);
+  font-size: clamp(2rem, calc(1.8rem + 2vw), 3rem);
   line-height: 1.2;
   font-weight: 700;
 }
@@ -143,8 +143,8 @@ p,
 
 .clipy-bottom {
   position: absolute;
-  right: -200px;
   bottom: -250px;
+  right: -250px;
   background-color: rgba(207, 42, 185, 0.325);
 
   --s: 500px; /* adjust to control the size */
@@ -172,6 +172,7 @@ p,
   position: absolute;
   left: -250px;
   top: -250px;
+  z-index: -1;
   background-color: rgba(207, 42, 185, 0.325);
 
   --s: 500px; /* adjust to control the size */

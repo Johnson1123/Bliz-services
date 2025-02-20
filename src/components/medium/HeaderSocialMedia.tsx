@@ -1,13 +1,13 @@
 import SocialLinks from "@/constant/data";
 import React from "react";
 import IHeader from "../small/Icons/IHeader";
-import { MdOutlineLocationOn } from "react-icons/md";
+import { SocialPlatform } from "@/constant/icons";
 
 function HeaderSocialMedia() {
   return (
     <div className="hidden justify-center items-center gap-3 xl:flex">
       <div className="bg-gray-200 h-[25px] w-[25px] rounded-full flex justify-center items-center">
-        <MdOutlineLocationOn size={16} className="text-pink" />
+        <SocialPlatform size={16} className="text-pink" />
       </div>
       <div className="">
         <p className="font-light text-gray-400 font-optima smallText">

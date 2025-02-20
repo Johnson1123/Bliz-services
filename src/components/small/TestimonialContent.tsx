@@ -10,7 +10,7 @@ type Props = {
   name: string;
 };
 
-function TestimonialContent({ text, role, image, name, rating }: Props) {
+function TestimonialContent({ text, role, name, rating }: Props) {
   return (
     <div className="h-full w-full bg-white py-2 px-3">
       <div className="">

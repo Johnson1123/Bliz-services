@@ -2,12 +2,9 @@ import React from "react";
 import Conatainer from "../layout/Conatainer";
 import Accordion from "../medium/Accordion";
 import { accordionData } from "@/constant/data";
-import Image from "next/image";
 import FAQOvalayImage from "../small/FAQOvalayImage";
 
-type Props = {};
-
-const HomeFAQ = (props: Props) => {
+const HomeFAQ = () => {
   return (
     <div>
       <Conatainer full={false}>
