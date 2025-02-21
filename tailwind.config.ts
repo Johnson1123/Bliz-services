@@ -11,11 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        pink: "rgb(207,42,186)",
-        blue: "rgb(65,88,208)",
+        pink: "#A6D8FD",
+        blue: "#0000FF",
+        darkblue: "#0E0E4E",
       },
       backgroundColor: {
-        darkBlue: "#09092a",
+        darkBlue: "#0E0E4E",
       },
       screens: {
         "3k": {

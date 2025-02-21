@@ -13,7 +13,7 @@ function HeaderAdrress({
   return (
     <div className={`justify-center items-center flex gap-2`}>
       <div className="bg-gray-200 h-[25px] w-[25px] rounded-full flex justify-center items-center">
-        <Icon size={16} className="text-pink" />
+        <Icon size={16} className="text-blue" />
       </div>
       <div className="">
         <p className="font-light text-gray-400 font-optima smallText">

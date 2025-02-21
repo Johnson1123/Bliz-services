@@ -20,7 +20,7 @@ function SmallScreen() {
           {/* small screen modal logo wrapper */}
           <div className="grid place-items-center">
             <Image
-              src="/bliz-service-transparent-logo.png"
+              src="/Image/bliz_services-10.png"
               alt="Bliaz"
               width={250}
               height={250}

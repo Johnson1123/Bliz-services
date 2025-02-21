@@ -89,13 +89,13 @@ p,
 .clipy::before {
   content: "";
   position: absolute;
-  background-color: rgb(207, 42, 186);
-  bottom: -1px;
+  background-color: #a6d8f8;
+  bottom: 0px;
   left: -1px;
   width: 100%;
   z-index: 1;
   height: calc(100% + 1px);
-  clip-path: polygon(0 0, 0% 100%, 8% 100%);
+  clip-path: polygon(0 0, 0% 100%, 15% 100%);
 }
 
 .Herosection__banner-bg {
@@ -145,8 +145,8 @@ p,
   position: absolute;
   bottom: -250px;
   right: -250px;
-  background-color: rgba(207, 42, 185, 0.325);
-
+  background-color: #0e0e4e76;
+  opacity: 0.5;
   --s: 500px; /* adjust to control the size */
   width: var(--s);
   aspect-ratio: 1;
@@ -173,7 +173,8 @@ p,
   left: -250px;
   top: -250px;
   z-index: -1;
-  background-color: rgba(207, 42, 185, 0.325);
+  background-color: #0e0e4e76;
+  opacity: 0.5;
 
   --s: 500px; /* adjust to control the size */
 

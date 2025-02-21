@@ -10,10 +10,10 @@ import { MdOutlineLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#162c5b] text-white py-8 w-full flex justify-center">
-      <div className="container mx-auto w-[90vw] lg:w-[90vw] xl:w-[75vw] 4k:w-[60vw]">
+    <footer className="bg-[#162c5b] text-white py-8 w-full flex flex-col justify-center lg:h-[50%]">
+      <div className="w-[90vw] lg:w-full lg:grid lg:grid-cols-10 4k:w-[60vw]">
         {/* footer content Section */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center lg:col-start-2 lg:col-end-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between gap-6 w-full">
             {/* First Column */}
             <div className="mt-5 w-full md:col-start-1 md:col-end-2 lg:w-max">
@@ -103,11 +103,11 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <div className="text-center mt-8 pt-8 border-t border-gray-700">
-          <p className="text-gray-400">
-            © 2024 Company Name. All rights reserved.
-          </p>
-        </div>
+      </div>
+      <div className="text-center mt-8 pt-8 lg:mt-3 lg:py-2 border-t border-gray-700">
+        <p className="text-gray-400">
+          © 2024 Company Name. All rights reserved.
+        </p>
       </div>
     </footer>
   );
