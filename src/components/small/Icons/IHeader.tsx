@@ -4,9 +4,9 @@ import Link from "next/link";
 
 function IHeader({ Icon, url }: { Icon: IconType; url: string }) {
   return (
-    <div className="cursor-pointer h-[20px] w-[20px] rounded-full flex items-center justify-center bg-gray-200">
+    <div className="">
       <Link href={url}>
-        <Icon className="text-darkblue" size={14} />
+        <Icon className="text-darkblue" size={16} />
       </Link>
     </div>
   );

@@ -17,13 +17,13 @@ function Herosection() {
             <Swiper
               spaceBetween={30}
               autoplay={{
-                delay: 4000,
+                delay: 5000,
                 disableOnInteraction: false,
               }}
               slidesPerView={1}
               modules={[Autoplay]}
               loop={true}
-              speed={2000}
+              speed={3000}
               className="h-full w-full"
             >
               {/* Herosection slider  */}

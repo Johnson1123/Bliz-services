@@ -7,7 +7,7 @@ function HeaderSocialMedia() {
     <div className="hidden justify-center items-center gap-3 xl:flex">
       <div className="">
         <p className="font-light text-gray-400 font-optima smallText">
-          {"Social Links"}
+          Follow Us
         </p>
         <div className="flex gap-3 mt-2">
           {SocialLinks.map((item, index) => {

@@ -56,7 +56,7 @@ export const headerAddress = [
   },
   {
     text: "+(234) 678 967 385",
-    label: "Call Emergency",
+    label: "Call Us",
   },
 ];
 

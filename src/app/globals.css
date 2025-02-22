@@ -82,7 +82,7 @@ p,
 
 .link:hover,
 .link:active {
-  color: rgb(207, 42, 186);
+  color: #a6d8fd;
   transition: ease-in-out 0.3s;
 }
 
