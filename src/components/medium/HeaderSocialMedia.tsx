@@ -1,7 +1,6 @@
 import SocialLinks from "@/constant/data";
 import React from "react";
 import IHeader from "../small/Icons/IHeader";
-import { SocialPlatform } from "@/constant/icons";
 
 function HeaderSocialMedia() {
   return (

@@ -3,8 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdFacebook } from "react-icons/md";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
-import { MdOutlineLocalPhone } from "react-icons/md";
-import { MdEmail } from "react-icons/md";
+
 import { AccordionItemData } from "./types";
 import { GraduationCap, Engineering } from "./icons";
 

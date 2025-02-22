@@ -1,5 +1,4 @@
 import React from "react";
-import { IconType } from "react-icons";
 
 function HeaderAdrress({ text, label }: { text: string; label: string }) {
   return (
