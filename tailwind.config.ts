@@ -13,10 +13,10 @@ export default {
         foreground: "var(--foreground)",
         pink: "#A6D8FD",
         blue: "#0000FF",
-        darkblue: "#0E0E4E",
+        darkblue: "#09092a",
       },
       backgroundColor: {
-        darkBlue: "#0E0E4E",
+        darkBlue: "#09092a",
       },
       screens: {
         "3k": {

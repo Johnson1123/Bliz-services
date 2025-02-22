@@ -13,8 +13,14 @@ function LargeScreen() {
           <div className="col-start-1 col-end-2 bg-darkBlue"></div>
           {/* logo container */}
           <div className="flex justify-center items-center lg:col-start-2 lg:col-end-4 bg-darkBlue 3k:col-start-2 3k:col-end-4">
-            <div className="w-full  ">
-              <Image src="" alt="Bliaz" width={100} height={100} />
+            <div className="w-full">
+              <Image
+                src="/Image/bliz_services-10.png"
+                alt="Bliaz"
+                width={100}
+                height={100}
+                objectFit="cover"
+              />
             </div>
           </div>
 

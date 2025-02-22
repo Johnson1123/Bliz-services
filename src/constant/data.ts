@@ -52,12 +52,10 @@ export const contact: { email: string; tel1: string; tel2: string } = {
 
 export const headerAddress = [
   {
-    Icon: MdEmail,
     text: "info@blizservices.com",
-    label: "Send Email",
+    label: "Email Us",
   },
   {
-    Icon: MdOutlineLocalPhone,
     text: "+(234) 678 967 385",
     label: "Call Emergency",
   },

@@ -5,8 +5,8 @@ import Link from "next/link";
 
 function HeaderLinkBtnContainer() {
   return (
-    <div className="w-full bg-darkBlue lg:col-span-7 lg:row-span-2  md:px-5 lg:px-0 lg:grid grid-cols-7 ">
-      <div className="lg:col-span-6 3k:col-span-7 flex justify-between items-center h-full">
+    <div className="w-full bg-white lg:col-span-7 lg:row-span-2  md:px-5 lg:px-0 lg:grid grid-cols-7 ">
+      <div className="lg:col-span-6 3k:col-span-7 flex justify-between items-center h-full bg-darkblue lg:pr-10">
         <ul className="flex justify-center items-center gap-4 h-[100%] col-span-3">
           <li>
             <Link href={"/education"} className="link">

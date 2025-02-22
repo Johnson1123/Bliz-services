@@ -6,7 +6,7 @@ function IHeader({ Icon, url }: { Icon: IconType; url: string }) {
   return (
     <div className="cursor-pointer h-[20px] w-[20px] rounded-full flex items-center justify-center bg-gray-200">
       <Link href={url}>
-        <Icon className="text-blue" size={14} />
+        <Icon className="text-darkblue" size={14} />
       </Link>
     </div>
   );

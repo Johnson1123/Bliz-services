@@ -15,7 +15,7 @@ function Secondary({ url, text }: { url: string; text: string }) {
     "
     >
       {text}
-      <MdArrowForward className="-rotate-45" size={20} />
+      <MdArrowForward className="-rotate-45 group-hover:text-white" size={20} />
     </button>
   );
 }
