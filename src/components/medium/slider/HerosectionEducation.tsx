@@ -33,7 +33,7 @@ function HerosectionEducation() {
             <span className="flex gap-4 items-center">
               <Waving color="#fff" size={25} />
 
-              <span className="text-white">Study Overseas</span>
+              <span className="text-white">CHANGING THE WAY </span>
             </span>
           </motion.span>
         </motion.h3>
@@ -61,14 +61,11 @@ function HerosectionEducation() {
                 },
               }}
             >
-              <span>Make A </span>
+              <span>Unlock Your </span>
               <span className="text-pink font-bold drop-shadow-lg">
-                Different{" "}
+                Future{" "}
               </span>
-              <span> through </span>
-              <span className="text-pink font-bold drop-shadow-lg">
-                education{" "}
-              </span>
+              <span> Abroad </span>
             </motion.div>
           </motion.h2>
         </div>
@@ -98,14 +95,8 @@ function HerosectionEducation() {
               }}
             >
               <p className="text-white py-1">
-                Do you desire to study Overseas?
-              </p>
-              <p className="text-white py-1">
-                Do you want to gain admission to reputable educational
-                institution Overseas?
-              </p>
-              <p className="text-white py-1">
-                Do you understand the application process?
+                Relocate, study, or work overseas with ease. We simplify your
+                journey, ensuring a smooth transition to your dream destination.
               </p>
             </motion.div>
           </motion.div>

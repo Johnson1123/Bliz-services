@@ -25,7 +25,7 @@ function Rating({ rating }: Props) {
                   : "M12 .587l3.668 7.431 8.232 1.194-5.95 5.787 1.407 8.193L12 18.896l-7.357 3.865 1.407-8.193-5.95-5.787 8.232-1.194z"
               }
               className={
-                isFilled || isHalfFilled ? "text-pink" : "text-gray-300"
+                isFilled || isHalfFilled ? "text-blue" : "text-gray-300"
               }
             />
             {isHalfFilled && (

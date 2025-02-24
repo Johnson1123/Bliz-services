@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
-import { Autoplay, FreeMode } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { testimonials } from "@/constant/data";
 import InvertedBorder from "../InvertedBorder";
 
@@ -14,10 +14,8 @@ export default function Testimonials() {
   return (
     <>
       <Swiper
-        freeMode={true}
         speed={1000}
-        slidesPerView={"auto"}
-        modules={[FreeMode, Autoplay]}
+        modules={[Autoplay]}
         autoplay={true}
         breakpoints={{
           400: {

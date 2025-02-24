@@ -4,23 +4,21 @@ import HomeServicesSwiper from "../medium/slider/HomeServicesSlider";
 
 const HomeServices = () => {
   return (
-    <Conatainer full={false}>
-      <div className="w-full h-auto flex flex-col justify-center items-center bg-white">
-        <div className="bg-gradient-to-r from-gray-300 to-[#fff] px-5 rounded-full py-2 w-max">
-          <p className="text-blue">Consultancy Services</p>
+    <section className="bg-white py-10 mt-5">
+      <Conatainer full={false}>
+        <div className="w-full h-auto flex flex-col justify-center items-center bg-white">
+          <div className="mt-3">
+            <h2 className="py-1">
+              Our Special{" "}
+              <span className="text-blue border-b-2 border-blue">Services</span>
+            </h2>
+          </div>
+          <div className="w-[100%] flex mt-10 lg:mt-12">
+            <HomeServicesSwiper />
+          </div>
         </div>
-
-        <div className="mt-3">
-          <h2 className="py-1">
-            Our Special{" "}
-            <span className="text-pink border-b-2 border-pink">Services</span>
-          </h2>
-        </div>
-        <div className="w-[100%] flex mt-10 lg:mt-12">
-          <HomeServicesSwiper />
-        </div>
-      </div>
-    </Conatainer>
+      </Conatainer>
+    </section>
   );
 };
 

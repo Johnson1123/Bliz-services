@@ -3,66 +3,70 @@ import Conatainer from "../layout/Conatainer";
 import HomeAboutImage from "../small/HomeAboutImage";
 import { homeAboutParagrahText } from "@/constant/data";
 import AboutParagrahIcon from "../small/AboutParagrahIcon";
-import TransparentPink from "../small/Buttons/TransparentPink";
-import Rating from "../small/Rating";
+import TransparentBlue from "../small/Buttons/TransparentBlue";
 
 const HomeAbout = () => {
   return (
-    <Conatainer full={false}>
-      <div className="flex flex-col lg:flex-row lg:items-center bg-gray-100 py-5">
-        {/* curve image */}
-        <div className="lg:w-[40%]">
-          <HomeAboutImage />
-        </div>
-
-        {/* content container */}
-        <div className="mt-5 px-3 flex flex-col items-center lg:w-[50%]">
-          <div className="bg-gradient-to-r from-[#fff] to-gray-100 px-7 rounded-full py-2 w-max">
-            <p className="text-blue">ABOUT US </p>
+    <section className=" bg-[url('/image/about-us-bg.jpg')] bg-no-repeat bg-cover bg-center lg:mt-16">
+      <Conatainer full={false}>
+        <div className="flex flex-col md:grid grid-cols-2 grid-rows-1 gap-4 py-16">
+          {/* curve image */}
+          <div className="w-full md:col-start-1 md:col-end-2 md:row-span-1">
+            <HomeAboutImage />
           </div>
 
-          <div className="mt-3 w-[90%]">
-            <h2 className="py-1 text-center">
-              We Help People Accomplish Their
-              <span className="text-pink border-b-2 border-pink ml-1">
-                Goals
-              </span>
-            </h2>
-          </div>
-
-          <div className="mt-7">
-            <p>
-              The is a dummy or placeholder text commonly used in graphic
-              design, publishing, and web development to fill empty spaces in a
-              layout that does not yet have content.
-            </p>
-          </div>
-          {/* paragrah list */}
-          <div className="w-full mt-5 py-5">
-            <div className="flex gap-3 flex-col w-full md:flex-row md:flex-wrap md:justify-between">
-              {homeAboutParagrahText.map((item, i) => {
-                return <AboutParagrahIcon text={item} key={i} />;
-              })}
+          {/* content container */}
+          <div className="mt-10 md:mt-5 px-3 flex flex-col md:col-start-2 md:col-end-3 md:row-span-1">
+            <div className="bg-gradient-to-r from-[#fff] to-gray-100 px-7 rounded-full py-2 w-max">
+              <p className="text-blue">ABOUT US </p>
             </div>
-          </div>
 
-          {/**/}
-
-          <div className="flex flex-col bg-white gap-3 py-3 rounded-[30px] w-full md:flex-row md:w-max lg:px-7 self-start">
-            <div className="rounded-xl px-4 py-3 flex">
-              <TransparentPink text="Learn More" url="/" />
+            <div className="mt-5 w-[90%] md:w-full xl:w-[80%]">
+              <h2 className="py-1 ">
+                We specialize in seamless{" "}
+                <strong className="text-blue border-b-2 border-blue ml-1">
+                  International Relocations
+                </strong>
+              </h2>
             </div>
-            <div className="flex items-center gap-5 px-3">
+
+            <div className="mt-7 xl:w-[90%]">
+              <p>
+                We make relocating abroad stress-free with expert guidance at
+                every step. From visas to settling in, we handle it all
+                seamlessly. Start your journey with confidence today!
+              </p>
+            </div>
+
+            {/* paragrah list */}
+            <div className="w-full mt-5 py-5">
+              <div className="flex gap-3 flex-col w-full md:flex-row md:flex-wrap md:justify-between">
+                {homeAboutParagrahText.map((item, i) => {
+                  return <AboutParagrahIcon text={item} key={i} />;
+                })}
+              </div>
+            </div>
+
+            {/**/}
+
+            <div className="bg-white py-1 mt-5 rounded-full md:flex-row w-max lg:px-2 self-start">
+              <div className="rounded-xl px-4 py-3 flex">
+                <TransparentBlue text="Learn More" url="/" />
+              </div>
+
+              {/* Rating */}
+              {/* <div className="flex items-center gap-5 px-3">
               <p className="text-2xl font-bold">4.5</p>
               <div className="">
                 <p>Review On</p>
                 <Rating rating={4} />
               </div>
+            </div> */}
             </div>
           </div>
         </div>
-      </div>
-    </Conatainer>
+      </Conatainer>
+    </section>
   );
 };
 

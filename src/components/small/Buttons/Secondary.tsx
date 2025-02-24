@@ -11,7 +11,7 @@ function Secondary({ url, text }: { url: string; text: string }) {
   return (
     <button
       onClick={() => handleNavigation()}
-      className="px-[16px] py-[8px] bg-pink text-darkblue border border-pink border-solid rounded-full flex gap-2 items-center group hover:bg-transparent hover:text-white hover:border-white transition-all duration-500 h-max
+      className="px-[16px] py-[8px] bg-blue text-white border border-blue border-solid rounded-full flex gap-2 items-center group hover:bg-blue hover:text-white hover:border-blue transition-all duration-500 h-max
     "
     >
       {text}

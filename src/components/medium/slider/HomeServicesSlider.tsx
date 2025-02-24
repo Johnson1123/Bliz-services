@@ -19,15 +19,15 @@ export default function HomeServicesSwiper() {
         breakpoints={{
           400: {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 20,
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 40,
+            spaceBetween: 25,
           },
           1024: {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 20,
           },
         }}
       >

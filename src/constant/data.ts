@@ -108,49 +108,57 @@ export const testimonials = [
 export const homeServices = [
   {
     image: "/graduation.avif",
-    title: "Work Overseas",
+    title: "Study Abroad",
     url: "/",
-    text: "We provide opportunities to everyone that wish to work overseas",
+    text: "We offer fantastic assistance if you wish to further your education overseas",
   },
   {
     image: "/graduation.avif",
-    title: "Study Overseas",
+    title: "Work Abroad",
     url: "/",
-    text: "We provide opportunities to everyone that wish to work overseas",
+    text: "We’re familiar with the local job demand and work legislation",
   },
   {
     image: "/graduation.avif",
-    title: "Vacation Overseas",
+    title: "Digital Literacy",
     url: "/",
-    text: "We provide opportunities to everyone that wish to work overseas",
+    text: "Expand your business globally with strategic market entry services",
   },
 ];
 
 export const homeAboutParagrahText = [
-  "99% Success Rate",
-  "Proffessional Experts",
-  "Quality Services",
-  "World-Wide Clients",
+  "Personalized Guidance",
+  "End-To-End Support",
+  "Proven Success",
+  "Trusted Partnerships",
 ];
 
 export const accordionData: AccordionItemData[] = [
   {
     id: 1,
-    title: "Study Visa Requirements",
+    title: "Hassle-Free Process",
     content: {
-      description: "Essential requirements for obtaining a student visa:",
+      description:
+        "Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation",
     },
   },
   {
     id: 2,
-    title: "Work Permit Process",
+    title: "Faster Turnaround",
     content: {
       description: "Steps to obtain a work permit:",
     },
   },
   {
     id: 3,
-    title: "Immigration Services",
+    title: "Affordable Pricing",
+    content: {
+      description: "Our comprehensive immigration services include:",
+    },
+  },
+  {
+    id: 4,
+    title: "Ongoing Support",
     content: {
       description: "Our comprehensive immigration services include:",
     },

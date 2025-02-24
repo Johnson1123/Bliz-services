@@ -19,19 +19,19 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className=" border-gray-200 rounded-[20px] my-5 "
+      className="rounded-full my-5 "
     >
       <button
-        className={`w-full py-3 flex gap-5 items-center  hover:bg-gray-50 transition-colors bg-gray-100 rounded-3xl  px-2 ${
+        className={`w-full py-3 flex gap-5 items-center  hover:bg-gray-50 transition-colors bg-white rounded-3xl  px-2 ${
           isOpen ? "rounded-br-none rounded-bl-none" : "rounded-3xl"
         }`}
         onClick={onClick}
       >
-        <div className="h-[35px] w-[35px] rounded-full bg-slate-900 flex justify-center items-center">
+        <div className="h-[35px] w-[35px] rounded-full bg-black flex justify-center items-center">
           {isOpen ? (
-            <Minus color="#fff" size={25} />
+            <Minus color="#fff" size={25} className="font-bold" />
           ) : (
-            <Plus color="#fff" size={25} />
+            <Plus color="#fff" size={25} className="font-bold" />
           )}
         </div>
         <span className="text-md font-medium text-gray-900">{title}</span>
@@ -49,7 +49,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
             transition={{ duration: 0.3 }}
             className="overflow-hidden"
           >
-            <div className="p-6 bg-gray-50 space-y-4">
+            <div className="p-6 bg-white space-y-4">
               <p className="text-gray-600">{content.description}</p>
             </div>
           </motion.div>

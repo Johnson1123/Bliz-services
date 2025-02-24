@@ -46,12 +46,12 @@ const InvertedBorder = ({
       </div>
 
       <div
-        className={`absolute top-0 right-0  h-[100px] w-[100px] rounded-bl-[25px] flex justify-end ${
+        className={`absolute top-0 right-0  h-[80px] w-[90px] rounded-bl-[25px] flex justify-end ${
           testimonial ? "bg-gray-200" : "bg-white"
         }`}
       >
         {testimonial ? (
-          <div className="h-[60px] w-[60px] rounded-full">
+          <div className="h-[70px] w-[70px] rounded-full">
             <img
               src="/image.png"
               alt={name ? name : "Client picture"}
@@ -63,14 +63,14 @@ const InvertedBorder = ({
         )}
       </div>
       <div
-        className={`absolute w-[20px] h-[40px] top-[100px] right-0 bg-transparent rounded-tr-[25px] *:z-10 ${
+        className={`absolute w-[20px] h-[40px] top-[80px] right-0 bg-transparent rounded-tr-[25px] *:z-10 ${
           testimonial
             ? "shadow-[1px_-20px_0_#e5e7eb]"
             : "shadow-[1px_-20px_0_#fff]"
         }`}
       ></div>
       <div
-        className={`absolute w-[20px] h-[80px] top-0 right-[100px] bg-transparent rounded-tr-[25px] z-10 ${
+        className={`absolute w-[20px] h-[80px] top-0 right-[90px] bg-transparent rounded-tr-[25px] z-10 ${
           testimonial
             ? "shadow-[1px_-20px_0_#e5e7eb]"
             : "shadow-[1px_-20px_0_#fff]"
