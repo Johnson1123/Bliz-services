@@ -6,6 +6,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 
 import { AccordionItemData } from "./types";
 import { GraduationCap, Engineering } from "./icons";
+import { broadcast, insurance, policy, processIcon } from "@/assets/icons";
 
 const SocialLinks: { Icon: IconType; name: string; url: string }[] = [
   {
@@ -175,6 +176,54 @@ export const homeContacttexts = [
     Icon: Engineering,
     text: "Parturient montes nascetur ridiculus mus is maecenas , neque in feugiat elementum lacus risus.",
     title: "Work OverSeas Consultant",
+  },
+];
+
+export const serviceOverlay = [
+  {
+    title: "Get a free qoutes",
+    text: "Keep you updated of recent development",
+    image: broadcast,
+    background: "white",
+  },
+  {
+    title: "Fast & Easy process",
+    text: "Keep you updated of recent development",
+    image: processIcon,
+    background: "other",
+  },
+  {
+    title: "Control over policy",
+    text: "Keep you updated of recent development",
+    image: policy,
+    background: "white",
+  },
+  {
+    title: "Insurance Policy",
+    text: "Keep you updated of recent development",
+    image: insurance,
+    background: "white",
+  },
+];
+
+export const specialServics = [
+  {
+    title: "Study Overseas",
+    text: "Shape your life and explore more through education",
+    image: "/graduation.avif",
+    link: ",",
+  },
+  {
+    title: "Mass Litracy",
+    text: "Shape your life and explore more through education",
+    image: "/graduation.avif",
+    link: ",",
+  },
+  {
+    title: "Work Aboard",
+    text: "Shape your life and explore more through education",
+    image: "/graduation.avif",
+    link: ",",
   },
 ];
 export default SocialLinks;

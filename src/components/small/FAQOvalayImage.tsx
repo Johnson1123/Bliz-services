@@ -13,7 +13,7 @@ function FAQOvalayImage() {
           className="rounded-lg"
         />
       </div>
-      <div className="w-[50%] lg:w-[40%] h-[200px] border-[10px] absolute top-[50%] right-0 lg:right-10 translate-y-[-50%] rounded-xl bg-red-700">
+      <div className="w-[50%] lg:w-[40%] h-[200px] border-[10px] absolute top-[70%] right-0 lg:right-10 translate-y-[-70%] rounded-xl">
         <Image
           src={"/image-3.webp"}
           alt="Image label"

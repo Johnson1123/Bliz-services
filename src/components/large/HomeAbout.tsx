@@ -1,9 +1,8 @@
 import React from "react";
 import Conatainer from "../layout/Conatainer";
 import HomeAboutImage from "../small/HomeAboutImage";
-import { homeAboutParagrahText } from "@/constant/data";
-import AboutParagrahIcon from "../small/AboutParagrahIcon";
 import TransparentBlue from "../small/Buttons/TransparentBlue";
+import AboutParagrah from "../medium/AboutParagrah";
 
 const HomeAbout = () => {
   return (
@@ -11,9 +10,7 @@ const HomeAbout = () => {
       <Conatainer full={false}>
         <div className="flex flex-col md:grid grid-cols-2 grid-rows-1 gap-4 py-16">
           {/* curve image */}
-          <div className="w-full md:col-start-1 md:col-end-2 md:row-span-1">
-            <HomeAboutImage />
-          </div>
+          <HomeAboutImage />
 
           {/* content container */}
           <div className="mt-10 md:mt-5 px-3 flex flex-col md:col-start-2 md:col-end-3 md:row-span-1">
@@ -39,13 +36,7 @@ const HomeAbout = () => {
             </div>
 
             {/* paragrah list */}
-            <div className="w-full mt-5 py-5">
-              <div className="flex gap-3 flex-col w-full md:flex-row md:flex-wrap md:justify-between">
-                {homeAboutParagrahText.map((item, i) => {
-                  return <AboutParagrahIcon text={item} key={i} />;
-                })}
-              </div>
-            </div>
+            <AboutParagrah />
 
             {/**/}
 

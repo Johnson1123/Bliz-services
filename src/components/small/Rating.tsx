@@ -31,7 +31,7 @@ function Rating({ rating }: Props) {
             {isHalfFilled && (
               <path
                 d="M12 2.5l1.5 3.1 3.4.5-2.5 2.4.6 3.5L12 10.9l-3.4 1.8.6-3.5-2.5-2.4 3.4-.5L12 2.5z"
-                className="text-pink"
+                className="text-darkblue"
               />
             )}
           </svg>

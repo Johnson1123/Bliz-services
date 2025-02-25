@@ -240,3 +240,29 @@ p,
   );
   background: #3b8686;
 }
+
+/* Services page  */
+
+.Services__banner-bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(22, 44, 91, 0.8),
+      rgb(10, 25, 58, 0.9)
+    ),
+    url("/graduation.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service__slider-bg {
+  background-image: linear-gradient(
+      to right,
+      rgba(22, 44, 91, 0.4),
+      rgb(10, 25, 58, 0.5)
+    ),
+    url("/graduation.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
