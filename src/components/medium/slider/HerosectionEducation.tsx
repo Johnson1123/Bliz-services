@@ -1,16 +1,16 @@
-import Secondary from "@/components/small/Buttons/Secondary";
 import Transparent from "@/components/small/Buttons/Transparent";
 import { Waving } from "@/constant/icons";
 import React from "react";
 import { motion } from "framer-motion";
+import Primary from "@/components/small/Buttons/Primary";
 
 function HerosectionEducation() {
   return (
-    <div className="w-full lg:w-[80%] mx-auto h-full bg-transparent px-[5%] lg:px-[1%] flex flex-col justify-center">
+    <div className="HeroEducation__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center">
       {/* tagged */}
-      <div className="w-[100%] lg:w-[70%] xl:[60%]">
+      <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10   lg:col-start-2 lg:col-end-9  3k:col-start-3">
         <motion.h3
-          className="flex items-center gap-4"
+          className="flex items-center gap-4 text-base"
           initial="initial"
           whileInView="view"
         >
@@ -33,7 +33,9 @@ function HerosectionEducation() {
             <span className="flex gap-4 items-center">
               <Waving color="#fff" size={25} />
 
-              <span className="text-white">CHANGING THE WAY </span>
+              <span className="text-white text-base md:text-xl lg:text-base">
+                CHANGING THE WAY{" "}
+              </span>
             </span>
           </motion.span>
         </motion.h3>
@@ -42,7 +44,7 @@ function HerosectionEducation() {
           <motion.h2
             initial="initial"
             whileInView="view"
-            className="text-white mt-5 xxlarge-title"
+            className="text-white mt-5 text-[30px] md:text-[60px] lg:text-[80px]"
           >
             <motion.div
               className=""
@@ -125,8 +127,8 @@ function HerosectionEducation() {
               },
             }}
           >
-            <Secondary text="Apply Now" url="/education" />
-            <Transparent text="Get In touch" url="/contact" />
+            <Primary text="Apply Now" url="/education" />
+            <Transparent text="More Details" url="/contact" />
           </motion.div>
         </motion.div>
       </div>

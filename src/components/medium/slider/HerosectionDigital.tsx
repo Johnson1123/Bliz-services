@@ -2,16 +2,11 @@ import Transparent from "@/components/small/Buttons/Transparent";
 import { Waving } from "@/constant/icons";
 import React from "react";
 import { motion } from "framer-motion";
-import HerosectionTopClipy from "@/components/small/HerosectionTopClipy";
-import HerosectionBottomClipy from "@/components/small/HerosectionBottomClipy";
 import Primary from "@/components/small/Buttons/Primary";
 
-function HerosectionEmployment() {
+function HerosectionDigital() {
   return (
-    <div className="HeroWork__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center relative left-0 right-0">
-      <HerosectionBottomClipy />
-      <HerosectionTopClipy />
-
+    <div className="HeroDigital__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center">
       <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9 3k:col-start-3">
         {/* tagged */}
         <motion.div
@@ -40,7 +35,7 @@ function HerosectionEmployment() {
               <Waving color="#fff" size={25} />
             </span>
             <span className="text-white text-base md:text-xl lg:text-base">
-              WORK ABROAD
+              LEARN DIGITAL SKILL
             </span>
           </motion.h3>
         </motion.div>
@@ -73,7 +68,7 @@ function HerosectionEmployment() {
             </span>
             <span>through </span>
             <span className="text-pink font-bold drop-shadow-lg">
-              Leadership
+              Need Skills
             </span>
           </motion.h2>
         </motion.div>
@@ -143,4 +138,4 @@ function HerosectionEmployment() {
   );
 }
 
-export default HerosectionEmployment;
+export default HerosectionDigital;

@@ -3,14 +3,9 @@ import HeaderAdrress from "./HeaderAdrress";
 import HeaderSocialMedia from "./HeaderSocialMedia";
 import { headerAddress } from "@/constant/data";
 
-/**
- * HeaderAddressContainer Component
- * Displays contact information in the header
- * @returns {JSX.Element} Header address container component
- */
 export default function HeaderAddressContainer() {
   return (
-    <div className="lg:col-span-6 lg:row-span-3 3k:col-span-7 bg-white flex gap-10 justify-end md:px-5 lg:px-0 lg:pr-10 relative left-0 right-0 clipy py-3 ">
+    <div className="lg:col-span-6 lg:row-span-7 3k:col-span-7 bg-white flex gap-10 justify-end md:px-5 lg:px-0 lg:pr-10 relative left-0 right-0 clipy py-3 ">
       <HeaderSocialMedia />
       {headerAddress.map((item) => (
         <HeaderAdrress key={item.label} text={item.text} label={item.label} />

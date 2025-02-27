@@ -12,7 +12,7 @@ export default function Page() {
   // Example data for the Accordion
 
   return (
-    <div className="h-auto">
+    <div className="">
       <Herosection />
       <HomeServices />
       <HomeAbout />

@@ -11,11 +11,14 @@ function Primary({ url, text }: { url: string; text: string }) {
   return (
     <button
       onClick={() => handleNavigation()}
-      className="px-[16px] py-[8px] bg-transparent border border-white border-solid rounded-full flex gap-2 items-center group hover:bg-white hover:text-darkblue transition-all duration-500 h-max group
+      className="px-[16px] py-[8px] bg-pink border border-pink border-solid rounded-full flex gap-2 items-center group hover:bg-transparent hover:text-white transition-all duration-500 h-max group 
     "
     >
       {text}
-      <MdArrowForward className="-rotate-45 text-white" size={20} />
+      <MdArrowForward
+        className="-rotate-45 text-darkblue group-hover:text-white font-semibold"
+        size={20}
+      />
     </button>
   );
 }

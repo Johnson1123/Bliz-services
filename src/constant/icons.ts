@@ -12,6 +12,7 @@ import { MdEngineering as Engineering } from "react-icons/md";
 import { HiMiniUserCircle as UserCircle } from "react-icons/hi2";
 import { FaComments as Comment } from "react-icons/fa6";
 import { PiGlobeLight as SocialPlatform } from "react-icons/pi";
+import { FaAngleDown as ArrowDown } from "react-icons/fa6";
 
 export {
   HiBars3BottomLeft,
@@ -28,4 +29,5 @@ export {
   UserCircle,
   Comment,
   SocialPlatform,
+  ArrowDown,
 };

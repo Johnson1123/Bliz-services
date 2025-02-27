@@ -3,7 +3,15 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import { MdArrowForward } from "react-icons/md";
 
-function Transparent({ url, text }: { url: string; text: string }) {
+function Transparent({
+  url,
+  text,
+  icon,
+}: {
+  url: string;
+  text: string;
+  icon?: boolean;
+}) {
   const router = useRouter();
   const handleNavigation = () => {
     router.push(url);
@@ -15,10 +23,12 @@ function Transparent({ url, text }: { url: string; text: string }) {
     "
     >
       {text}
-      <MdArrowForward
-        className="-rotate-45 text-white group-hover:text-darkblue"
-        size={20}
-      />
+      {icon && (
+        <MdArrowForward
+          className="-rotate-45 text-white group-hover:text-darkblue"
+          size={20}
+        />
+      )}
     </button>
   );
 }
