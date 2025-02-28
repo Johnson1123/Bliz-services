@@ -56,9 +56,11 @@ export default function BlogSlider() {
                 </div>
 
                 {/* overlay box */}
-                <div className="absolute right-0 bottom-10 w-[90%] overflow-hidden z-20 bg-gray-200 rounded-[20px] rounded-br-none px-10 px-7">
-                  <h3>A day in the life of entrepreneur & ceo</h3>
-                  <div className="flex gap-3 ">
+                <div className="absolute right-0 bottom-10 w-[90%] overflow-hidden z-20 bg-gray-200 rounded-[20px] rounded-br-none px-5 py-4">
+                  <h3 className="text-lg font-semibold leading-5  ">
+                    A day in the life of entrepreneur & ceo
+                  </h3>
+                  <div className="flex gap-3 mt-3">
                     <div className="flex items-center space-x-3">
                       <UserCircle className="text-blue" />
 

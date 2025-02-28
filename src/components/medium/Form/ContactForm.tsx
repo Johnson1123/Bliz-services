@@ -29,7 +29,7 @@ function ContactForm() {
     console.log(data);
   };
 
-  const inputStyle = `w-full md:w-[45%] lg:w-[48%] rounded-md bg-gray-200 h-[55px]`;
+  const inputStyle = `w-full md:w-[45%] rounded-md bg-gray-200 h-[55px]`;
 
   return (
     <div className="bg-gray-100 px-7 py-10 rounded-[20px]">

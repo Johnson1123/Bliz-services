@@ -1,5 +1,5 @@
-import { HiBars3BottomLeft } from "react-icons/hi2";
-import { IoMdClose } from "react-icons/io";
+import { HiBars3BottomLeft as Menu } from "react-icons/hi2";
+import { IoMdClose as Close } from "react-icons/io";
 import { MdOutlineWavingHand } from "react-icons/md";
 import { MdArrowForward as UpwardArrow } from "react-icons/md";
 import { MdFormatQuote as Quote } from "react-icons/md";
@@ -15,8 +15,8 @@ import { PiGlobeLight as SocialPlatform } from "react-icons/pi";
 import { FaAngleDown as ArrowDown } from "react-icons/fa6";
 
 export {
-  HiBars3BottomLeft,
-  IoMdClose,
+  Menu,
+  Close,
   MdOutlineWavingHand as Waving,
   UpwardArrow,
   Quote,

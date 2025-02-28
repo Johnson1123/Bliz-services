@@ -8,7 +8,7 @@ import Primary from "@/components/small/Buttons/Primary";
 
 function HerosectionEmployment() {
   return (
-    <div className="HeroWork__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center relative left-0 right-0">
+    <div className="HeroWork__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center relative left-0 right-0 z-40">
       <HerosectionBottomClipy />
       <HerosectionTopClipy />
 

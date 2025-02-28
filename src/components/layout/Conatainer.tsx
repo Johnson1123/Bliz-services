@@ -8,7 +8,9 @@ function Conatainer({
   full: boolean;
 }) {
   return (
-    <div className={`w-[90%] lg:w-[80%] xl:w-[70%] mx-auto ${full}`}>
+    <div
+      className={`w-[90%] md:w-[80%] lg:w-[65%] 3k:w-[60%] mx-auto ${full} `}
+    >
       {children}
     </div>
   );

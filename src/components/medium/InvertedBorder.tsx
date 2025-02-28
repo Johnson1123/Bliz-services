@@ -25,7 +25,11 @@ const InvertedBorder = ({
   role,
 }: Props) => {
   return (
-    <div className="w-full h-[300px] xl:h-[350px] bg-white relative top-0 left-0 overflow-hidden rounded-[20px]">
+    <div
+      className={`w-full  ${
+        testimonial ? "h-auto min-h-[300px]" : "h-[300px] xl:h-[250px]"
+      }  shadow-md relative top-0 left-0 overflow-hidden rounded-[20px]`}
+    >
       <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white">
         {testimonial && (
           <TestimonialContent

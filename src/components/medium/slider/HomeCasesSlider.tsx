@@ -6,9 +6,9 @@ import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
 import { homeServices } from "@/constant/data";
-import InvertedBorder from "../InvertedBorder";
+import CasesBox from "../CasesBox";
 
-export default function HomeServicesSwiper() {
+export default function HomeCasesSlider() {
   return (
     <div className="w-[100%] h-[100%] overflow-hidden">
       <Swiper
@@ -23,18 +23,18 @@ export default function HomeServicesSwiper() {
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 30,
           },
           1024: {
             slidesPerView: 3,
-            spaceBetween: 25,
+            spaceBetween: 45,
           },
         }}
       >
         {homeServices.map((item, i) => {
           return (
             <SwiperSlide key={i}>
-              <InvertedBorder {...item} testimonial={false} />
+              <CasesBox />
             </SwiperSlide>
           );
         })}

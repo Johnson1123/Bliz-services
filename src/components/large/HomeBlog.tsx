@@ -17,11 +17,7 @@ function HomeBlog() {
               {/* Section title */}
               <div className="w-[80%] mx-auto mt-5">
                 <h2 className="py-1 text-center">
-                  Our Latest{" "}
-                  <span className="text-blue border-b-2 border-blue">
-                    Blogs
-                  </span>{" "}
-                  and New
+                  Our <span className="text-blue">Latest Blogs</span> & New
                 </h2>
               </div>
 
