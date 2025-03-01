@@ -3,10 +3,14 @@ import Conatainer from "../layout/Conatainer";
 import Accordion from "../medium/Accordion";
 import { accordionData } from "@/constant/data";
 import FAQOvalayImage from "../small/FAQOvalayImage";
+import bgImg from "../../../public/Image/why-work-with-us.jpg";
 
 const HomeFAQ = () => {
   return (
-    <section className="h-max min-h-[100vh] py-16 md:min-h-[100vh] lg:min-h-[100vh] lg:max-h-[600px] lg:py-0 3k:max-h-[800px] flex items-center bg-[url('/image/why-work-with-us.jpg')] bg-cover bg-center bg-no-repeat">
+    <section
+      className="h-max min-h-[100vh] py-16 md:min-h-[100vh] lg:min-h-[100vh] lg:max-h-[600px] lg:py-0 3k:max-h-[800px] flex items-center bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImg.src})` }}
+    >
       <Conatainer full={false}>
         <div className="flex flex-col  items-center">
           <div className="w-full lg:grid grid-cols-2 gap-4 grid-rows-1">

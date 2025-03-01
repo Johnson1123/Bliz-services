@@ -2,10 +2,14 @@ import React from "react";
 import Conatainer from "../layout/Conatainer";
 import Testimonials from "../medium/slider/Testimonials";
 import TransparentBlue from "../small/Buttons/TransparentBlue";
+import bgImg from "../../../public/Image/testimonial-bg.png";
 
 const HomeTestimonials = () => {
   return (
-    <section className="h-[100vh] md:min-h-[550px] md:max-h-[700px] lg:min-h-[100vh]  3k:max-h-[800px] flex items-center bg-gray-200 bg-[url('/image/testimonial-bg.png')] bg-cover bg-center bg-no-repeat">
+    <section
+      className="h-auto md:min-h-[550px] md:max-h-[700px] lg:min-h-[100vh]  3k:max-h-[800px] flex items-center bg-gray-200 bg-[url('/image/testimonial-bg.png')] bg-cover bg-center bg-no-repeat"
+      style={{ background: `url(${bgImg.src})` }}
+    >
       <Conatainer full={false}>
         <div className="w-full h-auto flex flex-col items-center py-16">
           <div className="w-full md:w-full md:flex justify-between items-center">
