@@ -6,7 +6,7 @@ import MetricsContainer from "../medium/MetricsContainer";
 
 function HomeCases() {
   return (
-    <section className="h-max min-h-[100vh] py-16 md:min-h-[100vh] md:max-h-[800px] lg:max-h-[600px] lg:py-0 lg:min-h-[100vh] xl:max-h-[800px] 3k:max-h-[800px] flex items-center">
+    <section className="h-auto min-h-[100vh] py-16 md:min-h-[100vh] md:max-h-[800px] lg:max-h-[600px] lg:py-0 lg:min-h-[100vh] xl:max-h-[850px] xl:py-16 3k:max-h-[800px] flex items-center">
       <Conatainer full={false}>
         <div className="">
           <div className="bg-gradient-to-r from-gray-200 to-gray-50 px-7 rounded-full py-2 w-max">
