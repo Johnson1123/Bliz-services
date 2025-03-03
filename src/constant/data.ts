@@ -226,4 +226,19 @@ export const specialServics = [
     link: ",",
   },
 ];
+
+export const homeProgressData = [
+  {
+    label: "University Addmissions",
+    percentage: 85,
+  },
+  {
+    label: "Job Placement Success",
+    percentage: 95,
+  },
+  {
+    label: "Bussiness Expansion",
+    percentage: 87,
+  },
+];
 export default SocialLinks;

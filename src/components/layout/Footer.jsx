@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import IFooter from "../small/Icons/IFooter";
 import SocialLinks, { contact, location } from "@/constant/data";
-import Link from "next/link";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
@@ -11,7 +10,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="bg-[#162c5b] text-white py-8 w-full flex flex-col justify-center lg:h-[50%]">
-      <div className="w-[90vw] lg:w-full lg:grid lg:grid-cols-10 4k:w-[60vw]">
+      <div className="w-[90vw] lg:w-full lg:grid lg:grid-cols-10">
         {/* footer content Section */}
         <div className="flex flex-col items-center lg:col-start-2 lg:col-end-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-between gap-6 w-full">

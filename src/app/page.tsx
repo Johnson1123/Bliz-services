@@ -8,6 +8,7 @@ import HomeContact from "@/components/large/HomeContact";
 import HomeTestimonials from "@/components/large/HomeTestimonials";
 import HomeBlog from "@/components/large/HomeBlog";
 import HomeCases from "@/components/large/HomeCases";
+import HomeWhy from "@/components/large/HomeWhy";
 
 export default function Page() {
   // Example data for the Accordion
@@ -19,6 +20,7 @@ export default function Page() {
       <HomeAbout />
       <HomeCases />
       <HomeFAQ />
+      <HomeWhy />
       <HomeContact />
       <HomeTestimonials />
       <HomeBlog />
