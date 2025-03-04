@@ -43,7 +43,7 @@ const HomeFAQ = () => {
             </div>
 
             {/* Image Contanier */}
-            <div className="hidden sm:landscape:hidden md:landscape:block md:block md:w-[100%] md:mx-auto lg:col-span-1 row-span-1">
+            <div className="hidden md:block sm:landscape:hidden md:landscape:block  md:w-[100%] md:mx-auto lg:col-span-1 row-span-1">
               <FAQOvalayImage />
             </div>
           </div>
