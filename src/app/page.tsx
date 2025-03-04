@@ -23,7 +23,7 @@ export default function Page() {
       <HomeWhy />
       <HomeContact />
       <HomeTestimonials />
-      <HomeBlog />
+      {/* <HomeBlog /> */}
     </div>
   );
 }

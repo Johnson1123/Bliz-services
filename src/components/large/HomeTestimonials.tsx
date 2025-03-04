@@ -7,7 +7,7 @@ import bgImg from "../../../public/Image/testimonial-bg.png";
 const HomeTestimonials = () => {
   return (
     <section
-      className="h-auto md:min-h-[550px] md:max-h-[700px] lg:min-h-[100vh]  3k:max-h-[800px] flex items-center bg-gray-200 bg-[url('/image/testimonial-bg.png')] bg-cover bg-center bg-no-repeat"
+      className="h-auto py-20 lg:py-0 md:min-h-[550px] md:max-h-[700px] lg:min-h-[100vh]  3k:max-h-[800px] flex items-center bg-gray-200 bg-cover bg-center bg-no-repeat"
       style={{ background: `url(${bgImg.src})` }}
     >
       <Conatainer full={false}>
@@ -19,7 +19,7 @@ const HomeTestimonials = () => {
               </div>
 
               <div className="mt-5 w-[80%] md:w-full">
-                <h2 className="py-1">
+                <h2 className="py-1 text-black">
                   People Talk about{" "}
                   <span className="text-blue border-b-2 border-blue">
                     Blizz Services

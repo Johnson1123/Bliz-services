@@ -21,7 +21,7 @@ const HomeAbout = () => {
           </div>
 
           <div className="mt-5 w-[90%] md:w-full xl:w-[80%]">
-            <h2 className="py-1 ">
+            <h2 className="py-1 text-black">
               We specialize in seamless{" "}
               <strong className="text-blue border-b-2 border-blue ml-1">
                 International Relocations
@@ -30,7 +30,7 @@ const HomeAbout = () => {
           </div>
 
           <div className="mt-7 xl:w-[90%]">
-            <p>
+            <p className="text-black">
               We make relocating abroad stress-free with expert guidance at
               every step. From visas to settling in, we handle it all
               seamlessly. Start your journey with confidence today!

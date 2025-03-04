@@ -6,7 +6,7 @@ import MetricsContainer from "../medium/MetricsContainer";
 
 function HomeCases() {
   return (
-    <section className="h-auto min-h-[100vh] py-16 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh] md:landscape:h-auto md:landscape:py-16 xl:py-16 3k:max-h-[800px] flex items-center">
+    <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh] md:landscape:h-auto md:landscape:py-16 xl:py-16 3k:max-h-[800px] flex items-center bg-white">
       <Conatainer full={false}>
         <div className="">
           <div className="bg-gradient-to-r from-gray-200 to-gray-50 px-7 rounded-full py-2 w-max">
@@ -15,7 +15,7 @@ function HomeCases() {
 
           <div className="md:grid grid-cols-10 gap-1 items-end">
             <div className="mt-5 w-[90%] md:col-span-4">
-              <h2 className="py-1 ">
+              <h2 className="py-1 text-black">
                 We specialize in seamless{" "}
                 <strong className="text-blue border-b-2 border-blue">
                   International Relocations
@@ -24,7 +24,7 @@ function HomeCases() {
             </div>
 
             <div className="mt-7 col-span-3">
-              <p>
+              <p className="text-white">
                 We make relocating abroad stress-free with expert guidance at
                 every step. From visas to settling in, we handle it all
                 seamlessly.

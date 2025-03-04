@@ -8,7 +8,7 @@ import Image from "next/image";
 const HomeWhy = () => {
   return (
     <section
-      className="py-16 w-full h-auto bg-cover bg-no-repeat bg-center"
+      className="py-20 w-full h-auto bg-cover bg-no-repeat bg-left-bottom md:bg-center"
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
       <Conatainer full={true}>
@@ -21,17 +21,17 @@ const HomeWhy = () => {
             </div>
             {/* title */}
             <div className="mt-5 w-[90%] md:w-full xl:w-[80%] md:t-3">
-              <h2 className="py-1 ">
+              <h2 className="py-1  text-black ">
                 Proven Success,{" "}
                 <strong className="text-blue border-b-2 border-blue ml-1">
-                  Unmatched Expertise
+                  Unmatched Expertise{" "}
                 </strong>
                 Your Global Dreams!
               </h2>
             </div>
             {/*  text content*/}
             <div className="mt-7 xl:w-[90%]">
-              <p>
+              <p className="text-black">
                 We make relocating abroad stress-free with expert guidance at
                 every step. From visas to settling in, we handle it all
                 seamlessly. Start your journey with confidence today!
@@ -46,7 +46,7 @@ const HomeWhy = () => {
           </div>
 
           {/* Image container */}
-          <div className="relative left-0 right-0 grid grid-cols-1 grid-rows-9 h-[400px] w-full mt-10 gap-5">
+          <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-[400px] w-full mt-10 gap-5">
             <div className="row-span-5 col-span-1 relative left-0 right-0 overflow-hidden rounded-lg">
               <Image
                 src="/Image/BLIZ 3.png"
