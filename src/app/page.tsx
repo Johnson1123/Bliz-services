@@ -6,7 +6,6 @@ import HomeAbout from "@/components/large/HomeAbout";
 import HomeFAQ from "@/components/large/HomeFAQ";
 import HomeContact from "@/components/large/HomeContact";
 import HomeTestimonials from "@/components/large/HomeTestimonials";
-import HomeBlog from "@/components/large/HomeBlog";
 import HomeCases from "@/components/large/HomeCases";
 import HomeWhy from "@/components/large/HomeWhy";
 
