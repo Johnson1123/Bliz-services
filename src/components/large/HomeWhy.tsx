@@ -8,11 +8,11 @@ import Image from "next/image";
 const HomeWhy = () => {
   return (
     <section
-      className="py-20 w-full h-auto bg-cover bg-no-repeat bg-left-bottom md:bg-center"
+      className="py-20 w-full bg-white h-auto bg-cover bg-no-repeat bg-left-bottom md:bg-center"
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
       <Conatainer full={true}>
-        <div className=" md:grid grid-cols-2 gap-5 md:gap-10 lg:min-h-[100vh] items-center">
+        <div className="md:grid grid-cols-2 gap-5 md:gap-10 lg:min-h-[100vh] items-center">
           {/* Description container */}
           <div className="md:order-last">
             {/* tag  */}

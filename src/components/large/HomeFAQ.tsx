@@ -24,7 +24,7 @@ const HomeFAQ = () => {
 
                 {/* Section title */}
                 <div className="mt-5 w-[90%] md:w-full">
-                  <h2 className="py-1">
+                  <h2 className="py-1 text-black">
                     Keep Your Business
                     <span className="text-blue border-b-2 border-blue ml-1">
                       Safe{" "}
