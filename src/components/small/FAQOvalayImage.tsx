@@ -3,7 +3,7 @@ import React from "react";
 
 function FAQOvalayImage() {
   return (
-    <div className="hidden md:block w-full relative h-[350px] md:h-[450px] lg:h-full my-5 lg:my-0">
+    <div className=" w-full relative h-[350px] md:h-[450px] lg:h-full my-5 lg:my-0">
       <div className="w-[90%] md:w-[90%] lg:h-full relative">
         <Image
           src={"/image-2.webp"}
