@@ -18,10 +18,10 @@ function ServicesContent({ text, image, title }: Props) {
 
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end px-4 pb-10">
         <div className="">
-          <h3 className="text-white">{title}</h3>
+          <h3 className="text-black">{title}</h3>
         </div>
         <div className="mt-2">
-          <p className="text-white">{text}</p>
+          <p className="text-black">{text}</p>
         </div>
       </div>
     </div>
