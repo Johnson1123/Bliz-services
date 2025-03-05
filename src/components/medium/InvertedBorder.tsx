@@ -66,20 +66,6 @@ const InvertedBorder = ({
           <IInverted url={url ? url : ""} style="text-black -rotate-45" />
         )}
       </div>
-      <div
-        className={`absolute w-[20px] h-[40px] top-[80px] right-0 bg-transparent rounded-tr-[25px] *:z-10 ${
-          testimonial
-            ? "shadow-[1px_-20px_0_#e5e7eb]"
-            : "shadow-[1px_-20px_0_#fff]"
-        }`}
-      ></div>
-      <div
-        className={`absolute w-[20px] h-[80px] top-0 right-[90px] bg-transparent rounded-tr-[25px] z-10 ${
-          testimonial
-            ? "shadow-[1px_-20px_0_#e5e7eb]"
-            : "shadow-[1px_-20px_0_#fff]"
-        }`}
-      ></div>
     </div>
   );
 };

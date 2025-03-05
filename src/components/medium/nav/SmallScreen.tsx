@@ -23,13 +23,7 @@ function SmallScreen() {
         <div className="w-[95vw] lg:w-[95vw]  h-[100px] mx-auto flex justify-center items-center border-b border-white">
           {/* small screen modal logo wrapper */}
           <div className="grid place-items-center">
-            <Image
-              src="/logo.png"
-              alt="Bliaz"
-              width={250}
-              height={250}
-              objectFit="cover"
-            />
+            <Image src="/logo.png" alt="Bliaz" width={250} height={250} />
           </div>
         </div>
 

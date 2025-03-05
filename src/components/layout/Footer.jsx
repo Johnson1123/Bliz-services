@@ -91,24 +91,30 @@ const Footer = () => {
                 Useful <span className="text-pink">Links</span>
               </h3>
               <ul className="space-y-1 text-gray-300">
-                <Link
-                  href={"/study-abroad"}
-                  className="text-white hover:text-pink cursor-pointer"
-                >
-                  STUDY ABROAD
-                </Link>
-                <Link
-                  href={"/work-abroad"}
-                  className="text-white hover:text-pink cursor-pointer"
-                >
-                  WORK ABROAD
-                </Link>
-                <Link
-                  href={"/work-abroad"}
-                  className="text-white hover:text-pink cursor-pointer"
-                >
-                  DIGITAL LITERACY
-                </Link>
+                <li>
+                  <Link
+                    href={"/study-abroad"}
+                    className="text-white hover:text-pink cursor-pointer"
+                  >
+                    STUDY ABROAD
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={"/work-abroad"}
+                    className="text-white hover:text-pink cursor-pointer"
+                  >
+                    WORK ABROAD
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={"/work-abroad"}
+                    className="text-white hover:text-pink cursor-pointer"
+                  >
+                    DIGITAL LITERACY
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>

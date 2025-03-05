@@ -24,13 +24,13 @@ function HomeCases() {
             </div>
 
             <div className="mt-7 col-span-3">
-              <p className="text-white">
+              <p className="text-black">
                 We make relocating abroad stress-free with expert guidance at
                 every step. From visas to settling in, we handle it all
                 seamlessly.
               </p>
             </div>
-            <div className="mt-5 lg:mt-0 col-span-3 xl:col-start-9 xl:col-end-11">
+            <div className="mt-5 lg:mt-0 col-span-3 xl:col-start-9 xl:-col-end-1 md:justify-items-end">
               <TransparentBlue text={"All Case Studies"} url="/" />
             </div>
           </div>
