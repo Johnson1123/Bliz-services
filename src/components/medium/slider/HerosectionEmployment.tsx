@@ -8,10 +8,8 @@ import Primary from "@/components/small/Buttons/Primary";
 
 function HerosectionEmployment() {
   return (
-    <div className="HeroWork__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center relative left-0 right-0 z-40">
-      <HerosectionBottomClipy />
+    <div className="HeroWork__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center relative left-0 right-0 z-40 overflow-hidden">
       <HerosectionTopClipy />
-
       <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9 3k:col-start-3">
         {/* tagged */}
         <motion.div
@@ -139,6 +137,7 @@ function HerosectionEmployment() {
           </motion.div>
         </motion.div>
       </div>
+      <HerosectionBottomClipy />
     </div>
   );
 }

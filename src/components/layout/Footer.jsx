@@ -6,6 +6,7 @@ import SocialLinks, { contact, location } from "@/constant/data";
 import { FaEnvelopeOpenText } from "react-icons/fa";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -90,12 +91,24 @@ const Footer = () => {
                 Useful <span className="text-pink">Links</span>
               </h3>
               <ul className="space-y-1 text-gray-300">
-                <p className="text-white hover:text-pink cursor-pointer">
-                  Study Overseas
-                </p>
-                <p className="text-white hover:text-pink cursor-pointer">
-                  Work Overseas
-                </p>
+                <Link
+                  href={"/study-abroad"}
+                  className="text-white hover:text-pink cursor-pointer"
+                >
+                  STUDY ABROAD
+                </Link>
+                <Link
+                  href={"/work-abroad"}
+                  className="text-white hover:text-pink cursor-pointer"
+                >
+                  WORK ABROAD
+                </Link>
+                <Link
+                  href={"/work-abroad"}
+                  className="text-white hover:text-pink cursor-pointer"
+                >
+                  DIGITAL LITERACY
+                </Link>
               </ul>
             </div>
           </div>

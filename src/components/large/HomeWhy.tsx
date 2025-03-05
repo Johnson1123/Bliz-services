@@ -48,28 +48,25 @@ const HomeWhy = () => {
           {/* Image container */}
           <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-[400px] w-full mt-10 gap-5">
             <div className="row-span-5 col-span-1 relative left-0 right-0 overflow-hidden rounded-lg">
-              <Image
+              <img
                 src="/Image/BLIZ 3.png"
                 alt=""
-                fill
-                objectFit="cover overflow-hidden rounded-lg"
+                className="aspect-square w-full object-cover"
               />
             </div>
             <div className="row-span-4 col-span-1  grid grid-cols-2 gap-x-5">
               <div className="relative left-0 right-0 col-span-1 w-full overflow-hidden rounded-lg">
-                <Image
+                <img
                   src="/Image/BLIZ 2.png"
-                  alt="image"
-                  fill
-                  objectFit="cover"
+                  alt=""
+                  className="aspect-square w-full object-cover"
                 />
               </div>
               <div className="col-span-1 relative left-0 right-0 overflow-hidden rounded-lg">
-                <Image
+                <img
                   src="/Image/BLIZ 3.png"
-                  alt="image"
-                  fill
-                  objectFit="cover"
+                  alt=""
+                  className="aspect-square w-full object-cover"
                 />
               </div>
             </div>

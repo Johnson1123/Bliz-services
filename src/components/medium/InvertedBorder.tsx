@@ -27,8 +27,8 @@ const InvertedBorder = ({
   return (
     <div
       className={`w-full  ${
-        testimonial ? "h-auto min-h-[300px]" : "h-[300px] xl:h-[250px]"
-      }  shadow-md relative top-0 left-0 overflow-hidden rounded-[20px]`}
+        testimonial ? "h-auto  aspect-square" : "aspect-square h-auto"
+      }   relative top-0 left-0 overflow-hidden rounded-[20px]`}
     >
       <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white">
         {testimonial && (

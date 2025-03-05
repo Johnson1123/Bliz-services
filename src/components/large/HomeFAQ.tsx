@@ -8,7 +8,7 @@ import bgImg from "../../../public/Image/why-work-with-us.jpg";
 const HomeFAQ = () => {
   return (
     <section
-      className="h-max min-h-[100vh] py-16 md:min-h-[100vh] lg:min-h-[100vh] lg:max-h-[600px] lg:py-0 3k:max-h-[800px] flex items-center bg-cover bg-right md:bg-center bg-no-repeat"
+      className="h-max py-16 md:min-h-[100vh] lg:min-h-[100vh] lg:max-h-[600px] lg:py-0 3k:max-h-[800px] flex items-center bg-cover bg-right md:bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
       <Conatainer full={false}>

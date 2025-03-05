@@ -11,9 +11,9 @@ import HerosectionDigital from "../medium/slider/HerosectionDigital";
 
 function Herosection() {
   return (
-    <section className="h-[100vh] min-h-[550px] md:max-h-[700px] 3k:max-h-[800px] relative left-0 right-0">
+    <section className="h-[calc(100vh_-_160px)] md:max-h-[700px] 3k:max-h-[800px] relative left-0 right-0">
       <div className="w-full h-full grid grid-cols-1 grid-rows-10 lg:grid-rows-1 lg:grid-cols-10">
-        <div className="row-span-9 col-span-1 lg:col-span-9 lg:row-span-1 rounded-br-[50px]  overflow-hidden">
+        <div className="row-span-10 col-span-1 lg:col-span-9 lg:row-span-1 rounded-br-[50px]  overflow-hidden">
           <Swiper
             autoplay={{
               delay: 5000,
@@ -23,7 +23,7 @@ function Herosection() {
             modules={[Autoplay]}
             loop={true}
             speed={3000}
-            className="h-full w-full"
+            className="h-full w-full overflow-hidden"
           >
             <SwiperSlide>
               <HerosectionEducation />
@@ -36,7 +36,7 @@ function Herosection() {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="lg:col-span-1 row-span-1 col-span-10 lg:row-span-10 lg:flex justify-center bg-white">
+        <div className="lg:col-span-1 row-span-1 hidden lg:flex lg:row-span-10 justify-center">
           <Image
             src="/bliz-services.png"
             height={50}
@@ -46,7 +46,7 @@ function Herosection() {
           />
         </div>
       </div>
-      <div className="absolute -bottom-10 -right-5">
+      <div className="absolute -bottom-10 -right-5 hidden md:block">
         <Image
           src={"/Circular Mess.png"}
           alt="overlay image circle"

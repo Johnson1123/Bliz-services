@@ -10,8 +10,6 @@ import HomeCases from "@/components/large/HomeCases";
 import HomeWhy from "@/components/large/HomeWhy";
 
 export default function Page() {
-  // Example data for the Accordion
-
   return (
     <div className="">
       <Herosection />
