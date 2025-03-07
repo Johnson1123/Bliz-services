@@ -18,7 +18,7 @@ function TestimonialContent({ text, role, name, rating }: Props) {
       <div className="mt-7 3k:mt-10">
         <div className="">
           <h3 className="text-lg font-semibold truncate text-black">{name}</h3>
-          <p>{role}</p>
+          <p className="text-sm text-black">{role}</p>
         </div>
 
         <div className="mt-5 3k:mt-10">
