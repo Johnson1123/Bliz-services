@@ -6,7 +6,7 @@ const RatingWithBtn = () => {
   return (
     <>
       {/* Rating */}
-      <div className="bg-white py-1 mt-5 rounded-full flex flex-col md:flex-row gap-3 w-max">
+      <div className="w-full bg-white py-1 mt-2 md:mt-5 rounded-full flex flex-row flex-wrap  gap-3">
         <div className="rounded-xl py-3 flex">
           <TransparentBlue text="Learn More" url="/" />
         </div>

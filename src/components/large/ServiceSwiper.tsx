@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
-import Secondary from "../small/Buttons/Secondary";
 import Transparent from "../small/Buttons/Transparent";
 import { motion } from "framer-motion";
+import Primary from "../small/Buttons/Primary";
 
 export default function ServiceSwiper() {
   return (
-    <section className="h-[100vh] min-h-[450px] max-h-[650px] service__slider-bg">
+    <section className="h-[100vh]  md:h-[60vh] lg:h-[100vh]  service__slider-bg servicesContainer">
       <div className="h-full w-full grid grid-cols-10">
-        <div className="content col-start-3 col-end-8 h-full">
+        <div className="content col-start-2 col-end-10 md:col-start-3 md:col-end-8 h-full">
           <div className="w-full mx-auto h-full bg-transparent flex flex-col justify-center">
             <div className="w-[100%] lg:w-[70%] xl:[60%]">
               {/* tagged */}
@@ -34,7 +34,7 @@ export default function ServiceSwiper() {
                   }}
                   className="flex py-2 items-center gap-4"
                 >
-                  <div className="text-white bg-blue px-7 rounded-full py-1">
+                  <div className="text-black bg-pink px-7 rounded-full py-2">
                     <p className="text-base font-medium">Changing The Way</p>
                   </div>
                 </motion.h3>
@@ -121,7 +121,7 @@ export default function ServiceSwiper() {
                   }}
                   className="flex gap-4"
                 >
-                  <Secondary text="Apply Now" url="/employment" />
+                  <Primary text="Apply Now" url="/employment" />
                   <Transparent text="Get In touch" url="/contact" />
                 </motion.div>
               </motion.div>

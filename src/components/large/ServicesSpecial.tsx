@@ -5,7 +5,7 @@ import { specialServics } from "@/constant/data";
 
 const ServicesSpecial = () => {
   return (
-    <section className="h-[100vh] min-h-[450px] max-h-[850px] flex items-center">
+    <section className="py-20 min-h-[450px] md:h-[60vh] lg:h-[100vh] flex items-center">
       <Conatainer full={false}>
         <div className="w-full h-full flex flex-col justify-center items-center bg-white">
           <div className="bg-gradient-to-r from-gray-200 to-[#fff] px-7 rounded-full py-2 w-max">
@@ -19,7 +19,7 @@ const ServicesSpecial = () => {
               <span className="text-blue border-b-2 border-blue">Services</span>
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-7 mt-10">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-7 gap-y-5 md:gap-7 mt-10">
             {specialServics.map((item, i) => {
               return <ServicesSpacialBox {...item} key={i} />;
             })}

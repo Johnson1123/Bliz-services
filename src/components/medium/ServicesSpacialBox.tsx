@@ -18,7 +18,7 @@ export default function ServicesSpacialBox({
 }: Props) {
   return (
     <div
-      className={`grid-col-1 group rounded-xl relative top-0 left-0 min-h-[300px] overflow-hidden group]`}
+      className={`grid-col-1 group rounded-xl relative top-0 left-0 overflow-hidden group] aspect-square`}
     >
       <h2>{title}</h2>
       <p>{text}</p>

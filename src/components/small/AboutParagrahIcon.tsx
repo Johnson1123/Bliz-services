@@ -7,8 +7,8 @@ type Props = {
 
 export default function AboutParagrahIcon({ text }: Props) {
   return (
-    <div className="flex gap-3 lg:gap-0 items-center lg:w-[48%]">
-      <Check size={20} className="text-blue" />
+    <div className="flex gap-3 lg:ga-2 items-center lg:w-[48%]">
+      <Check size={20} className="text-pink" />
       <p className="font-semibold text-sm text-black">{text}</p>
     </div>
   );

@@ -6,7 +6,7 @@ import FAQOvalayImage from "../small/FAQOvalayImage";
 
 const ServicesOverview = () => {
   return (
-    <section className="h-[100vh] min-h-[450px] max-h-[650px] flex items-center">
+    <section className=" min-h-[450px] py-20 flex items-center">
       <Conatainer full={true}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:align-center">
           <div className="col-span-1 md:order-last">

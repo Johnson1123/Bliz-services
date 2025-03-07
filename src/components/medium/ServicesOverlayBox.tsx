@@ -11,7 +11,7 @@ type Props = {
 const ServicesOverlayBox = ({ text, image, title, background }: Props) => {
   return (
     <div
-      className={`col-span-1 row-span-1 shadow-2xl ${
+      className={`col-span-1 row-span-1 shadow-2xl aspect-square ${
         background == "white" ? "bg-white" : "bg-teal-500"
       } rounded-xl p-5 xl:p-7`}
     >
