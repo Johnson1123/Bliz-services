@@ -9,7 +9,7 @@ function Conatainer({
 }) {
   return (
     <div
-      className={`w-[90%] md:w-[80%] lg:w-[65%] 3k:w-[60%] mx-auto ${full} `}
+      className={`w-[90%] md:w-[80%] lg:w-[65%] 3k:w-[60%] mx-auto ${full} container`}
     >
       {children}
     </div>

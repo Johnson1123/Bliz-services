@@ -7,7 +7,7 @@ import bgImg from "../../../public/Image/about-us-bg.jpg";
 const HomeAbout = () => {
   return (
     <section
-      className="h-auto py-16  md:h-[100vh] md:min-h-[550px] landscape:sm:min-h-[700px] landscape:sm:bg-red-500 md:max-h-[700px] lg:min-h-[100vh] 3k:max-h-[800px] flex items-center relative top-0 left-0  bg-no-repeat bg-cover bg-center"
+      className="h-max py-16 md:h-[100vh] md:min-h-[550px] landscape:sm:min-h-[700px] landscape:sm:bg-red-500 md:max-h-[700px] lg:min-h-[100vh] 3k:max-h-[800px] flex items-center relative top-0 left-0  bg-no-repeat bg-cover bg-center"
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
       <div className="flex flex-col md:grid grid-cols-2 gap-4 w-[90%] md:w-[90%] lg:w-[90%] 3k:w-[80%] mx-auto md:ml-0">
@@ -15,7 +15,7 @@ const HomeAbout = () => {
         <HomeAboutImage />
 
         {/* content container */}
-        <div className="mt-10 md:mt-5 px-3 flex flex-col md:col-start-2 md:col-end-3">
+        <div className="md:mt-5 px-3 flex flex-col md:col-start-2 md:col-end-3">
           <div className="bg-gradient-to-r from-[#fff] to-gray-100 px-7 rounded-full py-2 w-max">
             <p className="text-blue">ABOUT US </p>
           </div>

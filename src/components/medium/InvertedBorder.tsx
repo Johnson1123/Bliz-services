@@ -26,8 +26,10 @@ const InvertedBorder = ({
 }: Props) => {
   return (
     <div
-      className={`w-full  ${
-        testimonial ? "h-auto  aspect-square" : "aspect-square h-auto"
+      className={`  ${
+        testimonial
+          ? "w-full h-[300px] md:h-[300px] lg:h-[350px] xl:h-[300px] 3k:h-auto  3k:aspect-square"
+          : "aspect-square h-auto"
       }   relative top-0 left-0 overflow-hidden rounded-[20px]`}
     >
       <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white">
