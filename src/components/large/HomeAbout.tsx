@@ -10,7 +10,7 @@ const HomeAbout = () => {
       className="h-max py-16 md:h-[100vh] md:min-h-[550px] landscape:sm:min-h-[700px] landscape:sm:bg-red-500 md:max-h-[700px] lg:min-h-[100vh] 3k:max-h-[800px] flex items-center relative top-0 left-0  bg-no-repeat bg-cover bg-center"
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
-      <div className="flex flex-col md:grid grid-cols-2 gap-4 w-[90%] md:w-[90%] lg:w-[90%] 3k:w-[80%] mx-auto md:ml-0">
+      <div className="flex flex-col md:grid grid-cols-2 gap-4 w-[90%] md:w-[90%] lg:w-[90%] 3k:w-[80%] mx-auto md:ml-0 3k:items-center">
         {/* curve image */}
         <HomeAboutImage />
 

@@ -12,7 +12,7 @@ type Props = {
 
 function TestimonialContent({ text, role, name, rating }: Props) {
   return (
-    <div className="h-full w-full bg-white py-2 3k:py-7 px-3 flex flex-col 3k:justify-stretch ">
+    <div className="h-full w-full bg-white py-2 3k:py-7 px-3">
       <Quote size={45} className="text-pink" />
 
       <div className="mt-7 3k:mt-10">

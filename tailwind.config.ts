@@ -19,6 +19,15 @@ export default {
         darkBlue: "#09092a",
       },
       screens: {
+        "1kk": {
+          raw: "(min-width:325px)",
+        },
+        "2kk": {
+          raw: "(min-width:420px)",
+        },
+        "3kk": {
+          raw: "(min-width:520px)",
+        },
         "3k": {
           raw: "(min-width:1920px)",
         },

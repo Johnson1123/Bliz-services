@@ -28,7 +28,7 @@ const InvertedBorder = ({
     <div
       className={`  ${
         testimonial
-          ? "w-full h-[300px] md:h-[300px] lg:h-[350px] xl:h-[300px] 3k:h-auto  3k:aspect-square"
+          ? "w-full h-[300px] md:h-auto testmonial-box"
           : "aspect-square h-auto"
       }   relative top-0 left-0 overflow-hidden rounded-[20px]`}
     >
@@ -65,7 +65,10 @@ const InvertedBorder = ({
             />
           </div>
         ) : (
-          <IInverted url={url ? url : ""} style="text-black -rotate-45" />
+          <IInverted
+            url={url ? url : ""}
+            style="text-darkblue -rotate-45 group-hover:text-white"
+          />
         )}
       </div>
     </div>

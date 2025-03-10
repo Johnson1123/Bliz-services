@@ -7,10 +7,11 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineLocationOn } from "react-icons/md";
 import Link from "next/link";
+import img from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#162c5b] text-white py-8  lg:w-full flex flex-col justify-center lg:h-[50%]">
+    <footer className="bg-darkblue text-white py-8  lg:w-full flex flex-col justify-center lg:h-[50%]">
       <div className="w-[90vw] mx-auto lg:mx-0 lg:w-full lg:grid lg:grid-cols-10">
         {/* footer content Section */}
         <div className="flex flex-col items-center lg:col-start-2 lg:col-end-10">
@@ -18,12 +19,7 @@ const Footer = () => {
             {/* First Column */}
             <div className="mt-5 w-full md:col-start-1 md:col-end-2 lg:w-max">
               <div className="">
-                <Image
-                  src="/bliz-service-transparent-logo.png"
-                  alt="Bliaz"
-                  width={250}
-                  height={250}
-                />
+                <Image src={img.src} alt="Bliaz" width={250} height={250} />
               </div>
 
               {/* contact details wrappers */}
@@ -124,7 +120,7 @@ const Footer = () => {
       </div>
       <div className="text-center mt-8 pt-8 lg:mt-3 lg:py-2 border-t border-gray-700">
         <p className="text-gray-400">
-          © 2024 Company Name. All rights reserved.
+          © 2024 KALTECH CONSULTANCY. All rights reserved.
         </p>
       </div>
     </footer>

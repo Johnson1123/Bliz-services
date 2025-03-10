@@ -30,6 +30,10 @@ export default function Testimonials() {
             slidesPerView: 3,
             spaceBetween: 50,
           },
+          2024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
         }}
         className="w-full"
       >
