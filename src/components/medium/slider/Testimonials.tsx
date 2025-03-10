@@ -8,8 +8,6 @@ import "swiper/css/pagination";
 
 import { Autoplay } from "swiper/modules";
 import { testimonials } from "@/constant/data";
-import InvertedBorder from "../InvertedBorder";
-import IInverted from "@/components/small/Icons/IInvited";
 import TestimonialContent from "@/components/small/TestimonialContent";
 
 export default function Testimonials() {
