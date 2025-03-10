@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HomeServices = () => {
   return (
-    <section className="h-auto py-24 lg:py-0 landscape:sm:min-h-[500px] md:min-h-[550px] md:max-h-[700px] lg:min-h-[100vh] lg:h-[100vh] 3k:max-h-[800px] flex items-center relative top-0 left-0 bg-gray-100 md:bg-white">
+    <section className="h-auto py-24 lg:py-0  md:min-h-[100vh] lg:h-[100vh] flex items-center relative top-0 left-0 bg-gray-100 md:bg-white">
       <Conatainer full={false}>
         <div className="w-full flex flex-col justify-center items-center bg-white">
           <div className="mt-3">

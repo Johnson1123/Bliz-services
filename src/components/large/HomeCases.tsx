@@ -6,7 +6,7 @@ import MetricsContainer from "../medium/MetricsContainer";
 
 function HomeCases() {
   return (
-    <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh] md:landscape:h-auto md:landscape:py-16 xl:py-16 3k:max-h-[800px] flex items-center bg-white">
+    <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh]  xl:py-16 3k:max-h-[800px] flex items-center bg-white casesSection-landscape">
       <Conatainer full={false}>
         <div className="">
           <div className="bg-gradient-to-r from-gray-200 to-gray-50 px-7 rounded-full py-2 w-max">

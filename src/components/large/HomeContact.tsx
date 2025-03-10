@@ -6,7 +6,7 @@ import bgImg from "../../../public/Image/contact-bg.png";
 export default function HomeContact() {
   return (
     <section
-      className="h-auto py-8 bg-darkblue md:min-h-[550px] md:max-h-[700px] md:py-0 lg:min-h-[100vh] 3k:max-h-[800px] flex items-center bg-cover bg-no-repeat bg-center"
+      className="h-auto py-8 bg-darkblue md:min-h-[100vh]  md:py-0 lg:min-h-[100vh] 3k:max-h-[800px] flex items-center bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${bgImg.src})` }}
     >
       <Conatainer full={true}>
