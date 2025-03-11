@@ -31,7 +31,7 @@ export default function Testimonials() {
             spaceBetween: 50,
           },
           2024: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 50,
           },
         }}
@@ -39,15 +39,15 @@ export default function Testimonials() {
         {testimonials.map((item, i) => {
           return (
             <SwiperSlide key={i} className="">
-              <div className="w-full h-max">
-                <div
-                  className={`w-full h-full relative top-0 left-0 overflow-hidden rounded-[20px]`}
-                >
-                  <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white">
+              <div className="w-full h-[300px] lg:h-auto testmonial-box">
+                <div className={`w-full h-full rounded-2xl overflow-hidden  `}>
+                  <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white rounded-2xl overflow-hidden">
                     <TestimonialContent
                       text={item.text}
                       name={item.name || ""}
                       image={item.image}
+                      rounded-2xl
+                      overflow-hidden
                       rating={item.rating || 0}
                       role={item.role || ""}
                     />

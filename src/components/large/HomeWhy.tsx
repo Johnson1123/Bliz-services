@@ -46,12 +46,12 @@ const HomeWhy = () => {
           </div>
 
           {/* Image container */}
-          <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-[400px] w-full mt-10 gap-5">
-            <div className="row-span-5 col-span-1 relative left-0 right-0 overflow-hidden rounded-lg">
+          <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-[400px] xl:h-auto w-full mt-10 gap-3">
+            <div className="row-span-5  relative left-0 right-0 overflow-hidden rounded-lg">
               <img
                 src="/Image/BLIZ 3.png"
                 alt=""
-                className="aspect-square w-full object-cover"
+                className="aspect-video w-full object-cover"
               />
             </div>
             <div className="row-span-4 col-span-1  grid grid-cols-2 gap-x-5">
@@ -70,7 +70,7 @@ const HomeWhy = () => {
                 />
               </div>
             </div>
-            <div className="absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-60%] h-[100px] w-[100px] overflow-hidden rounded-full">
+            <div className="absolute top-[55%] left-[50%] translate-x-[-50%] translate-y-[-55%] h-[100px] w-[100px] overflow-hidden rounded-full">
               <Image
                 src="/Image/bliz services-05.png"
                 alt="image"
