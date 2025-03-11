@@ -137,9 +137,9 @@ p,
       rgba(22, 44, 91, 0.8),
       rgb(10, 25, 58, 0.9)
     ),
-    url("/graduation.avif");
+    url("/new/female-graduate-with-gown.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
@@ -150,7 +150,7 @@ p,
       rgba(22, 44, 91, 0.8),
       rgb(10, 25, 58, 0.9)
     ),
-    url("/image-2.webp");
+    url("/new/leadership-banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ p,
       rgba(22, 44, 91, 0.8),
       rgb(10, 25, 58, 0.9)
     ),
-    url("/image-3.webp");
+    url("/new/learning.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

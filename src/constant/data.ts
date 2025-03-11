@@ -108,22 +108,42 @@ export const testimonials = [
 
 export const homeServices = [
   {
-    image: "/graduation.avif",
+    image: "/new/study-abroad-services.jpg",
     title: "Study Abroad",
     url: "/",
     text: "We offer fantastic assistance if you wish to further your education overseas",
   },
   {
-    image: "/graduation.avif",
+    image: "/new/work-abroad-service-man.jpg",
     title: "Work Abroad",
     url: "/",
     text: "We’re familiar with the local job demand and work legislation",
   },
   {
-    image: "/graduation.avif",
+    image: "/new/learn-digital-skills.jpg",
     title: "Digital Literacy",
     url: "/",
     text: "Expand your business globally with strategic market entry services",
+  },
+];
+export const homeCases = [
+  {
+    image: "/new/couple-relocation.jpg",
+    name: "John Olamide",
+    url: "/",
+    text: "Study Abroad",
+  },
+  {
+    image: "/new/relocation-abroad.jpg",
+    name: "Olumide Elijah",
+    url: "/",
+    text: "Relocation",
+  },
+  {
+    image: "/new/hr-manager-welcoming-successful-candidate.jpg",
+    name: "Okarfor Emmanuel",
+    url: "/",
+    text: "Skills",
   },
 ];
 

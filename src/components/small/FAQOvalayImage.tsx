@@ -1,26 +1,27 @@
 import Image from "next/image";
 import React from "react";
-import mainImg from "../../assets/images/image-2.webp";
-import overLayImg from "../../assets/images/image-3.webp";
 function FAQOvalayImage() {
   return (
     <div className=" w-full relative h-[350px] md:h-[450px] lg:h-full my-5 lg:my-0">
-      <div className="w-[90%] md:w-[90%] lg:h-full relative">
+      <div className="w-[90%] md:w-[90%] lg:h-full relative left-0 right-0">
         <Image
-          src={mainImg.src}
+          src="/new/benefit-handshake.jpg"
           alt="Image label"
-          fill
-          objectFit="cover"
-          className="rounded-lg"
+          height={540}
+          width={960}
+          className="object-cover h-full rounded-md"
+          loading="lazy"
         />
       </div>
       <div className="w-[50%] lg:w-[40%] h-[200px] border-[10px] absolute top-[70%] right-0 lg:right-0 translate-y-[-70%] rounded-xl">
         <Image
-          src={overLayImg.src}
+          src="/new/happy-teaam.jpg"
           alt="Image label"
-          fill
+          height={215}
+          width={383}
           objectFit="cover"
           className=""
+          loading="lazy"
         />
       </div>
     </div>

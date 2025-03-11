@@ -34,7 +34,7 @@ export default function HomeServicesSwiper() {
         {homeServices.map((item, i) => {
           return (
             <SwiperSlide key={i}>
-              <InvertedBorder {...item} testimonial={false} />
+              <InvertedBorder {...item} />
             </SwiperSlide>
           );
         })}

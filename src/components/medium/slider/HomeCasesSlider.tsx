@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
-import { homeServices } from "@/constant/data";
+import { homeCases } from "@/constant/data";
 import CasesBox from "../CasesBox";
 
 export default function HomeCasesSlider() {
@@ -31,10 +31,10 @@ export default function HomeCasesSlider() {
           },
         }}
       >
-        {homeServices.map((item, i) => {
+        {homeCases.map((item, i) => {
           return (
             <SwiperSlide key={i}>
-              <CasesBox />
+              <CasesBox {...item} key={i} />
             </SwiperSlide>
           );
         })}

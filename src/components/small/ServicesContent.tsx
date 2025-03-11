@@ -11,7 +11,13 @@ function ServicesContent({ text, image, title }: Props) {
   return (
     <div className="relative left-0 right-0 w-full h-full rounded-lg">
       {/* background image */}
-      <Image src={image} alt="services" fill objectFit="cover" />
+      <Image
+        src={image}
+        alt="services"
+        height={540}
+        width={960}
+        className="object-cover h-full w-full"
+      />
 
       {/* overlay color */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-bl from-gray-300 to-gray-900 opacity-80"></div>

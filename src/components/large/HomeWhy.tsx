@@ -48,25 +48,34 @@ const HomeWhy = () => {
           {/* Image container */}
           <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-[400px] xl:h-auto w-full mt-10 gap-3">
             <div className="row-span-5  relative left-0 right-0 overflow-hidden rounded-lg">
-              <img
-                src="/Image/BLIZ 3.png"
+              <Image
+                src="/new/relocation-passport-box.jpg"
                 alt=""
-                className="aspect-video w-full object-cover"
+                height={960}
+                width={540}
+                className="aspect-video w-full object-cover rounded-lg"
+                loading="lazy"
               />
             </div>
             <div className="row-span-4 col-span-1  grid grid-cols-2 gap-x-5">
               <div className="relative left-0 right-0 col-span-1 w-full overflow-hidden rounded-lg">
-                <img
-                  src="/Image/BLIZ 2.png"
+                <Image
+                  src="/new/digital-skill.jpg"
                   alt=""
+                  height={215}
+                  width={383}
                   className="aspect-square w-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="col-span-1 relative left-0 right-0 overflow-hidden rounded-lg">
-                <img
-                  src="/Image/BLIZ 3.png"
+                <Image
+                  src="/new/male-employee-his-new-office-job.jpg"
                   alt=""
+                  height={215}
+                  width={383}
                   className="aspect-square w-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -76,7 +85,8 @@ const HomeWhy = () => {
                 alt="image"
                 height={100}
                 width={100}
-                className=""
+                className="aspect-square"
+                loading="lazy"
               />
             </div>
           </div>
