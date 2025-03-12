@@ -6,9 +6,9 @@ import FAQOvalayImage from "../small/FAQOvalayImage";
 
 const ServicesOverview = () => {
   return (
-    <section className=" min-h-[450px] py-20 flex items-center">
+    <section className="min-h-[450px] md:min-h-[100vh] py-20 flex items-center">
       <Conatainer full={true}>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:align-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:align-center md:gap-10">
           <div className="col-span-1 md:order-last">
             <div className="bg-gradient-to-r from-gray-200 to-white px-7 rounded-full py-2 w-max">
               <p className="text-blue font-semibold text-sm">
@@ -62,7 +62,7 @@ const ServicesOverview = () => {
           </div>
 
           {/* overlay image container */}
-          <div className="col-span-1">
+          <div className="col-span-1 hidden md:block">
             <FAQOvalayImage />
           </div>
         </div>

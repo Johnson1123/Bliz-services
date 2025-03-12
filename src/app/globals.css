@@ -97,6 +97,7 @@ p,
   @media (orientation: landscape) {
     @media (min-width: 768px) {
       height: 100vh;
+      min-width: 500px;
       min-height: auto;
     }
   }
@@ -322,12 +323,12 @@ p,
       rgba(22, 44, 91, 0.4),
       rgb(10, 25, 58, 0.5)
     ),
-    url("/graduation.avif");
+    url("/new/couple-relocation.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
 }
-
+/* end of service page style */
 .logo-bg {
   background-image: linear-gradient(
       to right,

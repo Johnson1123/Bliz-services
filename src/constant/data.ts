@@ -230,19 +230,19 @@ export const specialServics = [
   {
     title: "Study Overseas",
     text: "Shape your life and explore more through education",
-    image: "/graduation.avif",
+    image: "/new/service-services-education.jpg",
     link: ",",
   },
   {
     title: "Mass Litracy",
     text: "Shape your life and explore more through education",
-    image: "/graduation.avif",
+    image: "/new/services-services-1.jpg",
     link: ",",
   },
   {
     title: "Work Aboard",
     text: "Shape your life and explore more through education",
-    image: "/graduation.avif",
+    image: "/new/services-services-skills.jpg",
     link: ",",
   },
 ];

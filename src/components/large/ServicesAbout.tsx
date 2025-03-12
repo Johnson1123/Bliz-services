@@ -5,7 +5,7 @@ import AboutParagrah from "../medium/AboutParagrah";
 
 export default function ServicesAbout() {
   return (
-    <section className="h-max py-20 min-h-[450px] md:h-max flex items-center lg:mt-[200px]">
+    <section className="h-max py-20 min-h-[450px] md:min-h-[100vh] md:h-max flex items-center">
       <Conatainer full={true}>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-7 lg:gap-10 align-center md:items-center">
           <div className="col-span-1 row-span-1 md:order-last ">

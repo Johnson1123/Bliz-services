@@ -3,7 +3,7 @@ import ServicesBanner from "@/components/large/ServicesBanner";
 import ServicesOverlayBox from "@/components/large/ServicesOverlayContainer";
 import ServicesOverview from "@/components/large/ServicesOverview";
 import ServicesSpecial from "@/components/large/ServicesSpecial";
-import ServiceSwiper from "@/components/large/ServiceSwiper";
+import ServiceBannerMotion from "@/components/large/ServiceSwiper";
 import React from "react";
 
 export default function Services() {
@@ -14,7 +14,7 @@ export default function Services() {
         <ServicesOverlayBox />
       </div>
       <ServicesAbout />
-      <ServiceSwiper />
+      <ServiceBannerMotion />
       <ServicesSpecial />
       {/* <HomeContact /> */}
       <ServicesOverview />

@@ -46,8 +46,8 @@ const HomeWhy = () => {
           </div>
 
           {/* Image container */}
-          <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-[400px] xl:h-auto w-full mt-10 gap-3">
-            <div className="row-span-5  relative left-0 right-0 overflow-hidden rounded-lg">
+          <div className="relative left-0 right-0 hidden md:grid grid-cols-1 grid-rows-9 h-auto w-full mt-10 gap-3">
+            <div className="row-span-5  relative left-0 right-0 overflow-hidden rounded-lg aspect-video">
               <Image
                 src="/new/relocation-passport-box.jpg"
                 alt=""
@@ -58,12 +58,12 @@ const HomeWhy = () => {
               />
             </div>
             <div className="row-span-4 col-span-1  grid grid-cols-2 gap-x-5">
-              <div className="relative left-0 right-0 col-span-1 w-full overflow-hidden rounded-lg">
+              <div className="relative left-0 right-0 col-span-1 w-full overflow-hidden rounded-lg aspect-square">
                 <Image
                   src="/new/digital-skill.jpg"
                   alt=""
-                  height={215}
-                  width={383}
+                  height={200}
+                  width={200}
                   className="aspect-square w-full object-cover"
                   loading="lazy"
                 />
@@ -72,14 +72,14 @@ const HomeWhy = () => {
                 <Image
                   src="/new/male-employee-his-new-office-job.jpg"
                   alt=""
-                  height={215}
-                  width={383}
+                  height={200}
+                  width={200}
                   className="aspect-square w-full object-cover"
                   loading="lazy"
                 />
               </div>
             </div>
-            <div className="absolute top-[55%] left-[50%] translate-x-[-50%] translate-y-[-55%] h-[100px] w-[100px] overflow-hidden rounded-full">
+            <div className="absolute top-[55%] left-[50%] translate-x-[-50%] translate-y-[-55%] h-[100px] w-[100px] overflow-hidden rounded-full aspect-square">
               <Image
                 src="/Image/bliz services-05.png"
                 alt="image"

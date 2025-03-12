@@ -19,7 +19,7 @@ const ServicesSpecial = () => {
               <span className="text-blue border-b-2 border-blue">Services</span>
             </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-7 gap-y-5 md:gap-7 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-7 gap-y-5 md:gap-7 mt-10">
             {specialServics.map((item, i) => {
               return <ServicesSpacialBox {...item} key={i} />;
             })}

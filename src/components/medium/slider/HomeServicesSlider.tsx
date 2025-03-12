@@ -22,7 +22,6 @@ export default function HomeServicesSwiper() {
         loop={true}
         observer={true}
         observeParents={true}
-        slidesPerView={3}
         breakpoints={{
           400: {
             slidesPerView: 1,

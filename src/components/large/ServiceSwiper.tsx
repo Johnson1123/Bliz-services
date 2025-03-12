@@ -4,9 +4,9 @@ import Transparent from "../small/Buttons/Transparent";
 import { motion } from "framer-motion";
 import Primary from "../small/Buttons/Primary";
 
-export default function ServiceSwiper() {
+export default function ServiceBanner() {
   return (
-    <section className="h-[100vh]  md:h-[60vh] lg:h-[100vh]  service__slider-bg servicesContainer">
+    <section className="lg:h-[100vh] service__slider-bg servicesContainer">
       <div className="h-full w-full grid grid-cols-10">
         <div className="content col-start-2 col-end-10 md:col-start-3 md:col-end-8 h-full">
           <div className="w-full mx-auto h-full bg-transparent flex flex-col justify-center">

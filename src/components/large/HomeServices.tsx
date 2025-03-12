@@ -7,7 +7,7 @@ const HomeServices = () => {
   return (
     <section className="h-auto py-24 lg:py-0  md:min-h-[100vh] lg:h-[100vh] flex items-center relative top-0 left-0 bg-gray-100 md:bg-white">
       <Conatainer full={false}>
-        <div className="w-full flex flex-col justify-center items-center bg-white">
+        <div className="w-full flex flex-col justify-center items-center">
           <div className="mt-3">
             <h2 className="py-1 text-black">
               Our Special{" "}

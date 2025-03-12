@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 function FAQOvalayImage() {
   return (
-    <div className=" w-full relative h-[350px] md:h-[450px] lg:h-full my-5 lg:my-0">
-      <div className="w-[90%] md:w-[90%] lg:h-full relative left-0 right-0">
+    <div className=" w-full relative right-0 top-0 h-full lg:h-full my-5 lg:my-0">
+      <div className="w-[90%] md:w-[90%] h-full lg:h-full relative left-0 right-0">
         <Image
           src="/new/benefit-handshake.jpg"
           alt="Image label"
