@@ -15,9 +15,9 @@ function LargeScreen() {
               <Image
                 src="/logo.png"
                 alt="Bliaz"
-                width={200}
-                height={200}
-                objectFit="cover"
+                width={960}
+                height={540}
+                className="w-[200px]"
               />
             </div>
 

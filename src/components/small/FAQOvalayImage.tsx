@@ -19,8 +19,8 @@ function FAQOvalayImage() {
           alt="Image label"
           height={215}
           width={383}
-          objectFit="cover"
-          className=""
+          layout="fit"
+          className="h-full w-full"
           loading="lazy"
         />
       </div>
