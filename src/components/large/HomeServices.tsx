@@ -1,19 +1,14 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Conatainer from "../layout/Conatainer";
 import HomeServicesSwiper from "../medium/slider/HomeServicesSlider";
 import Image from "next/image";
 import book from "../../assets/icons/3d/3dicons-notebook-front-color.png";
 import rocket from "../../assets/icons/3d/3dicons-rocket-dynamic-color.png";
-import { useScroll } from "motion/react";
 import { motion } from "motion/react";
 const HomeServices = () => {
-  const targetSection = useRef(null);
   return (
-    <section
-      className="h-auto py-24 lg:py-0  md:min-h-[100vh] lg:h-[100vh] flex items-center relative top-0 left-0 bg-gray-100 md:bg-white"
-      ref={targetSection}
-    >
+    <section className="h-auto py-24 lg:py-0  md:min-h-[100vh] lg:h-[100vh] flex items-center relative top-0 left-0 bg-gray-100 md:bg-white">
       <Conatainer full={false}>
         <div className="w-full flex flex-col justify-center items-center">
           <div className="mt-3">
