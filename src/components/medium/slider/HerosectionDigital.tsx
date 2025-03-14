@@ -7,7 +7,7 @@ import Primary from "@/components/small/Buttons/Primary";
 function HerosectionDigital() {
   return (
     <div className="HeroDigital__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center">
-      <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9 3k:col-start-3">
+      <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9 3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 py-2 rounded-2xl">
         {/* tagged */}
         <motion.div
           className="overflow-hidden"

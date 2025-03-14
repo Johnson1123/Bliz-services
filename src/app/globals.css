@@ -133,12 +133,7 @@ p,
 }
 
 .HeroEducation__banner-bg {
-  background-image: linear-gradient(
-      to right,
-      rgba(22, 44, 91, 0.8),
-      rgb(10, 25, 58, 0.9)
-    ),
-    url("/new/female-graduate-with-gown.jpg");
+  background-image: url("/new/female-graduate-with-gown.jpg");
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
@@ -146,12 +141,7 @@ p,
   width: 100%;
 }
 .HeroWork__banner-bg {
-  background-image: linear-gradient(
-      to right,
-      rgba(22, 44, 91, 0.8),
-      rgb(10, 25, 58, 0.9)
-    ),
-    url("/new/leadership-banner.jpg");
+  background-image: url("/new/leadership-banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,12 +149,7 @@ p,
   width: 100%;
 }
 .HeroDigital__banner-bg {
-  background-image: linear-gradient(
-      to right,
-      rgba(22, 44, 91, 0.8),
-      rgb(10, 25, 58, 0.9)
-    ),
-    url("/new/learning.jpg");
+  background-image: url("/new/learning.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

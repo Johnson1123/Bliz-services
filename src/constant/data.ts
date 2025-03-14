@@ -108,19 +108,19 @@ export const testimonials = [
 
 export const homeServices = [
   {
-    image: "/new/study-abroad-services.jpg",
+    image: "/new/study-abroad-1.jpg",
     title: "Study Abroad",
     url: "/",
     text: "We offer fantastic assistance if you wish to further your education overseas",
   },
   {
-    image: "/new/work-abroad-service-man.jpg",
+    image: "/new/leadership-banner.jpg",
     title: "Work Abroad",
     url: "/",
     text: "We’re familiar with the local job demand and work legislation",
   },
   {
-    image: "/new/learn-digital-skills.jpg",
+    image: "/new/happy-teaam.jpg",
     title: "Digital Literacy",
     url: "/",
     text: "Expand your business globally with strategic market entry services",
