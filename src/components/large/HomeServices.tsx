@@ -36,7 +36,6 @@ const HomeServices = () => {
       </div>
       <motion.div
         className={`hidden md:block absolute  top-[20%] translate-y-[-20%]`}
-        style={{ left: scrollY }}
       >
         <Image
           src={rocket.src}
