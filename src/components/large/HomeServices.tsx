@@ -9,11 +9,6 @@ import { useScroll } from "motion/react";
 import { motion } from "motion/react";
 const HomeServices = () => {
   const targetSection = useRef(null);
-
-  const { scrollX, scrollY, scrollXProgress } = useScroll({
-    container: targetSection,
-  });
-
   return (
     <section
       className="h-auto py-24 lg:py-0  md:min-h-[100vh] lg:h-[100vh] flex items-center relative top-0 left-0 bg-gray-100 md:bg-white"

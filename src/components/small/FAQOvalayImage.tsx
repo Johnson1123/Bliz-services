@@ -20,7 +20,7 @@ function FAQOvalayImage() {
           height={215}
           width={383}
           layout="fit"
-          className="h-full w-full"
+          className="h-full w-full object-cover"
           loading="lazy"
         />
       </div>

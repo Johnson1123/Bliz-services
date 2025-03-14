@@ -328,15 +328,25 @@ p,
   height: 100%;
 }
 
+.slides-width {
+  @media (min-width: 450px) and (max-width: 668px) {
+    width: 70% !important;
+  }
+}
+.slides-width {
+  @media (min-width: 669px) and (max-width: 768px) {
+    width: 60% !important;
+  }
+}
 .testmonial-box {
   @media (min-width: 1024px) and (max-width: 1095px) {
-    aspect-ratio: 12/22;
+    aspect-ratio: 12/12;
   }
   @media (min-width: 1095px) and (max-width: 1200px) {
-    aspect-ratio: 12/20;
+    aspect-ratio: 12/10;
   }
   @media (min-width: 1200px) and (max-width: 1400px) {
-    aspect-ratio: 12/17;
+    aspect-ratio: 12/10;
   }
   @media (min-width: 1400px) and (max-width: 1600px) {
     aspect-ratio: 16/18;

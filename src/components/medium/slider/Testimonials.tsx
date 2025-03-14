@@ -19,21 +19,21 @@ export default function Testimonials() {
   return (
     <>
       <Swiper
-        speed={1000}
+        speed={1500}
         modules={[Autoplay]}
         autoplay={true}
         breakpoints={{
           400: {
-            slidesPerView: 1,
+            slidesPerView: "auto",
             spaceBetween: 30,
           },
           768: {
             slidesPerView: 2,
             spaceBetween: 40,
           },
-          1024: {
+          1400: {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 40,
           },
           2024: {
             slidesPerView: 3,
@@ -44,7 +44,7 @@ export default function Testimonials() {
         {open &&
           testimonials.map((item, i) => {
             return (
-              <SwiperSlide key={i} className="">
+              <SwiperSlide key={i} className="slides-width">
                 <div className="w-full h-[300px] lg:h-auto testmonial-box">
                   <div
                     className={`w-full h-full rounded-2xl overflow-hidden  `}

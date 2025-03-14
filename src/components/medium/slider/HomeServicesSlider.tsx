@@ -24,23 +24,23 @@ export default function HomeServicesSwiper() {
         observeParents={true}
         breakpoints={{
           400: {
-            slidesPerView: 1,
+            slidesPerView: "auto",
             spaceBetween: 15,
           },
           768: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          1024: {
+          1200: {
             slidesPerView: 3,
-            spaceBetween: 25,
+            spaceBetween: 40,
           },
         }}
       >
         {open &&
           homeServices.map((item, i) => {
             return (
-              <SwiperSlide key={i}>
+              <SwiperSlide key={i} className="slides-width">
                 <InvertedBorder {...item} />
               </SwiperSlide>
             );
