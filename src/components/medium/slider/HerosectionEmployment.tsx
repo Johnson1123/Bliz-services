@@ -10,7 +10,7 @@ function HerosectionEmployment() {
   return (
     <div className="HeroWork__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center relative left-0 right-0 z-40 overflow-hidden">
       <HerosectionTopClipy />
-      <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9 3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 py-2 rounded-2xl">
+      <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9 3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 rounded-2xl flex flex-col gap-10 py-10">
         {/* tagged */}
         <motion.div
           className="overflow-hidden"
@@ -63,7 +63,7 @@ function HerosectionEmployment() {
                 },
               },
             }}
-            className="text-white mt-5 text-[30px] md:text-[60px] lg:text-[80px]"
+            className="text-white text-[30px] md:text-[60px] lg:text-[80px]"
           >
             <span>Make A </span>
             <span className="text-pink font-bold drop-shadow-lg">
@@ -78,7 +78,7 @@ function HerosectionEmployment() {
 
         {/* content */}
         <motion.div
-          className=" overflow-hidden mt-2 lg:mt-5"
+          className=" overflow-hidden"
           initial="initial"
           whileInView="view"
         >
@@ -97,7 +97,7 @@ function HerosectionEmployment() {
                 },
               },
             }}
-            className="mt-5"
+            className=""
           >
             <p className="text-white py-1">Do you desire to work Overseas?</p>
             <p className="text-white py-1">
@@ -111,7 +111,7 @@ function HerosectionEmployment() {
 
         {/* button container */}
         <motion.div
-          className="mt-10 overflow-hidden"
+          className="overflow-hidden"
           initial="initial"
           whileInView="view"
         >

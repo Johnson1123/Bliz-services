@@ -8,7 +8,7 @@ function HerosectionEducation() {
   return (
     <div className="HeroEducation__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center">
       {/* tagged */}
-      <div className="w-[90%] mx-auto md:w-[100%] md:col-start-2 md:col-end-10   lg:col-start-2 lg:col-end-9  3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 py-2 rounded-2xl">
+      <div className="w-[90%] h-max mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9  3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 rounded-2xl flex flex-col gap-10 py-10">
         <motion.h3
           className="flex items-center gap-4 text-base"
           initial="initial"
@@ -44,7 +44,7 @@ function HerosectionEducation() {
           <motion.h2
             initial="initial"
             whileInView="view"
-            className="text-white mt-5 text-[30px] md:text-[60px] lg:text-[80px]"
+            className="text-white text-[30px] md:text-[60px] lg:text-[80px]"
           >
             <motion.div
               className=""
@@ -73,7 +73,7 @@ function HerosectionEducation() {
         </div>
 
         {/* Conatent */}
-        <div className="overflow-hidden mt-5">
+        <div className="overflow-hidden">
           <motion.div
             initial="initial"
             whileInView="view"
@@ -106,7 +106,7 @@ function HerosectionEducation() {
 
         {/* Button container  */}
         <motion.div
-          className="lg:h-[50px] mt-10 overflow-hidden"
+          className="lg:h-[50px] overflow-hidden"
           initial="initial"
           whileInView="view"
         >
