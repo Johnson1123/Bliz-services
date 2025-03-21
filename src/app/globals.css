@@ -367,3 +367,13 @@ p,
     aspect-ratio: 1/0.7;
   }
 }
+
+/*  */
+
+.map__container-section {
+  @media (orientation: landscape) {
+    @media (min-width: 640px) {
+      min-height: 500px;
+    }
+  }
+}

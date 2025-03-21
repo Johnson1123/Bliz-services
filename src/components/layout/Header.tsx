@@ -2,10 +2,11 @@ import React from "react";
 
 import SmallScreen from "../medium/nav/SmallScreen";
 import LargeScreen from "../medium/nav/LargeScreen";
+import { claHeaderContainer } from "@/styles/header.style";
 
 function Header() {
   return (
-    <header className="bg-darkBlue 3k:bg-white bg-no-repeat bg-cover w-[100vw] 2k:bg-white lg:grid 3k:grid grid-cols-1">
+    <header className={claHeaderContainer}>
       <SmallScreen />
       <LargeScreen />
     </header>

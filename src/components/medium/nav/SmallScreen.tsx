@@ -16,21 +16,28 @@ function SmallScreen() {
   const handleDropdown = () => {
     setDropdown(!dropdown);
   };
+
+  const clSmallHeaderContainer = `mx-auto h-auto bg-transparent header__logo-bg relative left-0 top-0 lg:hidden `;
+  const clLogoWrapper = `w-[95vw] lg:w-[95vw]  h-[100px] mx-auto flex justify-center items-center border-b border-white`;
+  const clLogoInnerWrapper = `grid place-items-center`;
+  const clSmContentContianer = `w-full h-[70px] bg-darkBlue`;
+  const clSmContentInnerContainer = `w-[90vw] md:w-[90vw] mx-auto flex items-center h-[100%] justify-between`;
+
   return (
     <>
       {/* start of small screen header  */}
-      <div className=" mx-auto h-auto bg-transparent header__logo-bg relative left-0 top-0 lg:hidden ">
+      <div className={clSmallHeaderContainer}>
         {/* Logo wrapper */}
-        <div className="w-[95vw] lg:w-[95vw]  h-[100px] mx-auto flex justify-center items-center border-b border-white">
+        <div className={clLogoWrapper}>
           {/* small screen modal logo wrapper */}
-          <div className="grid place-items-center">
+          <div className={clLogoInnerWrapper}>
             <Image src={Logo} alt="Bliaz" width={250} height={250} />
           </div>
         </div>
 
         {/* siderNav control button */}
-        <div className=" w-full h-[70px] bg-darkBlue">
-          <div className="w-[90vw] md:w-[90vw] mx-auto flex items-center h-[100%] justify-between">
+        <div className={clSmContentContianer}>
+          <div className={clSmContentInnerContainer}>
             <Menu
               color="white"
               size={35}

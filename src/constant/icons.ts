@@ -13,6 +13,8 @@ import { HiMiniUserCircle as UserCircle } from "react-icons/hi2";
 import { FaComments as Comment } from "react-icons/fa6";
 import { PiGlobeLight as SocialPlatform } from "react-icons/pi";
 import { FaAngleDown as ArrowDown } from "react-icons/fa6";
+import { FaLocationPin, FaPhone } from "react-icons/fa6";
+import { IoMdSend } from "react-icons/io";
 
 export {
   Menu,
@@ -30,4 +32,7 @@ export {
   Comment,
   SocialPlatform,
   ArrowDown,
+  FaPhone as Phone,
+  FaLocationPin as Location,
+  IoMdSend as Send,
 };

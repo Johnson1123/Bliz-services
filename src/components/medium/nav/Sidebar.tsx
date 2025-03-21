@@ -16,34 +16,46 @@ const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
     navigation.push(url);
     handleOpen();
   };
+
+  const clSideBarContainer = `fixed top-0 left-0 w-[80vw] h-[100vh] bg-white z-10 p-7 px-5`;
+  const clSiderBarInnerContainer = `bg-white h-[100%]`;
+  const clSideBarLogoWrapper = `flex justify-between items-center`;
+  const clSideBarLogoInnerWrapper = `mt-16`;
+  const clSmNav = `mt-10`;
+  const clSmUl = `xl:hidden flex flex-col gap-5 h-[100%]`;
+  const clSmLi = `link !text-darkblue`;
+
+  // dropdown style
+  const clSmDropDownLi = `relative top-0 left-0 flex gap-3 items-center`;
+  const clSDropDownLiText = `link !text-darkblue`;
+
+  const clDropDownLi = `link !text-white`;
+
   return (
-    <div className="fixed top-0 left-0 w-[80vw] h-[100vh] bg-white z-10 p-7 px-5">
-      <div className="bg-white h-[100%]">
-        <div className="flex justify-between items-center">
-          <div className="mt-16">
+    <div className={clSideBarContainer}>
+      <div className={clSiderBarInnerContainer}>
+        <div className={clSideBarLogoWrapper}>
+          <div className={clSideBarLogoInnerWrapper}>
             <Image src={Logo} alt="Bliaz" width={150} height={150} />
           </div>
         </div>
         {/* ul */}
-        <div className="mt-10">
-          <ul className=" xl:hidden flex flex-col gap-5 h-[100%]">
+        <nav className={clSmNav}>
+          <ul className={clSmUl}>
             <li onClick={() => handleNavigation("/")}>
-              <span className="link !text-darkblue">HOME</span>
+              <span className={clSmLi}>HOME</span>
             </li>
             <li onClick={() => handleNavigation("/employment")}>
-              <span className="link !text-darkblue">STUDY ABROAD</span>
+              <span className={clSmLi}>STUDY ABROAD</span>
             </li>
             <li onClick={() => handleNavigation("/employment")}>
-              <span className="link !text-darkblue">WORK ABROAD</span>
+              <span className={clSmLi}>WORK ABROAD</span>
             </li>
             <li onClick={() => handleNavigation("/service")}>
-              <span className="link !text-darkblue">Services</span>
+              <span className={clSmLi}>Services</span>
             </li>
-            <li
-              className="relative top-0 left-0 flex gap-3 items-center "
-              onClick={() => handleDropdown()}
-            >
-              <p className="link !text-darkblue">DIGITAL LITERACY</p>
+            <li className={clSmDropDownLi} onClick={() => handleDropdown()}>
+              <p className={clSDropDownLiText}>DIGITAL LITERACY</p>
 
               <ArrowDown
                 className={`cursor-pointer text-darkblue ${
@@ -59,19 +71,19 @@ const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
               >
                 <ul className=" xl:hidden flex flex-col gap-3 h-[100%]">
                   <li onClick={() => handleNavigation("/microsoft")}>
-                    <span className="link !text-white">Microsoft Suites</span>
+                    <span className={clDropDownLi}>Microsoft Suites</span>
                   </li>
                   <li onClick={() => handleNavigation("/ai")}>
-                    <span className="link !text-white">AI and Automation</span>
+                    <span className={clDropDownLi}>AI and Automation</span>
                   </li>
                   <li onClick={() => handleNavigation("/programming")}>
-                    <span className="link !text-white">Programming</span>
+                    <span className={clDropDownLi}>Programming</span>
                   </li>
                 </ul>
               </div>
             </li>
           </ul>
-        </div>
+        </nav>
 
         {/* close */}
         <div
