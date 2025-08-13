@@ -19,7 +19,7 @@ const HomeServices = () => {
           </div>
 
           {/* services slides container */}
-          <div className="w-[100%] lg:w-[60%] 2k:w-[70%] flex mt-10 lg:mt-12">
+          <div className="w-[100%] lg:w-[100%] 2k:w-[90%] flex mt-10 lg:mt-12">
             <HomeServicesSwiper />
           </div>
         </div>

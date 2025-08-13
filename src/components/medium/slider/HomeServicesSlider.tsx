@@ -14,7 +14,7 @@ export default function HomeServicesSwiper() {
     setOpen(true);
   }, []);
   return (
-    <div className="w-[100%] h-[500px] overflow-hidden">
+    <div className="w-[100%] h-[500px] 2xl:h-[800px] overflow-hidden">
       <Swiper
         autoplay={true}
         speed={500}
@@ -32,7 +32,7 @@ export default function HomeServicesSwiper() {
             spaceBetween: 60,
           },
           1200: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 60,
           },
         }}
