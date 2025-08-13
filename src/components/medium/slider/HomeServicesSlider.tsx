@@ -32,7 +32,7 @@ export default function HomeServicesSwiper() {
             spaceBetween: 60,
           },
           1200: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 60,
           },
         }}

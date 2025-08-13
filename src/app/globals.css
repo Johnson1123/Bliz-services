@@ -46,7 +46,7 @@ h2,
 }
 h3,
 .small-title {
-  font-size: clamp(1rem, calc(1rem + 1vw), 2rem);
+  font-size: clamp(1rem, calc(18px + 1vw), 1.2rem);
   font-weight: 500;
 }
 

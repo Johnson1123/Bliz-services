@@ -22,7 +22,6 @@ function Programs({
   return (
     <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh]  xl:py-16 3k:max-h-[800px] flex items-center bg-[#F7F9FF] casesSection-landscape">
       <Conatainer full={false}>
-        {" "}
         <h2 className="headingStyle text-center">
           {title} <span className="text-blue">{spanTitle}</span>
         </h2>
@@ -30,9 +29,12 @@ function Programs({
           {data.map((item: { title: string; text: string[] }, i: number) => {
             return (
               <div
-                className={`mx-auto md:mx-0 flex-shrink-0 bg-white py-2 px-4 flex justify-center items-center flex-col gap-4 rounded-[25px] transition-all duration-700 ease-in-out  aspect-square xl:aspect-auto 2xl:aspect-square w-[100%] sm:landscape:w-[48%] md:portrait:w-[48%] md:landscape:w-[48%] xl:landscape:w-[${
-                  numOfItem > 2 ? "32%" : "45%"
-                }] xl:h-[300px] 2xl:w-full 2xl:h-[400px] even:bg-blue relative`}
+                className={`mx-auto md:mx-0 flex-shrink-0 bg-white py-2 px-4 flex justify-center items-center flex-col gap-4 rounded-[25px] transition-all duration-700 ease-in-out  aspect-square xl:aspect-auto 2xl:aspect-square w-[100%] sm:landscape:w-[48%] md:portrait:w-[48%] md:landscape:w-[48%] ${
+                  numOfItem > 2
+                    ? "xl:landscape:w-[32%]"
+                    : "xl:landscape:w-[45%]"
+                }
+                   xl:h-[300px] 2xl:w-full 2xl:h-[400px] even:bg-blue relative`}
                 key={i}
               >
                 <div className="w-full">
