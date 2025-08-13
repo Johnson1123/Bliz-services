@@ -103,14 +103,17 @@ const Footer = () => {
                     WORK ABROAD
                   </Link>
                 </li>
-                <li>
+
+                {/* digital Litraccy Link */}
+
+                {/* <li>
                   <Link
                     href={"/work-abroad"}
                     className="text-white hover:text-pink cursor-pointer"
                   >
                     DIGITAL LITERACY
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

@@ -4,9 +4,16 @@ import { MdFacebook } from "react-icons/md";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 
-import { AccordionItemData } from "./types";
+import { AccordionItemData, bannerDataI, heroServiceSectionI } from "./types";
 import { GraduationCap, Engineering } from "./icons";
-import { broadcast, insurance, policy, processIcon } from "@/assets/icons";
+import {
+  broadcast,
+  businessGroup,
+  insurance,
+  policy,
+  processIcon,
+} from "@/assets/icons";
+import { title } from "process";
 
 const SocialLinks: { Icon: IconType; name: string; url: string }[] = [
   {
@@ -119,12 +126,12 @@ export const homeServices = [
     url: "/",
     text: "We’re familiar with the local job demand and work legislation",
   },
-  {
-    image: "/new/happy-teaam.jpg",
-    title: "Digital Literacy",
-    url: "/",
-    text: "Expand your business globally with strategic market entry services",
-  },
+  // {
+  //   image: "/new/happy-teaam.jpg",
+  //   title: "Digital Literacy",
+  //   url: "/",
+  //   text: "Expand your business globally with strategic market entry services",
+  // },
 ];
 export const homeCases = [
   {
@@ -262,3 +269,219 @@ export const homeProgressData = [
   },
 ];
 export default SocialLinks;
+
+// education
+
+export const educationServicesProgram = [
+  {
+    image: "/new/canada-education.jpg",
+    name: "Canada",
+    text: "Canada, which is home to some of the best universities in the world, is emerging as a model for high-quality graduate education and research. In the QS and Times Higher Education global university rankings, respectively, 26 and 27, Canadian universities are ranked. Academic research in a variety of sectors, including technology, medicine, agriculture, telecommunications, and environmental science, is also supported and encouraged by the Canadian government. ",
+  },
+  {
+    image: "/new/united-state-education.jpg",
+    name: "United State",
+    text: "The prestige of earning a degree from a US-accredited university continues to make the US the top choice for overseas students. Higher education institutions in the US are renowned for having exceptionally high standards for the quality of their teaching methods, intellectual rigor, and learning experiences.",
+  },
+  {
+    image: "/new/united-kingdom-education.jpg",
+    name: "United Kingdom",
+    text: "The prestige of earning a degree from a US-accredited university continues to make the US the top choice for overseas students. Higher education institutions in the US are renowned for having exceptionally high standards for the quality of their teaching methods, intellectual rigor, and learning experiences.",
+  },
+];
+
+export const workServicesProgram = [
+  {
+    image: "/new/canada-education.jpg",
+    name: "United State",
+    text: "Nearly all of the largest corporations in the world have operations in the USA, which means that there are plenty of jobs there. In America, you will have access to job chances that you won’t find anyplace else in the globe. Just one internship with a well-known company could transform your career",
+  },
+  {
+    image: "/new/united-state-education.jpg",
+    name: "United Kingdom",
+    text: "You will be in excellent company as a foreign worker in the UK, which has numerous multinational communities. It’s not surprising that the UK is a popular choice for overseas graduates looking to launch their careers given the country’s diversified employment sectors, favorable working conditions, and abundance of employment chances.",
+  },
+  {
+    image: "/new/united-kingdom-education.jpg",
+    name: "Canada",
+    text: "It has a remarkable degree of economic independence thanks to its trustworthy and open public finance system. The banking and financial systems in Canada are robust. The nation provides its workforce with first-rate medical facilities, paid time off, and holidays that include parental and maternal leave.",
+  },
+];
+
+export const educationPrograms = [
+  {
+    title: "Graduate Programs",
+    text: [
+      "Stand out for advancement opportunities.",
+      "Gain specialized knowledge.",
+      "Maintain cutting-edge industry skills and learn new technology",
+    ],
+  },
+  {
+    title: "Undergraduate Programs",
+    text: [
+      "Prepare for a new career field.",
+      "Broaden your skillset.",
+      "Expand your strategic and leadership capabilities.",
+    ],
+  },
+  {
+    title: "Associate Degree Programs",
+    text: [
+      " Prepare for better opportunities.",
+      "Improve your skills.",
+      "Learn cutting-edge industry skills and new technologies.",
+    ],
+  },
+];
+
+export const workPrograms = [
+  {
+    title: "WORK IN THE UK",
+    text: [
+      "Better Working Conditions.",
+      "Excellent Pay and Benefits.",
+      "Higher Chances For Success.",
+      "Experience a multicultural Nation.",
+      "Better Social Amenities",
+    ],
+  },
+  {
+    title: "WORK IN CANADA",
+    text: [
+      "Excellent Working Conditions.",
+      "Good Pay and Benefits.",
+      "Higher Chances For Success.",
+      "Experience a multicultural Nation.",
+      "Better Social Amenities.",
+    ],
+  },
+];
+
+export const educationServices = [
+  {
+    image: businessGroup,
+    title: "Flexibility",
+    text: "We'll collaborate with you and ensure that we meet your expectations.",
+  },
+  {
+    image: businessGroup,
+    title: "Quality",
+    text: "We'll collaborate with The educational institutions we partner with have produced the most successful graduates. and ensure that we meet your expectations.",
+  },
+  {
+    image: businessGroup,
+    title: "Global",
+    text: "We'll We've been very successful in helping students to further their education globally. with you and ensure that we meet your expectations.",
+  },
+  {
+    image: businessGroup,
+    title: "Expertise",
+    text: "We'll We have a team of experts and consultants who will assist you with your application. with you and ensure that we meet your expectations.",
+  },
+  {
+    image: businessGroup,
+    title: "Support",
+    text: "We'll collaborate We pride ourselves on excellent customer support for your convenience. you and ensure that we meet your expectations.",
+  },
+  {
+    image: businessGroup,
+    title: "Certified",
+    text: "We'll collaborate with you and ensure that we meet All educational institutions are certified by a reputable board in their respective countries. expectations.",
+  },
+];
+
+export const educationFAQ = [
+  {
+    title: "What is the duration of my credential's evaluation?",
+    content:
+      "A duration of two weeks will be expected for the board to evaluate and authenticate your credentials, if this takes longer than two weeks without a definite response, please contact us.",
+  },
+  {
+    title: "What documents do I need to submit?",
+    content:
+      "a data page of your international passport your transcripts from your previous school and a few other documents that will be listed at the beginning of your application",
+  },
+  {
+    title: "What if I get rejected at the institution of my choice",
+    content:
+      "if this happens, fortunately you can always re-apply to another institution",
+  },
+  {
+    title: "How long is this process",
+    content:
+      "this process varies based on different institutions, but bear in mind that we will keep you updated throughout the process.",
+  },
+  {
+    title: "What countries can I apply to?",
+    content:
+      "Your application is valid for the United States of America, the United Kingdom and Canada",
+  },
+];
+
+export const workFAQ = [
+  {
+    title: "What are my options of working Abroad?",
+    content: "there are many options but here are a few:",
+    image: "/images/praying-1.png",
+    list: [
+      "Through an agency  program provider. ",
+      "Work abroad as a teacher.",
+      "Move abroad, then find work.",
+      "Get a working holiday visa.",
+      "Do a work exchange.",
+      "Volunteer.",
+      "Freelance/digital nomad.",
+    ],
+  },
+  {
+    title: "Do I need a Visa to Work Abroad",
+    content:
+      "Yes you do, this will be process is very important and will be carried out after you have been accepted by the company",
+    image: "/images/praying-1.png",
+  },
+];
+
+export const bannerData: bannerDataI[] = [
+  {
+    quote: `"An Investment In Knowledge Pays The Best Interest."`,
+    author: "Benjamin Franklin",
+    link: "/contact-us",
+    center: false,
+    text: "Studying abroad can provide the structure for students to build the necessary skills to be successful in life and give them an edge over their competition.",
+    image: "",
+  },
+  {
+    quote: `Live as if you were to die tomorrow. Learn as if you were to live forever.`,
+    author: "",
+    link: "/contact-us",
+    center: true,
+    text: "Obtain a worldwide perspective, meet people from all over the world, and explore new places—all while earning credits toward your degree.",
+    image: "",
+  },
+];
+
+export const heroSeviceSection: heroServiceSectionI[] = [
+  {
+    tag: "STUDY OVERSEAS",
+    title1: "Boost your",
+    title2: "Employability",
+    image: "",
+    list: [
+      "Do you want to have access to greater starting pay and a quicker transfer into career-relevant jobs after graduation?",
+      "Do you want to learn important life skills, and develop resilience?",
+      "Do you want to take advantage of your chance to travel the world and get insight into your field of study from a new, global viewpoint?",
+    ],
+  },
+  {
+    tag: "WORK OVERSEAS",
+    title1: "Explore Different",
+    title2: "Employment",
+    image: "",
+    list: [
+      "Do you want to benefit from social amenities working overseas?",
+      "Do you want to work in an environment where you'll experience financial stability?",
+      "Do you want to experience working overseas?",
+    ],
+  },
+];

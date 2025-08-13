@@ -9,7 +9,7 @@ type Props = {
 
 function ServicesContent({ text, image, title }: Props) {
   return (
-    <div className="relative left-0 right-0 w-full h-full rounded-lg">
+    <div className="relative left-0 bottom-0 w-full h-full rounded-[25px] overflow-hidden">
       {/* background image */}
       <Image
         src={image}

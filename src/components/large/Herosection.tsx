@@ -31,9 +31,9 @@ function Herosection() {
             <SwiperSlide className="">
               <HerosectionEmployment />
             </SwiperSlide>
-            <SwiperSlide className="">
+            {/* <SwiperSlide className="">
               <HerosectionDigital />
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
         <div className="lg:col-span-1 row-span-1 hidden lg:flex lg:row-span-10 justify-center">

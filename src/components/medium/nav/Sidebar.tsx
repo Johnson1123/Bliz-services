@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
 import Logo from "../../../assets/images/image.png";
+import useMobile from "../../../hooks/useMobile";
 
 type Props = {
   dropdown: boolean;
@@ -31,12 +32,19 @@ const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
 
   const clDropDownLi = `link !text-white`;
 
+  const isMobile = useMobile();
+
   return (
     <div className={clSideBarContainer}>
       <div className={clSiderBarInnerContainer}>
         <div className={clSideBarLogoWrapper}>
           <div className={clSideBarLogoInnerWrapper}>
-            <Image src={Logo} alt="Bliaz" width={150} height={150} />
+            <Image
+              src={Logo}
+              alt="Bliss Services Logo"
+              width={isMobile ? 100 : 150}
+              height={isMobile ? 100 : 150}
+            />
           </div>
         </div>
         {/* ul */}
@@ -54,7 +62,9 @@ const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
             <li onClick={() => handleNavigation("/service")}>
               <span className={clSmLi}>Services</span>
             </li>
-            <li className={clSmDropDownLi} onClick={() => handleDropdown()}>
+
+            {/* igital litracy Dropdown */}
+            {/* <li className={clSmDropDownLi} onClick={() => handleDropdown()}>
               <p className={clSDropDownLiText}>DIGITAL LITERACY</p>
 
               <ArrowDown
@@ -81,7 +91,7 @@ const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> */}
           </ul>
         </nav>
 

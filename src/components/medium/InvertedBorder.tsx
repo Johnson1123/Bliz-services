@@ -12,14 +12,14 @@ type Props = {
 const InvertedBorder = ({ image, text, url, title }: Props) => {
   return (
     <div
-      className={`h-[300px] md:aspect-square md:h-auto relative top-0 left-0 overflow-hidden rounded-[20px]`}
+      className={`h-[300px] md:aspect-square md:h-auto relative top-0 left-0 overflow-hidden rounded-[25px]`}
     >
       <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white">
         <ServicesContent text={text} title={title ? title : ""} image={image} />
       </div>
 
       <div
-        className={`absolute top-0 right-0  h-[80px] w-[90px] rounded-bl-[25px] flex justify-end ${"bg-white"}`}
+        className={`absolute top-0 right-0  h-[80px] w-[90px] rounded-bl-[25px] flex justify-end ${"bg-white"} overflow-hidden`}
       >
         <IInverted
           url={url ? url : ""}

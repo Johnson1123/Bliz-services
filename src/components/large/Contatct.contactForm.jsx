@@ -52,7 +52,7 @@ function ContactContactForm() {
               </div>
 
               {/* Happy Client */}
-              <div className="w-full py-4 bg-white border-l-8  border-darkblue lg:w-[80%] rounded-tr-md rounded-br-md pl-5 flex items-center gap-3 mt-5">
+              {/* <div className="w-full py-4 bg-white border-l-8  border-darkblue lg:w-[80%] rounded-tr-md rounded-br-md pl-5 flex items-center gap-3 mt-5">
                 <div className="flex">
                   <div className="h-[50px] w-[50px] rounded-full flex justify-center items-center border-2 border-white bg-[#f2f2f2] relative overflow-hidden">
                     <Image
@@ -90,7 +90,7 @@ function ContactContactForm() {
                 <p className="text-darkblue font-semibold">
                   2.4K HAPPY CLIENTS
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* Form Section */}

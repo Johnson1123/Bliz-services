@@ -17,16 +17,18 @@ function NavbarLinks() {
         </Link>
       </li>
       <li>
-        <Link href={"/employment"} className="link">
+        <Link href={"/education"} className="link">
           STUDY ABROAD
         </Link>
       </li>
       <li>
-        <Link href={"/contact-us"} className="link">
+        <Link href={"/employment"} className="link">
           WORK ABROAD
         </Link>
       </li>
-      <li
+
+      {/* digital litracy dropdown */}
+      {/* <li
         className="relative top-0 left-0 flex gap-3 items-center "
         onClick={() => handleDropdown()}
       >
@@ -59,7 +61,7 @@ function NavbarLinks() {
             </li>
           </ul>
         </div>
-      </li>
+      </li> */}
     </ul>
   );
 }

@@ -15,7 +15,7 @@ function Page() {
       <main className="">
         <ContactBanner />
         <ContactContactForm />
-        <ContactMapSection />
+        {/* <ContactMapSection /> */}
       </main>
     </>
   );

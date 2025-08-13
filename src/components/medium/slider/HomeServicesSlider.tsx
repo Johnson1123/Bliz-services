@@ -14,7 +14,7 @@ export default function HomeServicesSwiper() {
     setOpen(true);
   }, []);
   return (
-    <div className="w-[100%] h-[100%] overflow-hidden">
+    <div className="w-[100%] h-[500px] overflow-hidden">
       <Swiper
         autoplay={true}
         speed={500}
@@ -25,15 +25,15 @@ export default function HomeServicesSwiper() {
         breakpoints={{
           400: {
             slidesPerView: "auto",
-            spaceBetween: 15,
+            spaceBetween: 20,
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 60,
           },
           1200: {
-            slidesPerView: 3,
-            spaceBetween: 40,
+            slidesPerView: 2,
+            spaceBetween: 60,
           },
         }}
       >
