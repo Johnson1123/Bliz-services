@@ -33,7 +33,7 @@ function Page() {
         spanTitle="Programs"
         formatBoxTitle={true}
       />
-      <SessionBannerTwo />
+      {/* <SessionBannerTwo /> */}
       <OurServices
         title="Why Choose "
         spanTitle="Bliz Services"
