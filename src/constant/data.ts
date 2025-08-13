@@ -459,6 +459,14 @@ export const bannerData: bannerDataI[] = [
     text: "Obtain a worldwide perspective, meet people from all over the world, and explore new places—all while earning credits toward your degree.",
     image: "",
   },
+  {
+    quote: "You can explore different places!",
+    author: "",
+    link: "/contact/us",
+    center: true,
+    text: "You have to come out of your comfort zone to experience life.",
+    image: "",
+  },
 ];
 
 export const heroSeviceSection: heroServiceSectionI[] = [

@@ -1,10 +1,12 @@
 "use client";
 import ServicesBanner from "@/components/common/Services.Banner";
+import EducationQuoteBanner from "@/components/large/EducationQuoteBanner";
 import FAQ from "@/components/large/FAQ";
 import OurServices from "@/components/large/Our.Services";
 import Programs from "@/components/large/Programs";
 import ServicesPrograms from "@/components/large/Services.Programs";
 import {
+  bannerData,
   educationServices,
   heroSeviceSection,
   workFAQ,
@@ -28,6 +30,7 @@ function page() {
         spanTitle="Programs"
         formatBoxTitle={false}
       />
+      <EducationQuoteBanner {...bannerData[2]} />
       <OurServices
         title="Why Choose "
         spanTitle="Bliz Services"
