@@ -1,9 +1,6 @@
 import React from "react";
 import Conatainer from "../layout/Conatainer";
-import FAQOvalayImage from "../small/FAQOvalayImage";
-import bgImg from "../../../public/Image/why-work-with-us.jpg";
 import Image from "next/image";
-// import bgImg from "/image/public/Image/why-work-with-us.jpg";
 
 const SessionBannerTwo = () => {
   return (

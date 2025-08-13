@@ -1,4 +1,3 @@
-import { h3HeadingStyle } from "@/styles/header.style";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
@@ -25,6 +24,7 @@ const FAQAccordium = ({
       className={`rounded-full my-5 py-5   ${
         isOpen ? "" : "border-b border-gray-100"
       }`}
+      key={key}
     >
       <button
         className={`w-full py-3 grid grid-cols-10 lg:gap-10 items-center transition-colors bg-white rounded-3xl  px-2 ${

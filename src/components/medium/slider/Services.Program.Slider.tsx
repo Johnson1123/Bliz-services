@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
-import { educationServicesProgram } from "@/constant/data";
 import CasesBox from "../CasesBox";
 import { programsServicesI } from "@/constant/types";
 

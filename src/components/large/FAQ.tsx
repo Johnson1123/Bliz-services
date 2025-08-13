@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import FAQContainer from "./FAQ.Container";
 import Conatainer from "../layout/Conatainer";
 

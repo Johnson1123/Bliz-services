@@ -31,6 +31,7 @@ function OurServices({
                   title={item.title}
                   text={item.text}
                   image={item.image}
+                  key={i}
                 />
               );
             }

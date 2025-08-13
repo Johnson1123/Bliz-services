@@ -13,7 +13,6 @@ import {
   policy,
   processIcon,
 } from "@/assets/icons";
-import { title } from "process";
 
 const SocialLinks: { Icon: IconType; name: string; url: string }[] = [
   {

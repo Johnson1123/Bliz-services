@@ -16,7 +16,7 @@ function EducationQuoteBanner({
     <section className="relative h-[calc(100vh_-_100px)] 3k:h-[50vh] lg:h-[calc(100vh_-_200px)] w-full overflow-hidden">
       {/* Background image */}
       <Image
-        src={bannerImg}
+        src={image ? image : bannerImg}
         alt="Education background"
         fill
         priority
@@ -56,7 +56,7 @@ function EducationQuoteBanner({
                   center ? "justify-center" : "justify-start"
                 }`}
               >
-                <Primary url="/contact-us" text="CONTACT US" />
+                <Primary url={link} text="CONTACT US" />
               </div>
             </div>
           </div>

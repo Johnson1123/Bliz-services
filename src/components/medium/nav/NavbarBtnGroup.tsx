@@ -1,5 +1,4 @@
 import Primary from "@/components/small/Buttons/Primary";
-import Transparent from "@/components/small/Buttons/Transparent";
 import React from "react";
 
 const NavbarBtnGroup = () => {
@@ -8,7 +7,6 @@ const NavbarBtnGroup = () => {
       <div className=" xl:flex">
         <Primary text="Contact Us" url="/contact-us" />
       </div>
-      {/* <Transparent text="Log In" url="/login" icon={false} /> */}
     </div>
   );
 };

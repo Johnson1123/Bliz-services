@@ -68,7 +68,7 @@ function ServicesBanner({
       </div>
       <div className="absolute -bottom-10 -right-5 hidden md:block">
         <Image
-          src={"/Circular Mess.png"}
+          src={image ? image : "/Circular Mess.png"}
           alt="overlay image circle"
           height={500}
           width={500}

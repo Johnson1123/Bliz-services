@@ -1,4 +1,4 @@
-import { ArrowDown, Close } from "@/constant/icons";
+import { Close } from "@/constant/icons";
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
@@ -11,7 +11,7 @@ type Props = {
   handleOpen: () => void;
 };
 
-const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
+const Sidebar = ({ handleOpen }: Props) => {
   const navigation = useRouter();
   const handleNavigation = (url: string) => {
     navigation.push(url);
@@ -27,10 +27,10 @@ const Sidebar = ({ dropdown, handleDropdown, handleOpen }: Props) => {
   const clSmLi = `link !text-darkblue`;
 
   // dropdown style
-  const clSmDropDownLi = `relative top-0 left-0 flex gap-3 items-center`;
-  const clSDropDownLiText = `link !text-darkblue`;
+  // const clSmDropDownLi = `relative top-0 left-0 flex gap-3 items-center`;
+  // const clSDropDownLiText = `link !text-darkblue`;
 
-  const clDropDownLi = `link !text-white`;
+  // const clDropDownLi = `link !text-white`;
 
   const isMobile = useMobile();
 

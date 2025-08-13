@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Conatainer from "../layout/Conatainer";
 import MetricsContainer from "../medium/MetricsContainer";
 import ServicesProgramSlider from "../medium/slider/Services.Program.Slider";
 import { programServicesSectionI } from "@/constant/types";
 
 function ServicesPrograms({ title1, title2, data }: programServicesSectionI) {
-  const [country, setCountry] = useState("USA");
+  // const [country, setCountry] = useState("USA");
   return (
     <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh]  xl:py-16 3k:max-h-[800px] flex items-center bg-white casesSection-landscape">
       <Conatainer full={false}>

@@ -7,7 +7,6 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 import Image from "next/image";
-import HerosectionDigital from "../medium/slider/HerosectionDigital";
 
 function Herosection() {
   return (

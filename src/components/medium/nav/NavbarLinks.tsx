@@ -1,14 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowDown } from "@/constant/icons";
 
 function NavbarLinks() {
   const [dropdown, setDropdown] = useState(false);
 
-  const handleDropdown = () => {
-    setDropdown(!dropdown);
-  };
   return (
     <ul className="hidden xl:flex justify-center items-center gap-4 h-[100%] col-span-3">
       <li>

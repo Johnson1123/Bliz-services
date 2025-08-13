@@ -2,7 +2,6 @@ import ContactBanner from "@/components/large/ContactBanner";
 import React from "react";
 import ContactContactForm from "../../components/large/Contatct.contactForm";
 import HeaderSeo from "@/components/layout/HeaderSeo";
-import ContactMapSection from "../../components/large/ContactMapSection";
 
 function Page() {
   return (
