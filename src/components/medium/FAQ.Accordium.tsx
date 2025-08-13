@@ -14,7 +14,7 @@ const FAQAccordium = ({
   content: string;
   isOpen: boolean;
   index: number;
-  onClick: () => {};
+  onClick: () => void;
 }) => {
   return (
     <motion.div
