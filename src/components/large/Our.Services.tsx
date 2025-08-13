@@ -19,7 +19,7 @@ function OurServices({
   return (
     <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh]  xl:py-16 3k:max-h-[800px] flex items-center bg-white casesSection-landscape">
       <Conatainer full={false}>
-        <h2 className="headingStyle text-center">
+        <h2 className="headingStyle text-center text-black">
           {title} <span className="text-blue">{spanTitle}</span>
         </h2>
 

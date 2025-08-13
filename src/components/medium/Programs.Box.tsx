@@ -16,8 +16,8 @@ function ProgramsBox({
         <Image src={image} alt="Icon" height={100} width={100} />
       </div>
       <div className="flex flex-col gap-3 w-[80%]">
-        <h3 className="text-lg font-bold">{title}</h3>
-        <p className="text-base">{text}</p>
+        <h3 className="text-lg font-bold text-black">{title}</h3>
+        <p className="text-base text-black">{text}</p>
       </div>
     </div>
   );

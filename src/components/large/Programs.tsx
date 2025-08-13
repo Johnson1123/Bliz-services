@@ -20,12 +20,12 @@ function Programs({
 }) {
   const numOfItem = data.length;
   return (
-    <section className="h-auto py-20 md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh]  xl:py-16 3k:max-h-[800px] flex items-center bg-[#F7F9FF] casesSection-landscape">
+    <section className="h-auto py-20 min-h-[100vh] md:min-h-[100vh]  lg:py-0 lg:min-h-[100vh]  xl:py-16 3k:max-h-[800px] flex items-center bg-[#F7F9FF] casesSection-landscape">
       <Conatainer full={false}>
-        <h2 className="headingStyle text-center">
+        <h2 className="headingStyle text-center text-black">
           {title} <span className="text-blue">{spanTitle}</span>
         </h2>
-        <div className="w-[100%] h-[100%] flex flex-col sm:landscape:flex-row md:flex-row justify-between flex-wrap gap-4 mt-10 md:mt-16">
+        <div className="w-[100%] h-[100%] flex flex-col sm:landscape:flex-row md:flex-row justify-between flex-wrap gap-y-10 gap-4 mt-10 md:mt-16">
           {data.map((item: { title: string; text: string[] }, i: number) => {
             return (
               <div

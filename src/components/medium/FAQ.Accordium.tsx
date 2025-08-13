@@ -49,7 +49,7 @@ const FAQAccordium = ({
         </div>
 
         <p
-          className={`col-span-6 lg:col-span-6 text-left font-optima font-[600] small-title text-bgBlack`}
+          className={`col-span-6 lg:col-span-6 text-left font-optima font-[600] small-title text-black`}
         >
           {title.toUpperCase()}
         </p>
@@ -79,7 +79,7 @@ const FAQAccordium = ({
                 className="overflow-hidden"
               >
                 <div className="py-6 bg-white space-y-4">
-                  <p className={`pTextStyle`}>{content}</p>
+                  <p className={`pTextStyle text-black`}>{content}</p>
                 </div>
                 {/* <Image
                   src={image}

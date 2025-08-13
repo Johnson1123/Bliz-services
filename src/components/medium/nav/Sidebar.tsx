@@ -59,9 +59,9 @@ const Sidebar = ({ handleOpen }: Props) => {
             <li onClick={() => handleNavigation("/employment")}>
               <span className={clSmLi}>WORK ABROAD</span>
             </li>
-            <li onClick={() => handleNavigation("/service")}>
+            {/* <li onClick={() => handleNavigation("/service")}>
               <span className={clSmLi}>Services</span>
-            </li>
+            </li> */}
 
             {/* igital litracy Dropdown */}
             {/* <li className={clSmDropDownLi} onClick={() => handleDropdown()}>
