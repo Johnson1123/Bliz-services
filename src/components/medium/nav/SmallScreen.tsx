@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu } from "@/constant/icons";
 import Transparent from "@/components/small/Buttons/Transparent";
 import Sidebar from "./Sidebar";

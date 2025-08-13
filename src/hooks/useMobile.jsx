@@ -1,7 +1,9 @@
-const useMobile = (media) => {
-  const [match, setMatch] = React.useState(null);
+import { useEffect, useState } from "react";
 
-  React.useEffect(() => {
+const useMobile = (media) => {
+  const [match, setMatch] = useState(null);
+
+  useEffect(() => {
     function changeMatch() {
       const { matches } = window.matchMedia(media);
       setMatch(matches);
