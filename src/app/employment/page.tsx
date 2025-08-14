@@ -2,6 +2,7 @@
 import ServicesBanner from "@/components/common/Services.Banner";
 import EducationQuoteBanner from "@/components/large/EducationQuoteBanner";
 import FAQ from "@/components/large/FAQ";
+import HomeContact from "@/components/large/HomeContact";
 import OurServices from "@/components/large/Our.Services";
 import Programs from "@/components/large/Programs";
 import ServicesPrograms from "@/components/large/Services.Programs";
@@ -37,6 +38,7 @@ function page() {
         data={educationServices}
       />
       <FAQ data={workFAQ} />
+      <HomeContact />
     </div>
   );
 }

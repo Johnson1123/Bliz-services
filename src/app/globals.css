@@ -31,7 +31,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-optma);
+  font-family: var(--font-optima);
 }
 
 h1,
@@ -43,6 +43,7 @@ h2,
   font-size: clamp(1.5rem, calc(1rem + 1vw), 2rem);
   font-weight: 500;
   line-height: 1.2;
+  font-family: var(--font-optima);
 }
 h3,
 .small-title {

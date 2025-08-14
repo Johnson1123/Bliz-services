@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Conatainer from "../layout/Conatainer";
-import Primary from "../small/Buttons/Primary";
 import bannerImg from "@/assets/images/new/services-banner.jpg";
 import { bannerDataI } from "@/constant/types";
+import TransparentBlue from "../small/Buttons/TransparentBlue";
 
 function EducationQuoteBanner({
   quote,
@@ -13,7 +13,7 @@ function EducationQuoteBanner({
   image,
 }: bannerDataI) {
   return (
-    <section className="relative h-[calc(100vh_-_100px)] 3k:h-[50vh] lg:h-[calc(100vh_-_200px)] w-full overflow-hidden">
+    <section className="relative h-[calc(70vh_-_100px)] 3k:h-[50vh] lg:h-[calc(100vh_-_200px)] w-full overflow-hidden">
       {/* Background image */}
       <Image
         src={image ? image : bannerImg}
@@ -32,7 +32,7 @@ function EducationQuoteBanner({
       <div className="relative z-10 h-full grid place-items-center text-center">
         <Conatainer full={false}>
           <div className="flex flex-col items-center gap-6 md:gap-8 w-[95%] mx-auto">
-            <h3 className="text-white font-optima font-semibold leading-tight w-[60%]">
+            <h3 className="text-white font-optima font-bold leading-tight w-[100%] xl:w-[60%] big-title">
               {quote}
             </h3>
 
@@ -56,7 +56,11 @@ function EducationQuoteBanner({
                   center ? "justify-center" : "justify-start"
                 }`}
               >
-                <Primary url={link} text="CONTACT US" />
+                <div className="bg-white py-1 mt-5 rounded-full md:flex-row w-max lg:px-2 self-start">
+                  <div className="rounded-xl px-4 py-3 flex">
+                    <TransparentBlue text="Learn More" url={link} />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

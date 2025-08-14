@@ -291,17 +291,17 @@ export const educationServicesProgram = [
 
 export const workServicesProgram = [
   {
-    image: "/new/canada-education.jpg",
+    image: "/new/work-in-united-state.jpg",
     name: "United State",
     text: "Nearly all of the largest corporations in the world have operations in the USA, which means that there are plenty of jobs there. In America, you will have access to job chances that you won’t find anyplace else in the globe. Just one internship with a well-known company could transform your career",
   },
   {
-    image: "/new/united-state-education.jpg",
+    image: "/new/working-in-united-kingdom.avif",
     name: "United Kingdom",
     text: "You will be in excellent company as a foreign worker in the UK, which has numerous multinational communities. It’s not surprising that the UK is a popular choice for overseas graduates looking to launch their careers given the country’s diversified employment sectors, favorable working conditions, and abundance of employment chances.",
   },
   {
-    image: "/new/united-kingdom-education.jpg",
+    image: "/new/work-in-canada.jpg",
     name: "Canada",
     text: "It has a remarkable degree of economic independence thanks to its trustworthy and open public finance system. The banking and financial systems in Canada are robust. The nation provides its workforce with first-rate medical facilities, paid time off, and holidays that include parental and maternal leave.",
   },
@@ -439,6 +439,38 @@ export const workFAQ = [
       "Yes you do, this will be process is very important and will be carried out after you have been accepted by the company",
     image: "/images/praying-1.png",
   },
+  {
+    title:
+      "CAN I WORK ABROAD DURING THE SUMMER AND BE ABLE TO SAVE MONEY AT THE SAME TIME?",
+    content:
+      "yes you can, this is mainly based on the salary agreement, i would advise you to save up and take that chance to explore the country you are working in.",
+    image: "",
+  },
+  {
+    title: "WHAT KINDS OF JOBS ARE AVAILABLE TO ME AFTER I GRADUATE?",
+    content:
+      "Many job opportunities will be made available to you according to your qualification.",
+    image: "",
+  },
+  {
+    title:
+      "I'M CONSIDERING WORKING IN A FOREIGN LANGUAGE ENVIRONMENT, BUT I'M NOT SURE MY LANGUAGE SKILLS ARE GOOD ENOUGH. WHAT DO EMPLOYERS EXPECT FROM FOREIGN EMPLOYEES OR INTERNS?",
+    content:
+      "most employers will be comfortable with the global language (English), but you could take lessons, to give you that edge.",
+    image: "",
+  },
+  {
+    title:
+      "HOW CAN I PREPARE FOR CULTURAL DIFFERENCES AND FEELINGS OF HOMESICKNESS OR LONELINESS WHEN I'M ABROAD? HOW WILL I FEEL WHEN I FINALLY COME HOME AFTER A LONG TIME ABROAD?  ",
+    content:
+      "The journey will be super exciting, it will be an opportunity to see the beauty at the outskirts of your motherland, keeping in touch with your family through social media can help you feel better.",
+    image: "",
+  },
+  {
+    title: "I'M READY TO WORK ABROAD – WHAT DO I NEED TO DO NOW?",
+    content: "Contact us and we will take you through the entire process.",
+    image: "",
+  },
 ];
 
 export const bannerData: bannerDataI[] = [
@@ -456,7 +488,7 @@ export const bannerData: bannerDataI[] = [
     link: "/contact-us",
     center: true,
     text: "Obtain a worldwide perspective, meet people from all over the world, and explore new places—all while earning credits toward your degree.",
-    image: "",
+    image: "/new/explore-new-opportunities.avif",
   },
   {
     quote: "You can explore different places!",
@@ -464,7 +496,7 @@ export const bannerData: bannerDataI[] = [
     link: "/contact/us",
     center: true,
     text: "You have to come out of your comfort zone to experience life.",
-    image: "",
+    image: "/new/explore-new-opportunities.avif",
   },
 ];
 
