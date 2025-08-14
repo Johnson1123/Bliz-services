@@ -13,7 +13,6 @@ import {
   heroSeviceSection,
 } from "@/constant/data";
 import React from "react";
-import SessionBannerTwo from "../../components/common/Session.Banner";
 import ServicesBanner from "@/components/common/Services.Banner";
 
 function Page() {
