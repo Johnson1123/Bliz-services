@@ -13,6 +13,7 @@ type Props = {
 
 const Sidebar = ({ handleOpen }: Props) => {
   const navigation = useRouter();
+
   const handleNavigation = (url: string) => {
     navigation.push(url);
     handleOpen();
@@ -53,7 +54,7 @@ const Sidebar = ({ handleOpen }: Props) => {
             <li onClick={() => handleNavigation("/")}>
               <span className={clSmLi}>HOME</span>
             </li>
-            <li onClick={() => handleNavigation("/employment")}>
+            <li onClick={() => handleNavigation("/education")}>
               <span className={clSmLi}>STUDY ABROAD</span>
             </li>
             <li onClick={() => handleNavigation("/employment")}>

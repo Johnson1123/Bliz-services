@@ -283,7 +283,7 @@ export const educationServicesProgram = [
     text: "The prestige of earning a degree from a US-accredited university continues to make the US the top choice for overseas students. Higher education institutions in the US are renowned for having exceptionally high standards for the quality of their teaching methods, intellectual rigor, and learning experiences.",
   },
   {
-    image: "/new/united-kingdom-education.jpg",
+    image: "/new/united-Kingdom-education.jpg",
     name: "United Kingdom",
     text: "The prestige of earning a degree from a US-accredited university continues to make the US the top choice for overseas students. Higher education institutions in the US are renowned for having exceptionally high standards for the quality of their teaching methods, intellectual rigor, and learning experiences.",
   },
