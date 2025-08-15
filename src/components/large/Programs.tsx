@@ -40,7 +40,7 @@ function Programs({
                 <div className="w-full">
                   {formatBoxTitle ? (
                     <h3
-                      className={`h3HeadingStyle text-blue text-center even:!text-white ${
+                      className={`medium-title text-blue text-center even:!text-white ${
                         (i + 1) % 2 == 0 ? "text-white" : "text-[#323232]/65"
                       }`}
                     >
