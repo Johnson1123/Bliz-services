@@ -402,12 +402,12 @@ export const educationFAQ = [
       "a data page of your international passport your transcripts from your previous school and a few other documents that will be listed at the beginning of your application",
   },
   {
-    title: "What if I get rejected at the institution of my choice",
+    title: "What if I get rejected at the institution of my choice?",
     content:
       "if this happens, fortunately you can always re-apply to another institution",
   },
   {
-    title: "How long is this process",
+    title: "How long is this process?",
     content:
       "this process varies based on different institutions, but bear in mind that we will keep you updated throughout the process.",
   },
@@ -441,33 +441,33 @@ export const workFAQ = [
   },
   {
     title:
-      "CAN I WORK ABROAD DURING THE SUMMER AND BE ABLE TO SAVE MONEY AT THE SAME TIME?",
+      "Can I work abroad during the summer and be able to save money at the same time?",
     content:
       "yes you can, this is mainly based on the salary agreement, i would advise you to save up and take that chance to explore the country you are working in.",
     image: "",
   },
   {
-    title: "WHAT KINDS OF JOBS ARE AVAILABLE TO ME AFTER I GRADUATE?",
+    title: "What kinds of jobs are available to me after I graduate?",
     content:
       "Many job opportunities will be made available to you according to your qualification.",
     image: "",
   },
   {
     title:
-      "I'M CONSIDERING WORKING IN A FOREIGN LANGUAGE ENVIRONMENT, BUT I'M NOT SURE MY LANGUAGE SKILLS ARE GOOD ENOUGH. WHAT DO EMPLOYERS EXPECT FROM FOREIGN EMPLOYEES OR INTERNS?",
+      "I'm considering working in a foreign language environment, but I'm not sure my language skills are good enough. What do employers expect from foreign employees or interns?",
     content:
       "most employers will be comfortable with the global language (English), but you could take lessons, to give you that edge.",
     image: "",
   },
   {
     title:
-      "HOW CAN I PREPARE FOR CULTURAL DIFFERENCES AND FEELINGS OF HOMESICKNESS OR LONELINESS WHEN I'M ABROAD? HOW WILL I FEEL WHEN I FINALLY COME HOME AFTER A LONG TIME ABROAD?  ",
+      "How can I prepare for cultural differences and feelings of homesickness or loneliness when I'm abroad? How will I feel when I finally come home after a long time abroad?",
     content:
       "The journey will be super exciting, it will be an opportunity to see the beauty at the outskirts of your motherland, keeping in touch with your family through social media can help you feel better.",
     image: "",
   },
   {
-    title: "I'M READY TO WORK ABROAD – WHAT DO I NEED TO DO NOW?",
+    title: "I'm ready to work abroad – what do I need to do now?",
     content: "Contact us and we will take you through the entire process.",
     image: "",
   },

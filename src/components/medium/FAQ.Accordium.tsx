@@ -51,7 +51,7 @@ const FAQAccordium = ({
         <p
           className={`col-span-6 lg:col-span-6 text-left font-optima font-[600] small-title text-black`}
         >
-          {title.toUpperCase()}
+          {title}
         </p>
         <div className="col-span-2 lg:col-span-1 justify-items-end">
           <button

@@ -92,7 +92,7 @@ const Footer = () => {
                     href={"/study-abroad"}
                     className="text-white hover:text-pink cursor-pointer"
                   >
-                    STUDY ABROAD
+                    Study Abroad
                   </Link>
                 </li>
                 <li>
@@ -100,7 +100,7 @@ const Footer = () => {
                     href={"/work-abroad"}
                     className="text-white hover:text-pink cursor-pointer"
                   >
-                    WORK ABROAD
+                    Work Abroad
                   </Link>
                 </li>
 
@@ -118,13 +118,16 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        {/* Copyright */}
       </div>
-      <div className="text-center mt-8 pt-8 lg:mt-3 lg:py-2 border-t border-gray-700">
-        <p className="text-gray-400">
-          © 2024 KALTECH CONSULTANCY. All rights reserved.
-        </p>
+      {/* Copyright */}
+      <div className="w-[90vw] mx-auto lg:mx-0 lg:w-full lg:grid lg:grid-cols-10 mt-2">
+        <div className="text-center lg:text-left sm:landscape:text-left md:text-left mt-8 pt-8 lg:mt-3 lg:py-2 border-t border-gray-700 lg:col-start-2 lg:col-end-10 lg:grid sm:landscape:grid md:grid  grid-cols-2">
+          <p className="text-gray-400 text">Designed by Kaltech</p>
+          <p className="text-gray-400 text">
+            &copy; {new Date().getFullYear()} Bliz Services, All rights
+            reserved.
+          </p>
+        </div>
       </div>
     </footer>
   );

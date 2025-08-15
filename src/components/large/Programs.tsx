@@ -34,7 +34,7 @@ function Programs({
                     ? "xl:landscape:w-[32%]"
                     : "xl:landscape:w-[45%]"
                 }
-                   xl:h-[300px] 2xl:w-full 2xl:h-[400px] even:bg-blue relative`}
+                   xl:h-[300px] 2xl:w-full 2xl:h-[400px] even:bg-blue relative hover:shadow-xl hover:shadow-black/50 hover:scale-[1.02] `}
                 key={i}
               >
                 <div className="w-full">

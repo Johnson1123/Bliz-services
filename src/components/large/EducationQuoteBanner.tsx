@@ -32,7 +32,7 @@ function EducationQuoteBanner({
       <div className="relative z-10 h-full grid place-items-center text-center">
         <Conatainer full={false}>
           <div className="flex flex-col items-center gap-6 md:gap-8 w-[95%] mx-auto">
-            <h3 className="text-white font-optima font-bold leading-tight w-[100%] xl:w-[60%] big-title">
+            <h3 className="text-white font-optima font-bold leading-tight w-[100%] lg:w-[80%] xl:w-[70%] big-title">
               {quote}
             </h3>
 
