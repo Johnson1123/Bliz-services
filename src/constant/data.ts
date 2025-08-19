@@ -5,7 +5,16 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 
 import { AccordionItemData, bannerDataI, heroServiceSectionI } from "./types";
-import { GraduationCap, Engineering } from "./icons";
+import {
+  GraduationCap,
+  Engineering,
+  Calender,
+  Quality,
+  Global,
+  Team,
+  Support,
+  License,
+} from "./icons";
 import {
   broadcast,
   businessGroup,
@@ -18,22 +27,22 @@ const SocialLinks: { Icon: IconType; name: string; url: string }[] = [
   {
     Icon: FaXTwitter,
     name: "twitter",
-    url: "https://www.facebook.com/bliazservice",
+    url: "https://x.com/blizservices1",
   },
   {
     Icon: MdFacebook,
     name: "Facebook",
-    url: "https://www.facebook.com/bliazservice",
+    url: "https://web.facebook.com/blizservices1",
   },
   {
     Icon: FaInstagramSquare,
     name: "Instagram",
-    url: "https://www.facebook.com/bliazservice",
+    url: "https://www.instagram.com/blizservices1",
   },
   {
     Icon: IoLogoLinkedin,
     name: "LinkedIn",
-    url: "https://www.facebook.com/bliazservice",
+    url: "https://www.linkedin.com/company/bliz-services",
   },
 ];
 
@@ -69,46 +78,46 @@ export const headerAddress = [
 
 export const testimonials = [
   {
-    image: "",
-    name: "Johnsn Olumide",
-    role: "Investor",
+    image: "/testimonial/bliz-johnson.avif",
+    name: "Johnsn Alabi",
+    // role: "Investor",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
-    rating: 5,
+    // rating: 5,
   },
   {
-    image: "",
-    name: "Sansa",
-    role: "Actor ",
+    image: "/testimonial/bliz-Okarfor.webp",
+    name: "Okarfor Comfort",
+    // role: "Actor ",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
-    rating: 3,
+    // rating: 3,
   },
   {
-    image: "",
-    name: "Arya Stack",
-    role: "Social Maketer ",
+    image: "/testimonial/bliz-joyce.avif",
+    name: "Joyce Miller",
+    // role: "Social Maketer ",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
-    rating: 2,
+    // rating: 2,
   },
   {
-    image: "",
-    name: "Mother Charity",
-    role: "Client ",
+    image: "/testimonial/bliz-emmauel.webp",
+    name: "Stone Emmanuel",
+    // role: "Client ",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
-    rating: 4,
+    // rating: 4,
   },
   {
-    image: "",
-    name: "Jerrmy Flake",
-    role: "Backend Developer",
+    image: "/testimonial/bliz-sarah.webp",
+    name: "Sarah Flake",
+    // role: "Backend Developer",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
-    rating: 1,
+    // rating: 1,
   },
   {
-    image: "",
-    name: "Emmauella John",
-    role: "Fontend ",
+    image: "/testimonial/bliz-stone.avif",
+    name: "Stone Cephas",
+    // role: "Fontend ",
     text: "The Bliss servicess agency company also impress us with their transpa regarding cost. Their services is the best",
-    rating: 5,
+    // rating: 5,
   },
 ];
 
@@ -359,32 +368,32 @@ export const workPrograms = [
 
 export const educationServices = [
   {
-    image: businessGroup,
+    image: Calender,
     title: "Flexibility",
     text: "We'll collaborate with you and ensure that we meet your expectations.",
   },
   {
-    image: businessGroup,
+    image: Quality,
     title: "Quality",
     text: "We'll collaborate with The educational institutions we partner with have produced the most successful graduates. and ensure that we meet your expectations.",
   },
   {
-    image: businessGroup,
+    image: Global,
     title: "Global",
     text: "We'll We've been very successful in helping students to further their education globally. with you and ensure that we meet your expectations.",
   },
   {
-    image: businessGroup,
+    image: Team,
     title: "Expertise",
     text: "We'll We have a team of experts and consultants who will assist you with your application. with you and ensure that we meet your expectations.",
   },
   {
-    image: businessGroup,
+    image: Support,
     title: "Support",
     text: "We'll collaborate We pride ourselves on excellent customer support for your convenience. you and ensure that we meet your expectations.",
   },
   {
-    image: businessGroup,
+    image: License,
     title: "Certified",
     text: "We'll collaborate with you and ensure that we meet All educational institutions are certified by a reputable board in their respective countries. expectations.",
   },
@@ -505,7 +514,7 @@ export const heroSeviceSection: heroServiceSectionI[] = [
     tag: "STUDY OVERSEAS",
     title1: "Boost your",
     title2: "Employability",
-    image: "",
+    bannerImage: "/new/female-graduate-with-gown.jpg",
     list: [
       "Do you want to have access to greater starting pay and a quicker transfer into career-relevant jobs after graduation?",
       "Do you want to learn important life skills, and develop resilience?",
@@ -516,11 +525,86 @@ export const heroSeviceSection: heroServiceSectionI[] = [
     tag: "WORK OVERSEAS",
     title1: "Explore Different",
     title2: "Employment",
-    image: "",
+    bannerImage: "/new/Work_abroad_.webp",
     list: [
       "Do you want to benefit from social amenities working overseas?",
       "Do you want to work in an environment where you'll experience financial stability?",
       "Do you want to experience working overseas?",
+    ],
+  },
+];
+
+export const educationSteps = [
+  {
+    title: "Complete The Online Student Form",
+    content: [
+      "Fill out an online student application.",
+      "You’ll be provided with a list of required documents to process your application.",
+      "A portal will be provided for you to upload your supporting documents.",
+      "All the necessary documents must be submitted.",
+    ],
+  },
+  {
+    title: "Payment of Service Fees",
+    content: [
+      "After making payment of the service and processing fees, a student application account will be created.",
+    ],
+  },
+  {
+    title: "Credentials Authentication.",
+    content: [
+      "Your documents will be forwarded to an authentication center. (WES or others depending on the institution) Upon successful verification, the academic institution receives the credentials for admission processing.",
+    ],
+  },
+  {
+    title: "Application Results",
+    content: [
+      `The educational institution provides the outcome of the application. Successful applicants will be given a letter of acceptance and details on how to proceed. 
+      Unsuccessful applicants will be provided with a letter of denial, also stating the reasons for denial (Very Rare)`,
+    ],
+  },
+  {
+    title: "Immigration Process",
+    content: [
+      "Successful candidates will pay their first tuition payment to receive their official travel documentation.",
+    ],
+  },
+];
+
+export const workSteps = [
+  {
+    title: "Complete The Contact Form",
+    content: [
+      "Fill out a contact online.",
+      "A breakdown of the documentation needed to process your application will be given to you.",
+      "You will be given a portal to attach your supporting documentation to.",
+      "The required paperwork must be presented",
+    ],
+  },
+  {
+    title: "Fill Out The Job Application Form",
+    content: [
+      "a job application form will be made available for you to fill out",
+    ],
+  },
+  {
+    title: "Payment of Service Fees",
+    content: [
+      "A job application account will be created after the service and operational cost have been paid.",
+    ],
+  },
+  {
+    title: "Credentials Authentication",
+    content: [
+      "Your paperwork will be delivered to a facility for verification.",
+      "Your job application and necessary papers will be forwarded to various job openings following successful verification.",
+    ],
+  },
+  {
+    title: "Immigration Process",
+    content: [
+      "The chosen applicants will go through an interview process and receive an appointment letter.",
+      "the immigration procedure will commence.",
     ],
   },
 ];

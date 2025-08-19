@@ -18,7 +18,7 @@ export interface bannerDataI {
 export interface heroServiceSectionI {
   tag: string;
   list: string[];
-  image: any;
+  bannerImage: string;
   title1: string;
   title2: string;
 }
@@ -32,4 +32,9 @@ export interface programServicesSectionI {
   data: programsServicesI[];
   title1: string;
   title2: string;
+}
+
+export interface stepsI {
+  title: string;
+  content: string[];
 }

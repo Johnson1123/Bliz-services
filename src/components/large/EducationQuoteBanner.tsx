@@ -58,7 +58,7 @@ function EducationQuoteBanner({
               >
                 <div className="bg-white py-1 mt-5 rounded-full md:flex-row w-max lg:px-2 self-start">
                   <div className="rounded-xl px-4 py-3 flex">
-                    <TransparentBlue text="Learn More" url={link} />
+                    <TransparentBlue text="Contact Us" url={link} />
                   </div>
                 </div>
               </div>

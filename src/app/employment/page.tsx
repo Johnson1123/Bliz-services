@@ -2,10 +2,10 @@
 import ServicesBanner from "@/components/common/Services.Banner";
 import EducationQuoteBanner from "@/components/large/EducationQuoteBanner";
 import FAQ from "@/components/large/FAQ";
-import HomeContact from "@/components/large/HomeContact";
 import OurServices from "@/components/large/Our.Services";
 import Programs from "@/components/large/Programs";
 import ServicesPrograms from "@/components/large/Services.Programs";
+import StepsAccordium from "@/components/large/StepsAccordium";
 import {
   bannerData,
   educationServices,
@@ -13,6 +13,7 @@ import {
   workFAQ,
   workPrograms,
   workServicesProgram,
+  workSteps,
 } from "@/constant/data";
 import React from "react";
 
@@ -32,13 +33,15 @@ function page() {
         formatBoxTitle={false}
       />
       <EducationQuoteBanner {...bannerData[2]} />
+
       <OurServices
         title="Why Choose "
         spanTitle="Bliz Services"
         data={educationServices}
       />
+      <StepsAccordium data={workSteps} className="" link="/apply/work" />
       <FAQ data={workFAQ} />
-      <HomeContact />
+      {/* <HomeContact /> */}
     </div>
   );
 }

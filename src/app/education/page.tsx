@@ -5,6 +5,7 @@ import OurServices from "@/components/large/Our.Services";
 import Programs from "@/components/large/Programs";
 import ServicesPrograms from "@/components/large/Services.Programs";
 import {
+  educationSteps,
   bannerData,
   educationFAQ,
   educationPrograms,
@@ -14,6 +15,7 @@ import {
 } from "@/constant/data";
 import React from "react";
 import ServicesBanner from "@/components/common/Services.Banner";
+import StepsAccordium from "@/components/large/StepsAccordium";
 
 function Page() {
   return (
@@ -38,6 +40,7 @@ function Page() {
         spanTitle="Bliz Services"
         data={educationServices}
       />
+      <StepsAccordium data={educationSteps} className="" link="/apply/study" />
       <EducationQuoteBanner {...bannerData[1]} />
       <FAQ data={educationFAQ} />
     </div>

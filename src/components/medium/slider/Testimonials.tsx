@@ -45,19 +45,17 @@ export default function Testimonials() {
           testimonials.map((item, i) => {
             return (
               <SwiperSlide key={i} className="slides-width">
-                <div className="w-full h-[300px] lg:h-auto testmonial-box">
+                <div className="w-full h-[250px] lg:h-auto testmonial-box">
                   <div
                     className={`w-full h-full rounded-2xl overflow-hidden  `}
                   >
-                    <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-white rounded-2xl overflow-hidden">
+                    <div className="absolute top-0 left-0 w-[100%] bg-white rounded-2xl overflow-hidden">
                       <TestimonialContent
                         text={item.text}
                         name={item.name || ""}
-                        image={item.image}
-                        rounded-2xl
-                        overflow-hidden
-                        rating={item.rating || 0}
-                        role={item.role || ""}
+                        // image={item.image}
+                        // rating={item.rating || 0}
+                        // role={item.role || ""}
                       />
                     </div>
 
@@ -66,7 +64,7 @@ export default function Testimonials() {
                     >
                       <div className="h-[70px] w-[70px] rounded-full">
                         <img
-                          src="/image.png"
+                          src={item.image}
                           alt={item.name ? item.name : "Client picture"}
                           className="rounded-full h-[100%] w-[100%] object-cover"
                         />

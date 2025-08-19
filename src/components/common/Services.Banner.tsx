@@ -5,7 +5,7 @@ import Image from "next/image";
 function ServicesBanner({
   tag,
   list,
-  image,
+  bannerImage,
   title1,
   title2,
 }: heroServiceSectionI) {
@@ -13,9 +13,12 @@ function ServicesBanner({
     <section className="h-[calc(100vh_-_160px)] lg:h-[calc(100vh_-_200px)]  relative left-0 right-0 bg-white herosection-landscape">
       <div className="w-full h-full grid grid-cols-1 grid-rows-10 lg:grid-rows-1 lg:grid-cols-10">
         <div className="row-span-10 col-span-1 lg:col-span-9 lg:row-span-1 rounded-br-[50px]  overflow-hidden">
-          <div className="HeroEducation__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center lg:items-end">
+          <div
+            className="HeroEducation__banner-bg w-full h-full grid md:grid-cols-10 lg:grid-cols-9 items-center lg:items-end"
+            style={{ backgroundImage: `url(${bannerImage})` }}
+          >
             {/* tagged */}
-            <div className="w-[90%] h-max mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9  3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 rounded-2xl flex flex-col gap-10 py-10 lg:mb-9">
+            <div className="w-[90%] h-max mx-auto md:w-[100%] md:col-start-2 md:col-end-10 lg:col-start-2 lg:col-end-9  3k:col-start-3 bg-[#0a193a] bg-opacity-60 px-4 rounded-2xl flex flex-col gap-7 3k:gap-10 3k:py-10 py-7 lg:mb-9">
               <h3 className="flex items-center gap-4 text-base">
                 <span>
                   <span className="flex gap-4 items-center">
@@ -29,14 +32,14 @@ function ServicesBanner({
               </h3>
 
               <div className="">
-                <h2 className="text-white text-[30px] md:text-[60px] lg:text-[80px]">
-                  <div className="">
+                <h1 className="text-white text-[30px] md:text-[60px] lg:text-[80px] leading-[1]">
+                  <span className="">
                     <span>{title1} </span>
                     <span className="text-pink font-bold drop-shadow-lg">
                       {title2}
                     </span>
-                  </div>
-                </h2>
+                  </span>
+                </h1>
               </div>
 
               {/* Conatent */}
@@ -44,8 +47,9 @@ function ServicesBanner({
                 <div className="md:w-[70%]">
                   <div className="">
                     {list.map((item: string, i: number) => (
-                      <div className="text-white py-1.5 flex gap-2" key={i}>
-                        <span>*</span> <p>{item}</p>
+                      <div className=" py-1 flex items-center gap-2" key={i}>
+                        <span className="text-white">*</span>{" "}
+                        <h2 className="emphasis-title text-white">{item}</h2>
                       </div>
                     ))}
                   </div>
@@ -68,7 +72,7 @@ function ServicesBanner({
       </div>
       <div className="absolute -bottom-10 -right-5 hidden md:block">
         <Image
-          src={image ? image : "/Circular Mess.png"}
+          src={"/Circular-Mess.png"}
           alt="overlay image circle"
           height={500}
           width={500}

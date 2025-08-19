@@ -26,9 +26,9 @@ function ServicesPrograms({ title1, title2, data }: programServicesSectionI) {
           <ServicesProgramSlider data={data} />
         </div>
 
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <MetricsContainer />
-        </div>
+        </div> */}
       </Conatainer>
     </section>
   );

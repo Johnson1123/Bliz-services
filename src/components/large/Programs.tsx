@@ -34,13 +34,13 @@ function Programs({
                     ? "xl:landscape:w-[32%]"
                     : "xl:landscape:w-[45%]"
                 }
-                   xl:h-[300px] 2xl:w-full 2xl:h-[400px] even:bg-blue relative hover:shadow-xl hover:shadow-black/50 hover:scale-[1.02] `}
+                   xl:h-[300px] 2xl:w-full 2xl:h-[400px] even:bg-darkblue relative hover:shadow-xl hover:shadow-black/50 hover:scale-[1.02] `}
                 key={i}
               >
                 <div className="w-full">
                   {formatBoxTitle ? (
                     <h3
-                      className={`medium-title text-blue text-center even:!text-white ${
+                      className={`medium-title text-blue text-center even:!text-white font-bold ${
                         (i + 1) % 2 == 0 ? "text-white" : "text-[#323232]/65"
                       }`}
                     >
@@ -84,7 +84,7 @@ function Programs({
                 </div>
                 <div
                   className={`absolute h-[50px] w-[50px] xl:h-[60px] xl:w-[60px] 2xl:h-[65px] 2xl:w-[65px] bg-blue rounded-full -bottom-[25px] xl:-bottom-[30px] 2xl:-bottom-[33px] left-[50%] -translate-x-1/2 z-30 ${
-                    (i + 1) % 2 == 0 ? "bg-white" : "bg-blue"
+                    (i + 1) % 2 == 0 ? "bg-white" : "bg-darkblue"
                   }`}
                 ></div>
               </div>

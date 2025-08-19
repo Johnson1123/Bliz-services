@@ -89,7 +89,7 @@ const Footer = () => {
               <ul className="space-y-1 text-gray-300">
                 <li>
                   <Link
-                    href={"/study-abroad"}
+                    href={"/education"}
                     className="text-white hover:text-pink cursor-pointer"
                   >
                     Study Abroad
@@ -97,7 +97,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href={"/work-abroad"}
+                    href={"/employment"}
                     className="text-white hover:text-pink cursor-pointer"
                   >
                     Work Abroad
@@ -122,7 +122,12 @@ const Footer = () => {
       {/* Copyright */}
       <div className="w-[90vw] mx-auto lg:mx-0 lg:w-full lg:grid lg:grid-cols-10 mt-2">
         <div className="text-center lg:text-left sm:landscape:text-left md:text-left mt-8 pt-8 lg:mt-3 lg:py-2 border-t border-gray-700 lg:col-start-2 lg:col-end-10 lg:grid sm:landscape:grid md:grid  grid-cols-2">
-          <p className="text-gray-400 text">Designed by Kaltech</p>
+          <Link
+            href={"https://kaltechconsultancy.tech/"}
+            className="text-gray-400 text"
+          >
+            Designed by Kaltech
+          </Link>
           <p className="text-gray-400 text">
             &copy; {new Date().getFullYear()} Bliz Services, All rights
             reserved.

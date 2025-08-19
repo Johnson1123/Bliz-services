@@ -20,17 +20,17 @@ const HomeTestimonials = () => {
 
               <div className="mt-5 w-[80%] md:w-full">
                 <h2 className="py-1 text-black">
-                  People Talk about{" "}
+                  What people say about{" "}
                   <span className="text-blue border-b-2 border-blue">
-                    Blizz Services
+                    Bliz Services
                   </span>
                 </h2>
               </div>
             </div>
 
-            <div className="mt-5 md:mt-2">
+            {/* <div className="mt-5 md:mt-2">
               <TransparentBlue url="/" text="All Testimonials" />
-            </div>
+            </div> */}
           </div>
           <div className="w-[100%] mt-10 md:mt-16">
             <Testimonials />

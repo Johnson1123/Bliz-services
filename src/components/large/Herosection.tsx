@@ -40,7 +40,7 @@ function Herosection() {
             src="/bliz-services.png"
             height={50}
             width={60}
-            alt="Blis Services"
+            alt="Bliz Services"
             className="-rotate-270"
           />
         </div>

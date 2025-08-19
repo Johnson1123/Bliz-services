@@ -15,6 +15,12 @@ import { PiGlobeLight as SocialPlatform } from "react-icons/pi";
 import { FaAngleDown as ArrowDown } from "react-icons/fa6";
 import { FaLocationPin, FaPhone } from "react-icons/fa6";
 import { IoMdSend } from "react-icons/io";
+import { RxCalendar as Calender } from "react-icons/rx";
+import { LuBadgeCheck as Quality } from "react-icons/lu";
+import { BsGlobe2 as Global } from "react-icons/bs";
+import { GiTeamIdea as Team } from "react-icons/gi";
+import { MdSupportAgent as Support } from "react-icons/md";
+import { PiCertificate as License } from "react-icons/pi";
 
 export {
   Menu,
@@ -32,6 +38,12 @@ export {
   Comment,
   SocialPlatform,
   ArrowDown,
+  Calender,
+  Support,
+  Team,
+  Global,
+  License,
+  Quality,
   FaPhone as Phone,
   FaLocationPin as Location,
   IoMdSend as Send,

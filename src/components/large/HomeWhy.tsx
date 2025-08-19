@@ -41,7 +41,7 @@ const HomeWhy = () => {
               <HomeProgressContainer />
             </div>
             <div className="mt-10">
-              <TransparentBlue url="/" text="Learn More" />
+              <TransparentBlue url="/contact-us" text="Contact Us" />
             </div>
           </div>
 
